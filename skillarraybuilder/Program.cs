@@ -16,7 +16,8 @@ using System.Threading.Tasks;
 
 namespace skillarraybuilder
 {
-    class Skill{
+    class Skill
+    {
         public int id;
         public string name;
         public string type;
@@ -31,18 +32,24 @@ namespace skillarraybuilder
         public string sacrifice;
         public string overcast;
 
-        public List<int[]> ranks;
+        public bool elite;
+        public bool pve;
+        public bool pvp;
+        public string profession;
+        public string campaign;
+
+        public List<int>[] ranks;
         public string image;
         public string wikiLink;
-        
+
     }
     class Program
     {
         static public List<Skill> skills = new List<Skill>();
 
-static readonly string wikiBase = "https://wiki.guildwars.com";
+        static readonly string wikiBase = "https://wiki.guildwars.com";
         static readonly string skillIdPage = wikiBase + "/wiki/Skill_template_format/Skill_list";
-        
+
 
         static void Main(string[] args)
         {
@@ -60,15 +67,23 @@ static readonly string wikiBase = "https://wiki.guildwars.com";
                     var skillId = row.Descendants("td").ToList()[0].InnerHtml;
                     var skillDetails = row.Descendants("td").ToList()[1];
 
-                    var skillLink = skillDetails.SelectSingleNode(".//a").GetAttributeValue("href",String.Empty);
-                    var skillName = skillDetails.SelectSingleNode(".//a").GetAttributeValue("title",String.Empty).Replace("&quot;","\"").Replace("&#39;","'");
+                    var skillLink = skillDetails.SelectSingleNode(".//a").GetAttributeValue("href", String.Empty);
+                    var skillName = skillDetails.SelectSingleNode(".//a").GetAttributeValue("title", String.Empty).Replace("&quot;", "\"").Replace("&#39;", "'");
 
                     Console.WriteLine(skillId + " | " + skillName + " | " + skillLink);
 
-                    skills.Add(new Skill(){
+                    bool pvp = false;
+                    if (skillName.Contains("(PvP)"))
+                    {
+                        pvp = true;
+                    }
+
+                    skills.Add(new Skill()
+                    {
                         id = int.Parse(skillId),
                         name = skillName,
-                        wikiLink = skillLink
+                        wikiLink = skillLink,
+                        pvp = pvp
                     });
 
                 }
@@ -79,46 +94,138 @@ static readonly string wikiBase = "https://wiki.guildwars.com";
 
             }
 
-            
 
-            foreach(Skill skill in skills){
-               // Console.WriteLine(skill.name);
+
+            foreach (Skill skill in skills)
+            {
+                Console.WriteLine(skill.name);
                 html = GetHTMLFromUrl(wikiBase + skill.wikiLink);
                 htmlDoc.LoadHtml(html);
-                node = htmlDoc.DocumentNode.SelectNodes("//div[@class='skill-stats']")[0];
-                HtmlNode ul = node.SelectSingleNode("//ul");
-                foreach(HtmlNode li in ul.Descendants("li")){
+
+                //Process attributes of skill
+                HtmlNode skillbox = htmlDoc.DocumentNode.SelectSingleNode("//div[contains(@class,'skill-box')]");
+                HtmlNode skilldetailswrapper = skillbox.SelectSingleNode("div[@class='skill-details-wrapper']");
+                skill.image = wikiBase + skilldetailswrapper.SelectSingleNode("div[@class='skill-image']").SelectSingleNode("a").GetAttributeValue("href", String.Empty);
+                node = skilldetailswrapper.SelectSingleNode("div[@class='skill-stats']");
+                HtmlNode ul = node.SelectSingleNode("ul");
+                foreach (HtmlNode li in ul.Descendants("li"))
+                {
                     HtmlNode a = li.SelectSingleNode(".//a");
-                    string title = a.GetAttributeValue("title",String.Empty);
+                    string title = a.GetAttributeValue("title", String.Empty);
                     string value = li.InnerText;
-                    //Console.WriteLine(title + " | " + value);
-                    switch(title){
+                    Console.WriteLine(title + " | " + value);
+                    switch (title)
+                    {
                         case "Adrenanline":
-                            skills.Where(x=>x.id.Equals(skill.id)).First().adrenaline = value;
+                            skill.adrenaline = value;
                             break;
                         case "Recharge":
-                            skills.Where(x=>x.id.Equals(skill.id)).First().recharge = value;
+                            skill.recharge = value;
                             break;
                         case "Energy":
-                            skills.Where(x=>x.id.Equals(skill.id)).First().energy = value;
+                            skill.energy = value;
                             break;
                         case "Activation":
-skills.Where(x=>x.id.Equals(skill.id)).First().activation = value;
+                            skill.activation = value;
                             break;
                         case "Upkeep":
-                        Console.WriteLine("Upkeep : " + value);
-skills.Where(x=>x.id.Equals(skill.id)).First().upkeep = value;
+                            Console.WriteLine("Upkeep : " + value);
+                            skill.upkeep = value;
                             break;
                         case "Sacrifice":
-                        Console.WriteLine("Sacrifice : " + value);
-skills.Where(x=>x.id.Equals(skill.id)).First().sacrifice = value;
+                            Console.WriteLine("Sacrifice : " + value);
+                            skill.sacrifice = value;
                             break;
                         case "Overcast":
-skills.Where(x=>x.id.Equals(skill.id)).First().overcast = value;
-Console.WriteLine("Overcast : " + value);
+                            skill.overcast = value;
+                            Console.WriteLine("Overcast : " + value);
                             break;
                     }
                 }
+
+                //Process extra details
+                HtmlNode dl = skillbox.SelectNodes("dl")[0];
+                List<HtmlNode> dts = dl.SelectNodes("dt").ToList();
+                List<HtmlNode> dds = dl.SelectNodes("dd").ToList();
+                if (dts.Count != dds.Count)
+                {
+                    Console.WriteLine("Serious error dts and dds dont have same number of elements");
+                }
+                else
+                {
+                    List<Tuple<string, List<string>>> details = new List<Tuple<string, List<string>>>();
+                    for (int i = 0; i < dts.Count; i++)
+                    {
+                        List<string> data = new List<string>();
+                        string title = dts[i].SelectSingleNode("a").InnerText;
+                        dds[i].SelectNodes("a").ToList().ForEach(x => data.Add(x.InnerText));
+                        if (dds[i].SelectNodes("small") != null)
+                        {
+                            data.Add(dds[i].SelectSingleNode("small").SelectSingleNode("a").InnerText);
+                        }
+                        details.Add(new Tuple<string, List<string>>(title, data));
+                    }
+                    foreach (Tuple<string, List<string>> detail in details)
+                    {
+                        switch (detail.Item1)
+                        {
+                            case "Profession":
+                                skill.profession = detail.Item2[0];
+                                break;
+                            case "Attribute":
+                                skill.attribute = detail.Item2[0];
+                                break;
+                            case "Type":
+                                foreach (string type in detail.Item2)
+                                {
+                                    if (type.Equals("Elite"))
+                                    {
+                                        skill.elite = true;
+                                    }
+                                    else if (type.Equals("PvE-only"))
+                                    {
+                                        skill.pve = true;
+                                    }
+                                    else
+                                    {
+                                        skill.type = type;
+                                    }
+                                }
+                                break;
+                            case "Campaign":
+                                skill.campaign = detail.Item2[0];
+                                break;
+                        }
+                    }
+                }
+
+                //Process Ranks
+                HtmlNode skillProgTable = htmlDoc.DocumentNode.SelectSingleNode("//table[@class='skill-progression']");
+                if (skillProgTable != null)
+                {
+                    List<HtmlNode> columns = skillProgTable.SelectSingleNode("tbody").SelectNodes("tr")[1].SelectNodes("td")[1].SelectNodes("div[@class='column']").ToList();
+
+                    int varCount = skillProgTable.SelectSingleNode("tbody").SelectNodes("tr")[1].SelectNodes("td")[0].SelectNodes("div[@class='var']").Count();
+
+                    List<int>[] values = new List<int>[varCount];
+
+                    for(int v = 0; v < varCount; v++){
+                        values[v] = new List<int>();
+                        for(int c = 0; c < columns.Count; c++){
+                            HtmlNode column = columns[c];
+                            HtmlNode val = column.SelectNodes("div[@class='var']")[v];
+                            Console.WriteLine(val.InnerText);
+                            values[v].Add(int.Parse(val.InnerText));
+                        }
+                    }
+
+                    skill.ranks = values;
+
+                }
+
+                //Process Description
+                HtmlNode rawDescription = htmlDoc.DocumentNode.SelectNodes("//div[@class='noexcerpt']")[0].SelectSingleNode("p");
+                Console.WriteLine(rawDescription.InnerText);
             }
 
             Console.WriteLine(skills.Count());
