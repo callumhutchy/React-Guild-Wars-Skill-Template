@@ -47,6 +47,8 @@ namespace skillarraybuilder
     {
         static public List<Skill> skills = new List<Skill>();
 
+
+
         static readonly string wikiBase = "https://wiki.guildwars.com";
         static readonly string skillIdPage = wikiBase + "/wiki/Skill_template_format/Skill_list";
 
@@ -96,8 +98,9 @@ namespace skillarraybuilder
 
 
 
-            foreach (Skill skill in skills)
+            for (int s = 0; s <skills.Count(); s++)
             {
+                Skill skill = skills[s];
                 Console.WriteLine(skill.name);
                 html = GetHTMLFromUrl(wikiBase + skill.wikiLink);
                 htmlDoc.LoadHtml(html);
@@ -129,16 +132,13 @@ namespace skillarraybuilder
                             skill.activation = value;
                             break;
                         case "Upkeep":
-                            Console.WriteLine("Upkeep : " + value);
                             skill.upkeep = value;
                             break;
                         case "Sacrifice":
-                            Console.WriteLine("Sacrifice : " + value);
                             skill.sacrifice = value;
                             break;
                         case "Overcast":
                             skill.overcast = value;
-                            Console.WriteLine("Overcast : " + value);
                             break;
                     }
                 }
@@ -211,9 +211,11 @@ namespace skillarraybuilder
 
                     List<int>[] values = new List<int>[varCount];
 
-                    for(int v = 0; v < varCount; v++){
+                    for (int v = 0; v < varCount; v++)
+                    {
                         values[v] = new List<int>();
-                        for(int c = 0; c < columns.Count; c++){
+                        for (int c = 0; c < columns.Count; c++)
+                        {
                             HtmlNode column = columns[c];
                             HtmlNode val = column.SelectNodes("div[@class='var']")[v];
                             //Console.WriteLine(val.InnerText);
@@ -229,24 +231,132 @@ namespace skillarraybuilder
 
                 //Process Description
                 string rawDescription = htmlDoc.DocumentNode.SelectNodes("//div[@class='noexcerpt']")[0].SelectSingleNode("p").InnerText;
-                string description = "";
-                MatchCollection matches = Regex.Matches(rawDescription, "[0-9]+...[0-9]+...[0-9]+");
-                for(int m = 0; m < matches.Count(); m++){
-                   description= rawDescription.Replace(matches[m].Value,"{"+m+"}");
+                //Console.WriteLine(rawDescription);
+                string description = rawDescription;
+                MatchCollection matches = Regex.Matches(description, "[0-9]+...[0-9]+...[0-9]+");
+                for (int m = 0; m < matches.Count(); m++)
+                {
+                    description = description.Replace(matches[m].Value, "{" + m + "}");
                 }
-                string typeStr = skill.type + ". ";
-                if(skill.elite){
+                string typeStr = skill.type + ".";
+                if (skill.elite)
+                {
                     typeStr = "Elite " + typeStr;
                 }
-                if(description != ""){
+                if (description != "")
+                {
                     description = description.Substring(typeStr.Length);
-                    description = description.Replace("\n","");
+                    description = description.Replace("\n", "");
+                    description = description.Replace("\"","\\\"");
+                    description = description.TrimStart().TrimEnd();
                 }
-                
-                Console.WriteLine(description);
+                skill.description = description;
+                //Console.WriteLine(description);
             }
 
-            Console.WriteLine(skills.Count());
+            string outputString = "var skillTable = [\n";
+
+            foreach (Skill skill in skills)
+            {
+                outputString += "{\n";
+                outputString += "\"Id\":" + skill.id + ",\n";
+                outputString += "\"Name\":\"" + skill.name.Replace("\"","\\\"") + "\",\n";
+                outputString += "\"Type\":\"" + skill.type + "\",\n";
+                outputString += "\"Attribute\":\"" + skill.attribute + "\",\n";
+                outputString += "\"Description\":\"" + skill.description + "\",\n";
+                if (skill.energy != null)
+                {
+                    outputString += "\"Energy\":\"" + skill.energy + "\",\n";
+                }
+                else
+                {
+                    outputString += "\"Energy\":null,\n";
+                }
+                if (skill.recharge != null)
+                {
+                    outputString += "\"Recharge\":\"" + skill.recharge + "\",\n";
+                }
+                else
+                {
+                    outputString += "\"Recharge\":null,\n";
+                }
+                if (skill.activation != null)
+                {
+                    outputString += "\"Activation\":\"" + skill.activation + "\",\n";
+                }
+                else
+                {
+                    outputString += "\"Activation\":null,\n";
+                }
+                if (skill.upkeep != null)
+                {
+                    outputString += "\"Upkeep\":\"" + skill.upkeep + "\",\n";
+                }
+                else
+                {
+                    outputString += "\"Upkeep\":null,\n";
+                }
+                if (skill.adrenaline != null)
+                {
+                    outputString += "\"Adrenaline\":\"" + skill.adrenaline + "\",\n";
+                }
+                else
+                {
+                    outputString += "\"Adrenaline\":null,\n";
+                }
+                if (skill.sacrifice != null)
+                {
+                    outputString += "\"Sacrifice\":\"" + skill.sacrifice + "\",\n";
+                }
+                else
+                {
+                    outputString += "\"Sacrifice\":null,\n";
+                }
+                if (skill.overcast != null)
+                {
+                    outputString += "\"Overcast\":\"" + skill.overcast + "\",\n";
+                }
+                else
+                {
+                    outputString += "\"Overcast\":null,\n";
+                }
+                outputString += "\"Elite\":" + skill.elite.ToString().ToLower() + ",\n";
+                outputString += "\"PvE\":" + skill.pve.ToString().ToLower() + ",\n";
+                outputString += "\"PvP\":" + skill.pvp.ToString().ToLower() + ",\n";
+                outputString += "\"Profession\":\"" + skill.profession + "\",\n";
+                outputString += "\"Campaign\":\"" + skill.campaign + "\",\n";
+                outputString += "\"Image\":\"" + skill.image + "\",\n";
+                outputString += "\"Wiki\":\"" + wikiBase + skill.wikiLink + "\",\n";
+                outputString += "\"Ranks\":{\n";
+                if (skill.ranks != null)
+                {
+                    for (int index = 0; index < skill.ranks.Length; index++)
+                    {
+                        outputString += "\"" + index + "\":[";
+                        for (int rankIndex = 0; rankIndex < skill.ranks[index].Count(); rankIndex++)
+                        {
+                            outputString += skill.ranks[index][rankIndex];
+                            if (rankIndex < skill.ranks[index].Count() - 1)
+                            {
+                                outputString += ",";
+                            }
+                        }
+                        if (index < skill.ranks.Length - 1)
+                        {
+                            outputString += "],";
+                        }
+                        else
+                        {
+                            outputString += "]";
+                        }
+                    }
+                }
+
+                outputString += "}\n},";
+            }
+            outputString = outputString.Substring(0, outputString.Length - 1) + "]";
+
+            File.WriteAllText("output.txt", outputString);
         }
 
         public static string GetHTMLFromUrl(string url)
