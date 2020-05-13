@@ -22,13 +22,15 @@ namespace skillarraybuilder
         public string type;
         public string attribute;
         public string description;
-        public string energyCost;
+
+        public string energy;
         public string recharge;
         public string activation;
         public string upkeep;
         public string adrenaline;
         public string sacrifice;
         public string overcast;
+
         public List<int[]> ranks;
         public string image;
         public string wikiLink;
@@ -38,7 +40,9 @@ namespace skillarraybuilder
     {
         static public List<Skill> skills = new List<Skill>();
 
-        static readonly string skillIdPage = "https://wiki.guildwars.com/wiki/Skill_template_format/Skill_list";
+static readonly string wikiBase = "https://wiki.guildwars.com";
+        static readonly string skillIdPage = wikiBase + "/wiki/Skill_template_format/Skill_list";
+        
 
         static void Main(string[] args)
         {
@@ -66,12 +70,55 @@ namespace skillarraybuilder
                         name = skillName,
                         wikiLink = skillLink
                     });
+
                 }
                 catch (Exception ex)
                 {
 
                 }
 
+            }
+
+            
+
+            foreach(Skill skill in skills){
+               // Console.WriteLine(skill.name);
+                html = GetHTMLFromUrl(wikiBase + skill.wikiLink);
+                htmlDoc.LoadHtml(html);
+                node = htmlDoc.DocumentNode.SelectNodes("//div[@class='skill-stats']")[0];
+                HtmlNode ul = node.SelectSingleNode("//ul");
+                foreach(HtmlNode li in ul.Descendants("li")){
+                    HtmlNode a = li.SelectSingleNode(".//a");
+                    string title = a.GetAttributeValue("title",String.Empty);
+                    string value = li.InnerText;
+                    //Console.WriteLine(title + " | " + value);
+                    switch(title){
+                        case "Adrenanline":
+                            skills.Where(x=>x.id.Equals(skill.id)).First().adrenaline = value;
+                            break;
+                        case "Recharge":
+                            skills.Where(x=>x.id.Equals(skill.id)).First().recharge = value;
+                            break;
+                        case "Energy":
+                            skills.Where(x=>x.id.Equals(skill.id)).First().energy = value;
+                            break;
+                        case "Activation":
+skills.Where(x=>x.id.Equals(skill.id)).First().activation = value;
+                            break;
+                        case "Upkeep":
+                        Console.WriteLine("Upkeep : " + value);
+skills.Where(x=>x.id.Equals(skill.id)).First().upkeep = value;
+                            break;
+                        case "Sacrifice":
+                        Console.WriteLine("Sacrifice : " + value);
+skills.Where(x=>x.id.Equals(skill.id)).First().sacrifice = value;
+                            break;
+                        case "Overcast":
+skills.Where(x=>x.id.Equals(skill.id)).First().overcast = value;
+Console.WriteLine("Overcast : " + value);
+                            break;
+                    }
+                }
             }
 
             Console.WriteLine(skills.Count());
