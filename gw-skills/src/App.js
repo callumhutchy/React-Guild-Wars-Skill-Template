@@ -93,76 +93,7 @@ function handleClick(){
 }
 
 function SkillData(code) {
-  var _Base64ToValue = [
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, // [0,   16)
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, // [16,  32)
-    -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 62, -1, -1, -1, 63, // [32,  48)
-    52, 53, 54, 55, 56, 57, 58, 59, 60, 61, -1, -1, -1, -1, -1, -1, // [48,  64)
-    -1, 0,  1,  2,  3,  4,  5,  6,  7,  8,  9,  10, 11, 12, 13, 14, // [64,  80)
-    15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, -1, -1, -1, -1, -1, // [80,  96)
-    -1, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, // [96,  112)
-    41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, -1, -1, -1, -1, -1, // [112, 128)
-  ];
-  var professionTable = [
-    "Any",
-    "Warrior",
-    "Ranger",
-    "Monk",
-    "Necromancer",
-    "Mesmer",
-    "Elementalist",
-    "Assassin",
-    "Ritualist",
-    "Paragon",
-    "Dervish"
-  ]
-  var attributeTable = [
-    "Fast Casting",
-    "Illusion Magic",
-    "Domination Magic",
-    "Inspiriation Magic",
-    "Blood Magic",
-    "Death Magic",
-    "Soul Reaping",
-    "Curses",
-    "Air Magic",
-    "Earth Magic",
-    "Fire Magic",
-    "Water Magic",
-    "Energy Storage",
-    "Healing Prayers",
-    "Smiting Prayers",
-    "Protection Prayers",
-    "Divine Favor",
-    "Strength",
-    "Axe Mastery",
-    "Hammer Mastery",
-    "Swordsmanship",
-    "Tactics",
-    "Beast Mastery",
-    "Expertise",
-    "Wilderness Survival",
-    "Marksmanship",
-    null,
-    null,
-    null,
-    "Dagger Mastery",
-    "Deadly Arts",
-    "Shadow Arts",
-    "Communing",
-    "Resortation Magic",
-    "Channeling Magic",
-    "Critical Strikes",
-    "Spawning Power",
-    "Spear Mastery",
-    "Command",
-    "Motiviation",
-    "Leadership",
-    "Scythe Mastery",
-    "Wind Prayers",
-    "Earth Prayers",
-    "Mysticism"
-  ]
+  
 
   var templateString = code;
   console.log(templateString);
@@ -233,45 +164,20 @@ function SkillData(code) {
       var skill =  parseInt(completeBinary.substr(binaryIndex,skillController).split("").reverse().join(""),2);
       console.log(skill);
       skills += skill;
+      var result = skillTable.find(obj => {
+        return obj.Id == skill;
+      });
+      console.log(result);
+      if(result != undefined){
+        console.log(result["Name"]);
+      }
       binaryIndex += skillController;
   }
 
 
 
 
-  var skillTable = [
-    {
-      "Name": "Vow of Strength",
-      "Type": "Elite Enchantment",
-      "Attribute": "Earth Prayers",
-      "Description": "For 15 seconds, whenever you attack a foe with your scythe, you deal {0} slashing damage to all adjacent foes.",
-      "Energy Cost": "5",
-      "Recharge Rate": "20",
-      "Activation": "1/4",
-      "Upkeep": null,
-      "Adrenaline": null,
-      "Sacrifice": null,
-      "Overcast": null,
-      "Ranks": { "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30] },
-      "Image": "https://wiki.guildwars.com/images/b/b9/Vow_of_Strength.jpg"
-    },
-    {
-      "Name": "Heart of Fury",
-      "Type": "Stance",
-      "Attribute": "Mysticism",
-      "Description": "For {0} seconds, you attack 25% faster.",
-      "Energy Cost": null,
-      "Recharge Rate": null,
-      "Activation": null,
-      "Upkeep": null,
-      "Adrenaline": "4",
-      "Sacrifice": null,
-      "Overcast": null,
-      "Ranks": { "0": [2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13] },
-      "Image": "https://wiki.guildwars.com/images/0/03/Heart_of_Fury.jpg"
-    }
-
-  ]
+  
 }
 
 function WriteBits(val){
@@ -287,3 +193,110 @@ return buff;
 }
 
 export default App;
+
+var skillTable = [
+  {
+    "Id": 1759,
+    "Name": "Vow of Strength",
+    "Type": "Elite Enchantment",
+    "Attribute": "Earth Prayers",
+    "Description": "For 15 seconds, whenever you attack a foe with your scythe, you deal {0} slashing damage to all adjacent foes.",
+    "Energy Cost": "5",
+    "Recharge Rate": "20",
+    "Activation": "1/4",
+    "Upkeep": null,
+    "Adrenaline": null,
+    "Sacrifice": null,
+    "Overcast": null,
+    "Ranks": { "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30] },
+    "Image": "https://wiki.guildwars.com/images/b/b9/Vow_of_Strength.jpg"
+  },
+  {
+    "Id": 1762,
+    "Name": "Heart of Fury",
+    "Type": "Stance",
+    "Attribute": "Mysticism",
+    "Description": "For {0} seconds, you attack 25% faster.",
+    "Energy Cost": null,
+    "Recharge Rate": null,
+    "Activation": null,
+    "Upkeep": null,
+    "Adrenaline": "4",
+    "Sacrifice": null,
+    "Overcast": null,
+    "Ranks": { "0": [2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13] },
+    "Image": "https://wiki.guildwars.com/images/0/03/Heart_of_Fury.jpg"
+  }
+
+]
+
+var _Base64ToValue = [
+  -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, // [0,   16)
+  -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, // [16,  32)
+  -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 62, -1, -1, -1, 63, // [32,  48)
+  52, 53, 54, 55, 56, 57, 58, 59, 60, 61, -1, -1, -1, -1, -1, -1, // [48,  64)
+  -1, 0,  1,  2,  3,  4,  5,  6,  7,  8,  9,  10, 11, 12, 13, 14, // [64,  80)
+  15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, -1, -1, -1, -1, -1, // [80,  96)
+  -1, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, // [96,  112)
+  41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, -1, -1, -1, -1, -1, // [112, 128)
+];
+var professionTable = [
+  "Any",
+  "Warrior",
+  "Ranger",
+  "Monk",
+  "Necromancer",
+  "Mesmer",
+  "Elementalist",
+  "Assassin",
+  "Ritualist",
+  "Paragon",
+  "Dervish"
+]
+var attributeTable = [
+  "Fast Casting",
+  "Illusion Magic",
+  "Domination Magic",
+  "Inspiriation Magic",
+  "Blood Magic",
+  "Death Magic",
+  "Soul Reaping",
+  "Curses",
+  "Air Magic",
+  "Earth Magic",
+  "Fire Magic",
+  "Water Magic",
+  "Energy Storage",
+  "Healing Prayers",
+  "Smiting Prayers",
+  "Protection Prayers",
+  "Divine Favor",
+  "Strength",
+  "Axe Mastery",
+  "Hammer Mastery",
+  "Swordsmanship",
+  "Tactics",
+  "Beast Mastery",
+  "Expertise",
+  "Wilderness Survival",
+  "Marksmanship",
+  null,
+  null,
+  null,
+  "Dagger Mastery",
+  "Deadly Arts",
+  "Shadow Arts",
+  "Communing",
+  "Resortation Magic",
+  "Channeling Magic",
+  "Critical Strikes",
+  "Spawning Power",
+  "Spear Mastery",
+  "Command",
+  "Motiviation",
+  "Leadership",
+  "Scythe Mastery",
+  "Wind Prayers",
+  "Earth Prayers",
+  "Mysticism"
+]
