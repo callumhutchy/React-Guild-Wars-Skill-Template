@@ -70,7 +70,7 @@ namespace skillarraybuilder
                     var skillLink = skillDetails.SelectSingleNode(".//a").GetAttributeValue("href", String.Empty);
                     var skillName = skillDetails.SelectSingleNode(".//a").GetAttributeValue("title", String.Empty).Replace("&quot;", "\"").Replace("&#39;", "'");
 
-                    Console.WriteLine(skillId + " | " + skillName + " | " + skillLink);
+                    //Console.WriteLine(skillId + " | " + skillName + " | " + skillLink);
 
                     bool pvp = false;
                     if (skillName.Contains("(PvP)"))
@@ -113,7 +113,7 @@ namespace skillarraybuilder
                     HtmlNode a = li.SelectSingleNode(".//a");
                     string title = a.GetAttributeValue("title", String.Empty);
                     string value = li.InnerText;
-                    Console.WriteLine(title + " | " + value);
+                    //Console.WriteLine(title + " | " + value);
                     switch (title)
                     {
                         case "Adrenanline":
@@ -200,6 +200,8 @@ namespace skillarraybuilder
                 }
 
                 //Process Ranks
+                int rankCount = 0;
+
                 HtmlNode skillProgTable = htmlDoc.DocumentNode.SelectSingleNode("//table[@class='skill-progression']");
                 if (skillProgTable != null)
                 {
@@ -214,18 +216,34 @@ namespace skillarraybuilder
                         for(int c = 0; c < columns.Count; c++){
                             HtmlNode column = columns[c];
                             HtmlNode val = column.SelectNodes("div[@class='var']")[v];
-                            Console.WriteLine(val.InnerText);
+                            //Console.WriteLine(val.InnerText);
                             values[v].Add(int.Parse(val.InnerText));
                         }
                     }
+
+                    rankCount = values.Count();
 
                     skill.ranks = values;
 
                 }
 
                 //Process Description
-                HtmlNode rawDescription = htmlDoc.DocumentNode.SelectNodes("//div[@class='noexcerpt']")[0].SelectSingleNode("p");
-                Console.WriteLine(rawDescription.InnerText);
+                string rawDescription = htmlDoc.DocumentNode.SelectNodes("//div[@class='noexcerpt']")[0].SelectSingleNode("p").InnerText;
+                string description = "";
+                MatchCollection matches = Regex.Matches(rawDescription, "[0-9]+...[0-9]+...[0-9]+");
+                for(int m = 0; m < matches.Count(); m++){
+                   description= rawDescription.Replace(matches[m].Value,"{"+m+"}");
+                }
+                string typeStr = skill.type + ". ";
+                if(skill.elite){
+                    typeStr = "Elite " + typeStr;
+                }
+                if(description != ""){
+                    description = description.Substring(typeStr.Length);
+                    description = description.Replace("\n","");
+                }
+                
+                Console.WriteLine(description);
             }
 
             Console.WriteLine(skills.Count());
