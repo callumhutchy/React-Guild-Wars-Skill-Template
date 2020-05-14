@@ -324,28 +324,7 @@ var attributeTable = [
   "Mysticism"
 ]
 var skillTable = [
-  {
-    "Id": 0,
-    "Name": "Optional",
-    "Type": "Optional",
-    "Attribute": "",
-    "Description": "Optional",
-    "Energy": null,
-    "Recharge": null,
-    "Activation": null,
-    "Upkeep": null,
-    "Sacrifice": null,
-    "Overcase": null,
-    "Elite": null,
-    "PvE": null,
-    "PvP": null,
-    "Profession": "No Profession",
-    "Campaign": null,
-    "Image": "https://wiki.guildwars.com/images/archive/3/38/20170709232124%21Optional.jpg",
-    "Wiki": "https://wiki.guildwars.com/wiki/Optional",
-    "Ranks": {}
-  },
-  {
+  { "Id": 0, "Name": "Optional", "Type": "Optional", "Attribute": "", "Description": "Optional", "Energy": null, "Recharge": null, "Activation": null, "Upkeep": null, "Sacrifice": null, "Overcase": null, "Elite": null, "PvE": null, "PvP": null, "Profession": "No Profession", "Campaign": null, "Image":"https://wiki.guildwars.com/images/archive/3/38/20170709232124%21Optional.jpg", "Wiki": "https://wiki.guildwars.com/wiki/Optional", "Ranks": {} }, {
     "Id": 2,
     "Name": "Resurrection Signet",
     "Type": "Signet",
@@ -363,7 +342,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Resurrection_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e0/Resurrection_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Resurrection_Signet",
     "Ranks": {
     }
@@ -385,7 +364,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Capture.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8d/Signet_of_Capture.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Capture",
     "Ranks": {
     }
@@ -407,7 +386,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Agonizing_Chop.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/55/Agonizing_Chop.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Agonizing_Chop",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -430,7 +409,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Axe_Rake.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/42/Axe_Rake.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Axe_Rake",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -453,7 +432,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Axe_Twist.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/56/Axe_Twist.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Axe_Twist",
     "Ranks": {
       "0": [1, 2, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 19, 20, 21, 23, 24, 25, 26, 28]
@@ -476,7 +455,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Cleave.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f9/Cleave.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Cleave",
     "Ranks": {
       "0": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38]
@@ -499,7 +478,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Critical_Chop.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4a/Critical_Chop.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Critical_Chop",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -522,7 +501,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Cyclone_Axe.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/ba/Cyclone_Axe.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Cyclone_Axe",
     "Ranks": {
       "0": [4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 13, 13, 14, 14, 15, 15]
@@ -545,7 +524,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Decapitate.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/98/Decapitate.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Decapitate",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -568,7 +547,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dismember.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/82/Dismember.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dismember",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -591,7 +570,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Disrupting_Chop.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e7/Disrupting_Chop.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Disrupting_Chop",
     "Ranks": {
     }
@@ -613,7 +592,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Eviscerate.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/30/Eviscerate.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Eviscerate",
     "Ranks": {
       "0": [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -636,7 +615,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Executioner%27s_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d9/Executioner%27s_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Executioner%27s_Strike",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -659,7 +638,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Furious_Axe.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/00/Furious_Axe.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Furious_Axe",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47]
@@ -682,7 +661,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Keen_Chop.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/98/Keen_Chop.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Keen_Chop",
     "Ranks": {
     }
@@ -704,7 +683,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lacerating_Chop.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f9/Lacerating_Chop.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lacerating_Chop",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -727,7 +706,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Penetrating_Blow.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e1/Penetrating_Blow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Penetrating_Blow",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -750,7 +729,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Penetrating_Chop.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/cf/Penetrating_Chop.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Penetrating_Chop",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -773,7 +752,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Swift_Chop.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/82/Swift_Chop.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Swift_Chop",
     "Ranks": {
       "0": [1, 2, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 19, 20, 21, 23, 24, 25, 26, 28], "1": [1, 2, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 19, 20, 21, 23, 24, 25, 26, 28]
@@ -796,7 +775,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Triple_Chop.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a5/Triple_Chop.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Triple_Chop",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -819,7 +798,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Whirling_Axe.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1b/Whirling_Axe.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Whirling_Axe",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -842,7 +821,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Auspicious_Blow.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e0/Auspicious_Blow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Auspicious_Blow",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10]
@@ -865,7 +844,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Backbreaker.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c1/Backbreaker.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Backbreaker",
     "Ranks": {
       "0": [1, 2, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 19, 20, 21, 23, 24, 25, 26, 28]
@@ -888,7 +867,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Belly_Smash.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/aa/Belly_Smash.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Belly_Smash",
     "Ranks": {
       "0": [3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8, 8, 9]
@@ -911,7 +890,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Counter_Blow.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/ff/Counter_Blow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Counter_Blow",
     "Ranks": {
     }
@@ -933,7 +912,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Crude_Swing.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/69/Crude_Swing.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Crude_Swing",
     "Ranks": {
       "0": [1, 2, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 19, 20, 21, 23, 24, 25, 26, 28]
@@ -956,7 +935,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Crushing_Blow.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f9/Crushing_Blow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Crushing_Blow",
     "Ranks": {
       "0": [1, 2, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 19, 20, 21, 23, 24, 25, 26, 28], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -979,7 +958,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Devastating_Hammer.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3a/Devastating_Hammer.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Devastating_Hammer",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -1002,7 +981,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Earth_Shaker.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ac/Earth_Shaker.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Earth_Shaker",
     "Ranks": {
     }
@@ -1024,7 +1003,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Enraged_Smash.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a6/Enraged_Smash.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Enraged_Smash",
     "Ranks": {
       "0": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5], "1": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -1047,7 +1026,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Fierce_Blow.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/11/Fierce_Blow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Fierce_Blow",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11]
@@ -1070,7 +1049,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Forceful_Blow.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b0/Forceful_Blow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Forceful_Blow",
     "Ranks": {
       "0": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -1093,7 +1072,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Hammer_Bash.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/dd/Hammer_Bash.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Hammer_Bash",
     "Ranks": {
     }
@@ -1115,7 +1094,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Heavy_Blow.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d5/Heavy_Blow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Heavy_Blow",
     "Ranks": {
       "0": [1, 3, 5, 7, 9, 11, 13, 15, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42]
@@ -1138,7 +1117,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Irresistible_Blow.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2b/Irresistible_Blow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Irresistible_Blow",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -1161,7 +1140,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Magehunter%27s_Smash.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/11/Magehunter%27s_Smash.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Magehunter%27s_Smash",
     "Ranks": {
     }
@@ -1183,7 +1162,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mighty_Blow.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/da/Mighty_Blow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mighty_Blow",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -1206,7 +1185,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mokele_Smash.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/37/Mokele_Smash.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mokele_Smash",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -1229,7 +1208,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Overbearing_Smash.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f8/Overbearing_Smash.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Overbearing_Smash",
     "Ranks": {
       "0": [1, 2, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 19, 20, 21, 23, 24, 25, 26, 28], "1": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11]
@@ -1252,7 +1231,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Pulverizing_Smash.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a5/Pulverizing_Smash.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Pulverizing_Smash",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -1275,7 +1254,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Renewing_Smash.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/58/Renewing_Smash.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Renewing_Smash",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -1298,7 +1277,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Staggering_Blow.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d3/Staggering_Blow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Staggering_Blow",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -1321,7 +1300,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Yeti_Smash.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/cd/Yeti_Smash.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Yeti_Smash",
     "Ranks": {
     }
@@ -1343,7 +1322,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22I_Meant_to_Do_That!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0e/%22I_Meant_to_Do_That%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22I_Meant_to_Do_That!%22",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -1366,7 +1345,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22I_Will_Avenge_You!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/84/%22I_Will_Avenge_You%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22I_Will_Avenge_You!%22",
     "Ranks": {
       "0": [3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8, 8, 9]
@@ -1389,7 +1368,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22I_Will_Survive!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/23/%22I_Will_Survive%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22I_Will_Survive!%22",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13, 13]
@@ -1412,7 +1391,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22You_Will_Die!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6d/%22You_Will_Die%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22You_Will_Die!%22",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -1435,7 +1414,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Battle_Rage.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/dd/Battle_Rage.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Battle_Rage",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -1458,7 +1437,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Berserker_Stance.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ef/Berserker_Stance.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Berserker_Stance",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13, 13]
@@ -1481,7 +1460,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Body_Blow.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1f/Body_Blow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Body_Blow",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52], "1": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
@@ -1504,7 +1483,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Bull%27s_Charge.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fb/Bull%27s_Charge.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Bull%27s_Charge",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13, 13]
@@ -1527,7 +1506,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Bull%27s_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9e/Bull%27s_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Bull%27s_Strike",
     "Ranks": {
       "0": [5, 7, 8, 10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40]
@@ -1550,7 +1529,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Burst_of_Aggression.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/43/Burst_of_Aggression.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Burst_of_Aggression",
     "Ranks": {
       "0": [2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 13]
@@ -1573,7 +1552,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Charging_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ad/Charging_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Charging_Strike",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14], "1": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -1596,7 +1575,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Counterattack.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8c/Counterattack.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Counterattack",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47], "1": [2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 8]
@@ -1619,7 +1598,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Defy_Pain.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/16/Defy_Pain.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Defy_Pain",
     "Ranks": {
       "0": [90, 104, 118, 132, 146, 160, 174, 188, 202, 216, 230, 244, 258, 272, 286, 300, 314, 328, 342, 356, 370, 384], "1": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -1642,7 +1621,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Disarm.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4e/Disarm.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Disarm",
     "Ranks": {
       "0": [0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4]
@@ -1665,7 +1644,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dolyak_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8f/Dolyak_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dolyak_Signet",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25], "1": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -1688,7 +1667,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dwarven_Battle_Stance.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b9/Dwarven_Battle_Stance.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dwarven_Battle_Stance",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13, 13]
@@ -1711,7 +1690,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Endure_Pain.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a9/Endure_Pain.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Endure_Pain",
     "Ranks": {
       "0": [7, 8, 8, 9, 10, 11, 11, 12, 13, 14, 14, 15, 16, 17, 17, 18, 19, 19, 20, 21, 22, 22], "1": [90, 104, 118, 132, 146, 160, 174, 188, 202, 216, 230, 244, 258, 272, 286, 300, 314, 328, 342, 356, 370, 384]
@@ -1734,7 +1713,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Enraging_Charge.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/84/Enraging_Charge.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Enraging_Charge",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19], "1": [0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4]
@@ -1757,7 +1736,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Flail.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c7/Flail.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Flail",
     "Ranks": {
       "0": [1, 2, 3, 4, 5, 6, 7, 8, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
@@ -1780,7 +1759,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Flourish.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/97/Flourish.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Flourish",
     "Ranks": {
       "0": [2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9]
@@ -1803,7 +1782,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Griffon%27s_Sweep.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0f/Griffon%27s_Sweep.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Griffon%27s_Sweep",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [10, 12, 13, 15, 16, 18, 20, 21, 23, 24, 26, 28, 29, 31, 32, 34, 36, 37, 39, 40, 42, 44]
@@ -1826,7 +1805,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Headbutt.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/64/Headbutt.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Headbutt",
     "Ranks": {
       "0": [40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104, 108, 112, 116, 120, 124], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -1849,7 +1828,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Leviathan%27s_Sweep.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9c/Leviathan%27s_Sweep.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Leviathan%27s_Sweep",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [10, 12, 13, 15, 16, 18, 20, 21, 23, 24, 26, 28, 29, 31, 32, 34, 36, 37, 39, 40, 42, 44]
@@ -1872,7 +1851,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lion%27s_Comfort.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fc/Lion%27s_Comfort.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lion%27s_Comfort",
     "Ranks": {
       "0": [50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110, 114, 118, 122, 126, 130, 134], "1": [0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4]
@@ -1895,7 +1874,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Magehunter_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/69/Magehunter_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Magehunter_Strike",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -1918,7 +1897,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Power_Attack.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/af/Power_Attack.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Power_Attack",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -1941,7 +1920,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Primal_Rage.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d8/Primal_Rage.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Primal_Rage",
     "Ranks": {
       "0": [1, 2, 3, 4, 5, 6, 7, 8, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
@@ -1964,7 +1943,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Protector%27s_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b5/Protector%27s_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Protector%27s_Strike",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -1987,7 +1966,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Rage_of_the_Ntouka.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/11/Rage_of_the_Ntouka.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Rage_of_the_Ntouka",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9]
@@ -2010,7 +1989,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Rush.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fb/Rush.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Rush",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25]
@@ -2033,7 +2012,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shield_Bash.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/ca/Shield_Bash.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shield_Bash",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13, 13]
@@ -2056,7 +2035,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Stamina.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d5/Signet_of_Stamina.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Stamina",
     "Ranks": {
       "0": [50, 67, 83, 100, 117, 133, 150, 167, 183, 200, 217, 233, 250, 267, 283, 300, 317, 333, 350, 367, 383, 400]
@@ -2079,7 +2058,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Strength.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/35/Signet_of_Strength.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Strength",
     "Ranks": {
       "0": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
@@ -2102,7 +2081,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Sprint.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c5/Sprint.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Sprint",
     "Ranks": {
       "0": [8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12, 13, 13, 14, 14, 14, 15, 15, 16, 16, 16]
@@ -2125,7 +2104,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Tiger_Stance.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/37/Tiger_Stance.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Tiger_Stance",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12]
@@ -2148,7 +2127,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Warrior%27s_Cunning.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/32/Warrior%27s_Cunning.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Warrior%27s_Cunning",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13, 13]
@@ -2171,7 +2150,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Warrior%27s_Endurance.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c2/Warrior%27s_Endurance.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Warrior%27s_Endurance",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47], "1": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
@@ -2194,7 +2173,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Barbarous_Slice.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ae/Barbarous_Slice.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Barbarous_Slice",
     "Ranks": {
       "0": [5, 7, 8, 10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40], "1": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19]
@@ -2217,7 +2196,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Crippling_Slash.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/93/Crippling_Slash.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Crippling_Slash",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19], "1": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
@@ -2240,7 +2219,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dragon_Slash.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6a/Dragon_Slash.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dragon_Slash",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52], "1": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -2263,7 +2242,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Final_Thrust.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/58/Final_Thrust.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Final_Thrust",
     "Ranks": {
       "0": [1, 4, 6, 9, 11, 14, 17, 19, 22, 24, 27, 30, 32, 35, 37, 40, 43, 45, 48, 50, 53, 56], "1": [2, 8, 12, 18, 22, 28, 34, 38, 44, 48, 54, 60, 64, 70, 74, 80, 86, 90, 96, 100, 106, 112]
@@ -2286,7 +2265,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Galrath_Slash.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6d/Galrath_Slash.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Galrath_Slash",
     "Ranks": {
       "0": [1, 4, 6, 9, 11, 14, 17, 19, 22, 24, 27, 30, 32, 35, 37, 40, 43, 45, 48, 50, 53, 56]
@@ -2309,7 +2288,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Gash.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/70/Gash.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Gash",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -2332,7 +2311,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Hamstring.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/dd/Hamstring.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Hamstring",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19, 20]
@@ -2355,7 +2334,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Hundred_Blades.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/63/Hundred_Blades.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Hundred_Blades",
     "Ranks": {
       "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
@@ -2378,7 +2357,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Jaizhenju_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8e/Jaizhenju_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Jaizhenju_Strike",
     "Ranks": {
       "0": [1, 3, 5, 7, 9, 11, 13, 15, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42]
@@ -2401,7 +2380,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Knee_Cutter.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6b/Knee_Cutter.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Knee_Cutter",
     "Ranks": {
       "0": [2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -2424,7 +2403,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Pure_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c8/Pure_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Pure_Strike",
     "Ranks": {
       "0": [1, 3, 5, 7, 9, 11, 13, 15, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42]
@@ -2447,7 +2426,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Quivering_Blade.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8f/Quivering_Blade.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Quivering_Blade",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -2470,7 +2449,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Savage_Slash.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7e/Savage_Slash.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Savage_Slash",
     "Ranks": {
       "0": [1, 4, 6, 9, 11, 14, 17, 19, 22, 24, 27, 30, 32, 35, 37, 40, 43, 45, 48, 50, 53, 56]
@@ -2493,7 +2472,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Seeking_Blade.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/14/Seeking_Blade.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Seeking_Blade",
     "Ranks": {
       "0": [1, 2, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 19, 20, 21, 23, 24, 25, 26, 28], "1": [1, 2, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 19, 20, 21, 23, 24, 25, 26, 28]
@@ -2516,7 +2495,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Sever_Artery.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/54/Sever_Artery.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Sever_Artery",
     "Ranks": {
       "0": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33]
@@ -2539,7 +2518,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Silverwing_Slash.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9c/Silverwing_Slash.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Silverwing_Slash",
     "Ranks": {
       "0": [1, 4, 6, 9, 11, 14, 17, 19, 22, 24, 27, 30, 32, 35, 37, 40, 43, 45, 48, 50, 53, 56]
@@ -2562,7 +2541,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Standing_Slash.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1d/Standing_Slash.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Standing_Slash",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -2585,7 +2564,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Steelfang_Slash.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fc/Steelfang_Slash.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Steelfang_Slash",
     "Ranks": {
       "0": [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43], "1": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -2608,7 +2587,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Sun_and_Moon_Slash.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/38/Sun_and_Moon_Slash.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Sun_and_Moon_Slash",
     "Ranks": {
     }
@@ -2630,7 +2609,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Charge!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/32/%22Charge%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Charge!%22",
     "Ranks": {
       "0": [5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 13, 14, 14, 15, 15, 16, 16]
@@ -2653,7 +2632,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Fear_Me!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f5/%22Fear_Me%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Fear_Me!%22",
     "Ranks": {
       "0": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5], "1": [1, 2, 3, 4, 5, 6, 7, 8, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], "2": [5, 7, 8, 10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40]
@@ -2676,7 +2655,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22None_Shall_Pass!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f9/%22None_Shall_Pass%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22None_Shall_Pass!%22",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11]
@@ -2699,7 +2678,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Retreat!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/64/%22Retreat%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Retreat!%22",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13, 13]
@@ -2722,7 +2701,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Shields_Up!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d5/%22Shields_Up%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Shields_Up!%22",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13, 13]
@@ -2745,7 +2724,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22To_the_Limit!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a4/%22To_the_Limit%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22To_the_Limit!%22",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8], "1": [10, 11, 11, 12, 13, 13, 14, 15, 15, 16, 17, 17, 18, 19, 19, 20, 21, 21, 22, 23, 23, 24], "2": [10, 13, 17, 20, 23, 27, 30, 33, 37, 40, 43, 47, 50, 53, 57, 60, 63, 67, 70, 73, 77, 80]
@@ -2768,7 +2747,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Victory_Is_Mine!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0b/%22Victory_Is_Mine%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Victory_Is_Mine!%22",
     "Ranks": {
       "0": [10, 14, 18, 22, 25, 29, 33, 37, 41, 45, 49, 53, 56, 60, 64, 68, 72, 76, 80, 83, 87, 91], "1": [3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8, 8, 9]
@@ -2791,7 +2770,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Watch_Yourself!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9f/%22Watch_Yourself%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Watch_Yourself!%22",
     "Ranks": {
       "0": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33]
@@ -2814,7 +2793,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Auspicious_Parry.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/09/Auspicious_Parry.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Auspicious_Parry",
     "Ranks": {
       "0": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5]
@@ -2837,7 +2816,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Balanced_Stance.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f1/Balanced_Stance.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Balanced_Stance",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25]
@@ -2860,7 +2839,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Bonetti%27s_Defense.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/db/Bonetti%27s_Defense.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Bonetti%27s_Defense",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13, 13]
@@ -2883,7 +2862,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Deadly_Riposte.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/85/Deadly_Riposte.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Deadly_Riposte",
     "Ranks": {
       "0": [15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120], "1": [3, 4, 6, 7, 9, 10, 12, 13, 15, 16, 18, 19, 21, 22, 24, 25, 26, 28, 29, 31, 32, 34]
@@ -2906,7 +2885,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Defensive_Stance.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/14/Defensive_Stance.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Defensive_Stance",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7], "1": [0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6]
@@ -2929,7 +2908,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Deflect_Arrows.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a9/Deflect_Arrows.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Deflect_Arrows",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8], "1": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19]
@@ -2952,7 +2931,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Desperation_Blow.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/24/Desperation_Blow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Desperation_Blow",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -2975,7 +2954,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Disciplined_Stance.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/11/Disciplined_Stance.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Disciplined_Stance",
     "Ranks": {
       "0": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5]
@@ -2998,7 +2977,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Drunken_Blow.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0b/Drunken_Blow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Drunken_Blow",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -3021,7 +3000,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Gladiator%27s_Defense.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8e/Gladiator%27s_Defense.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Gladiator%27s_Defense",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13, 13], "1": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47]
@@ -3044,7 +3023,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Healing_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e6/Healing_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Healing_Signet",
     "Ranks": {
       "0": [82, 88, 94, 100, 106, 112, 118, 124, 130, 136, 142, 148, 154, 160, 166, 172, 178, 184, 190, 196, 202, 208]
@@ -3067,7 +3046,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Protector%27s_Defense.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/35/Protector%27s_Defense.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Protector%27s_Defense",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13, 13]
@@ -3090,7 +3069,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Riposte.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b2/Riposte.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Riposte",
     "Ranks": {
       "0": [20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104]
@@ -3113,7 +3092,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shield_Stance.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2a/Shield_Stance.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shield_Stance",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8]
@@ -3136,7 +3115,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shove.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bb/Shove.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shove",
     "Ranks": {
       "0": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -3159,7 +3138,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Soldier%27s_Defense.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ee/Soldier%27s_Defense.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Soldier%27s_Defense",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8]
@@ -3182,7 +3161,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Soldier%27s_Speed.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/99/Soldier%27s_Speed.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Soldier%27s_Speed",
     "Ranks": {
       "0": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
@@ -3205,7 +3184,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Soldier%27s_Stance.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1b/Soldier%27s_Stance.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Soldier%27s_Stance",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19]
@@ -3228,7 +3207,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Soldier%27s_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/28/Soldier%27s_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Soldier%27s_Strike",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -3251,7 +3230,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Steady_Stance.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/47/Steady_Stance.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Steady_Stance",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4], "1": [1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9]
@@ -3274,7 +3253,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Thrill_of_Victory.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ae/Thrill_of_Victory.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Thrill_of_Victory",
     "Ranks": {
       "0": [20, 21, 23, 24, 25, 27, 28, 29, 31, 32, 33, 35, 36, 37, 39, 40, 41, 43, 44, 45, 47, 48], "1": [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
@@ -3297,7 +3276,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wary_Stance.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/be/Wary_Stance.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wary_Stance",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8]
@@ -3320,7 +3299,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Coward!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9c/%22Coward%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Coward!%22",
     "Ranks": {
     }
@@ -3342,7 +3321,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22For_Great_Justice!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5f/%22For_Great_Justice%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22For_Great_Justice!%22",
     "Ranks": {
     }
@@ -3364,7 +3343,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Let%27s_Get_%27Em!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e8/%22Let%27s_Get_%27Em%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Let%27s_Get_%27Em!%22",
     "Ranks": {
     }
@@ -3386,7 +3365,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22On_Your_Knees!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7b/%22On_Your_Knees%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22On_Your_Knees!%22",
     "Ranks": {
     }
@@ -3408,7 +3387,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22You%27re_All_Alone!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f1/%22You%27re_All_Alone%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22You%27re_All_Alone!%22",
     "Ranks": {
     }
@@ -3430,7 +3409,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Distracting_Blow.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ed/Distracting_Blow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Distracting_Blow",
     "Ranks": {
     }
@@ -3452,7 +3431,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Distracting_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/04/Distracting_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Distracting_Strike",
     "Ranks": {
     }
@@ -3474,7 +3453,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Flurry.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/84/Flurry.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Flurry",
     "Ranks": {
     }
@@ -3496,7 +3475,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Frenzied_Defense.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/28/Frenzied_Defense.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Frenzied_Defense",
     "Ranks": {
     }
@@ -3518,7 +3497,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Frenzy.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/94/Frenzy.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Frenzy",
     "Ranks": {
     }
@@ -3540,7 +3519,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Grapple.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/35/Grapple.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Grapple",
     "Ranks": {
     }
@@ -3562,7 +3541,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Skull_Crack.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c2/Skull_Crack.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Skull_Crack",
     "Ranks": {
     }
@@ -3584,7 +3563,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Storm_of_Swords.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f9/Storm_of_Swords.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Storm_of_Swords",
     "Ranks": {
     }
@@ -3606,7 +3585,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Symbolic_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/37/Symbolic_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Symbolic_Strike",
     "Ranks": {
     }
@@ -3628,7 +3607,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wild_Blow.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1f/Wild_Blow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wild_Blow",
     "Ranks": {
     }
@@ -3650,7 +3629,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Bestial_Fury.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bc/Bestial_Fury.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Bestial_Fury",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13]
@@ -3673,7 +3652,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Bestial_Mauling.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ac/Bestial_Mauling.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Bestial_Mauling",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], "1": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12]
@@ -3696,7 +3675,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Bestial_Pounce.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6a/Bestial_Pounce.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Bestial_Pounce",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -3719,7 +3698,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Brutal_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/21/Brutal_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Brutal_Strike",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45]
@@ -3742,7 +3721,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Call_of_Haste.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2b/Call_of_Haste.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Call_of_Haste",
     "Ranks": {
     }
@@ -3764,7 +3743,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Call_of_Protection.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bf/Call_of_Protection.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Call_of_Protection",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -3787,7 +3766,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Charm_Animal.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b1/Charm_Animal.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Charm_Animal",
     "Ranks": {
     }
@@ -3809,7 +3788,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Comfort_Animal.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b6/Comfort_Animal.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Comfort_Animal",
     "Ranks": {
       "0": [20, 26, 31, 37, 42, 48, 54, 59, 65, 70, 76, 82, 87, 93, 98, 104, 110, 115, 121, 126, 132], "1": [10, 13, 16, 20, 23, 26, 29, 32, 36, 39, 42, 45, 48, 52, 55, 58, 61, 64, 68, 71, 74]
@@ -3832,7 +3811,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Companionship.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9b/Companionship.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Companionship",
     "Ranks": {
       "0": [30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96, 102, 108, 114, 120, 126, 132, 138, 144, 150]
@@ -3855,7 +3834,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Disrupting_Lunge.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/93/Disrupting_Lunge.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Disrupting_Lunge",
     "Ranks": {
       "0": [1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 8, 9, 10, 11, 11, 12, 13, 13, 14, 15, 16]
@@ -3878,7 +3857,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Edge_of_Extinction.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2b/Edge_of_Extinction.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Edge_of_Extinction",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [14, 16, 19, 21, 24, 26, 28, 31, 33, 36, 38, 40, 43, 45, 48, 50, 52, 55, 57, 60, 62], "2": [30, 38, 46, 54, 62, 70, 78, 86, 94, 102, 110, 118, 126, 134, 142, 150, 158, 166, 174, 182, 190]
@@ -3901,7 +3880,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Energizing_Wind.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1c/Energizing_Wind.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Energizing_Wind",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8], "1": [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41]
@@ -3924,7 +3903,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Enraged_Lunge.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/43/Enraged_Lunge.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Enraged_Lunge",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], "1": [10, 13, 15, 18, 21, 23, 26, 29, 31, 34, 37, 39, 42, 45, 47, 50, 53, 55, 58, 61, 63]
@@ -3947,7 +3926,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Feral_Aggression.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/df/Feral_Aggression.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Feral_Aggression",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], "1": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12]
@@ -3970,7 +3949,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Feral_Lunge.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/02/Feral_Lunge.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Feral_Lunge",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45], "1": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32]
@@ -3993,7 +3972,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ferocious_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5e/Ferocious_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ferocious_Strike",
     "Ranks": {
       "0": [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33], "1": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12]
@@ -4016,7 +3995,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Fertile_Season.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/13/Fertile_Season.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Fertile_Season",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [50, 57, 63, 70, 77, 83, 90, 97, 103, 110, 117, 123, 130, 137, 143, 150, 157, 163, 170, 177, 183], "2": [15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55]
@@ -4039,7 +4018,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Heal_as_One.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/97/Heal_as_One.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Heal_as_One",
     "Ranks": {
       "0": [20, 26, 31, 37, 42, 48, 54, 59, 65, 70, 76, 82, 87, 93, 98, 104, 110, 115, 121, 126, 132], "1": [1, 2, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 19, 20, 21, 23, 24, 25, 26]
@@ -4062,7 +4041,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Heket%27s_Rampage.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a9/Heket%27s_Rampage.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Heket%27s_Rampage",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13]
@@ -4085,7 +4064,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lacerate.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fa/Lacerate.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lacerate",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32], "2": [30, 38, 46, 54, 62, 70, 78, 86, 94, 102, 110, 118, 126, 134, 142, 150, 158, 166, 174, 182, 190]
@@ -4108,7 +4087,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Maiming_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/72/Maiming_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Maiming_Strike",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], "1": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19]
@@ -4131,7 +4110,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Melandru%27s_Assault.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2d/Melandru%27s_Assault.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Melandru%27s_Assault",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -4154,7 +4133,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Otyugh%27s_Cry.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/95/Otyugh%27s_Cry.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Otyugh%27s_Cry",
     "Ranks": {
       "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
@@ -4177,7 +4156,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Poisonous_Bite.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ed/Poisonous_Bite.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Poisonous_Bite",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -4200,7 +4179,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Pounce.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f4/Pounce.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Pounce",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -4223,7 +4202,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Predator%27s_Pounce.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e4/Predator%27s_Pounce.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Predator%27s_Pounce",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65]
@@ -4246,7 +4225,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Predatory_Bond.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/83/Predatory_Bond.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Predatory_Bond",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], "1": [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41]
@@ -4269,7 +4248,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Predatory_Season.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fd/Predatory_Season.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Predatory_Season",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [30, 38, 46, 54, 62, 70, 78, 86, 94, 102, 110, 118, 126, 134, 142, 150, 158, 166, 174, 182, 190]
@@ -4292,7 +4271,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Primal_Echoes.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/68/Primal_Echoes.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Primal_Echoes",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [30, 38, 46, 54, 62, 70, 78, 86, 94, 102, 110, 118, 126, 134, 142, 150, 158, 166, 174, 182, 190]
@@ -4315,7 +4294,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Rampage_as_One.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/25/Rampage_as_One.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Rampage_as_One",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19]
@@ -4338,7 +4317,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Revive_Animal.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/ba/Revive_Animal.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Revive_Animal",
     "Ranks": {
       "0": [10, 16, 21, 27, 32, 38, 44, 49, 55, 60, 66, 72, 77, 83, 88, 94, 100, 105, 111, 116, 122]
@@ -4361,7 +4340,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Run_as_One.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fa/Run_as_One.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Run_as_One",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18]
@@ -4384,7 +4363,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Savage_Pounce.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3e/Savage_Pounce.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Savage_Pounce",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -4407,7 +4386,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Scavenger_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/85/Scavenger_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Scavenger_Strike",
     "Ranks": {
       "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30], "1": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19]
@@ -4430,7 +4409,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Strike_as_One.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/43/Strike_as_One.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Strike_as_One",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18], "1": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18]
@@ -4453,7 +4432,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Symbiosis.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e8/Symbiosis.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Symbiosis",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [27, 35, 43, 52, 60, 68, 76, 84, 93, 101, 109, 117, 125, 134, 142, 150, 158, 166, 175, 183, 191], "2": [30, 38, 46, 54, 62, 70, 78, 86, 94, 102, 110, 118, 126, 134, 142, 150, 158, 166, 174, 182, 190]
@@ -4476,7 +4455,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Symbiotic_Bond.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e4/Symbiotic_Bond.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Symbiotic_Bond",
     "Ranks": {
       "0": [120, 132, 144, 156, 168, 180, 192, 204, 216, 228, 240, 252, 264, 276, 288, 300, 312, 324, 336, 348, 360], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4]
@@ -4499,7 +4478,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Tiger%27s_Fury.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c6/Tiger%27s_Fury.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Tiger%27s_Fury",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13]
@@ -4522,7 +4501,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Toxicity.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/14/Toxicity.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Toxicity",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110]
@@ -4545,7 +4524,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Viper%27s_Nest.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/78/Viper%27s_Nest.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Viper%27s_Nest",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -4568,7 +4547,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Archer%27s_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b2/Archer%27s_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Archer%27s_Signet",
     "Ranks": {
       "0": [1, 3, 4, 6, 7, 9, 10, 12, 13, 15, 16, 18, 19, 21, 22, 24, 26, 27, 29, 30, 32]
@@ -4591,7 +4570,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Distracting_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/60/Distracting_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Distracting_Shot",
     "Ranks": {
       "0": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
@@ -4614,7 +4593,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dodge.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/63/Dodge.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dodge",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13], "1": [27, 30, 33, 37, 40, 43, 46, 49, 53, 56, 59, 62, 65, 69, 72, 75, 78, 81, 85, 88, 91]
@@ -4637,7 +4616,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Escape.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a2/Escape.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Escape",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10]
@@ -4660,7 +4639,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Expert_Focus.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7c/Expert_Focus.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Expert_Focus",
     "Ranks": {
       "0": [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], "1": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13]
@@ -4683,7 +4662,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Expert%27s_Dexterity.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/58/Expert%27s_Dexterity.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Expert%27s_Dexterity",
     "Ranks": {
       "0": [1, 2, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 19, 20, 21, 23, 24, 25, 26]
@@ -4706,7 +4685,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Glass_Arrows.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3a/Glass_Arrows.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Glass_Arrows",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], "2": [10, 11, 11, 12, 13, 13, 14, 15, 15, 16, 17, 17, 18, 19, 19, 20, 21, 21, 22, 23, 23]
@@ -4729,7 +4708,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Infuriating_Heat.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bb/Infuriating_Heat.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Infuriating_Heat",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70]
@@ -4752,7 +4731,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lightning_Reflexes.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/23/Lightning_Reflexes.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lightning_Reflexes",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13]
@@ -4775,7 +4754,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Marksman%27s_Wager.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/50/Marksman%27s_Wager.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Marksman%27s_Wager",
     "Ranks": {
       "0": [5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11, 11, 11, 12]
@@ -4798,7 +4777,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Oath_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b6/Oath_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Oath_Shot",
     "Ranks": {
       "0": [10, 10, 9, 9, 8, 8, 8, 7, 7, 6, 6, 6, 5, 5, 4, 4, 4, 3, 3, 2, 2]
@@ -4821,7 +4800,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Point_Blank_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/35/Point_Blank_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Point_Blank_Shot",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50]
@@ -4844,7 +4823,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Practiced_Stance.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ae/Practiced_Stance.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Practiced_Stance",
     "Ranks": {
       "0": [20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40], "1": [30, 38, 46, 54, 62, 70, 78, 86, 94, 102, 110, 118, 126, 134, 142, 150, 158, 166, 174, 182, 190]
@@ -4867,7 +4846,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Throw_Dirt.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/30/Throw_Dirt.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Throw_Dirt",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19]
@@ -4890,7 +4869,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Trapper%27s_Focus.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7c/Trapper%27s_Focus.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Trapper%27s_Focus",
     "Ranks": {
       "0": [12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25, 26, 26, 27, 28], "1": [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3]
@@ -4913,7 +4892,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Trapper%27s_Speed.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a0/Trapper%27s_Speed.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Trapper%27s_Speed",
     "Ranks": {
       "0": [5, 7, 8, 10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38]
@@ -4936,7 +4915,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Whirling_Defense.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/02/Whirling_Defense.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Whirling_Defense",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24], "1": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13]
@@ -4959,7 +4938,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Zojun%27s_Haste.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/32/Zojun%27s_Haste.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Zojun%27s_Haste",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13], "1": [27, 30, 33, 37, 40, 43, 46, 49, 53, 56, 59, 62, 65, 69, 72, 75, 78, 81, 85, 88, 91]
@@ -4982,7 +4961,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Zojun%27s_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ea/Zojun%27s_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Zojun%27s_Shot",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50]
@@ -5005,7 +4984,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Arcing_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5c/Arcing_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Arcing_Shot",
     "Ranks": {
       "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
@@ -5028,7 +5007,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Barrage.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/93/Barrage.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Barrage",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -5051,7 +5030,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Body_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c5/Body_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Body_Shot",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11, 11, 11, 12, 12]
@@ -5074,7 +5053,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Broad_Head_Arrow.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/51/Broad_Head_Arrow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Broad_Head_Arrow",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -5097,7 +5076,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Burning_Arrow.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/da/Burning_Arrow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Burning_Arrow",
     "Ranks": {
       "0": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38], "1": [1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9]
@@ -5120,7 +5099,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Concussion_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/53/Concussion_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Concussion_Shot",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
@@ -5143,7 +5122,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Crippling_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/da/Crippling_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Crippling_Shot",
     "Ranks": {
       "0": [1, 2, 2, 3, 4, 4, 5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15]
@@ -5166,7 +5145,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Crossfire.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2c/Crossfire.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Crossfire",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -5189,7 +5168,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Debilitating_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e7/Debilitating_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Debilitating_Shot",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -5212,7 +5191,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Determined_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bd/Determined_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Determined_Shot",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -5235,7 +5214,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Disrupting_Accuracy.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/86/Disrupting_Accuracy.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Disrupting_Accuracy",
     "Ranks": {
     }
@@ -5257,7 +5236,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Disrupting_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d3/Disrupting_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Disrupting_Shot",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -5280,7 +5259,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Favorable_Winds.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/53/Favorable_Winds.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Favorable_Winds",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14], "1": [30, 38, 46, 54, 62, 70, 78, 86, 94, 102, 110, 118, 126, 134, 142, 150, 158, 166, 174, 182, 190, 198]
@@ -5303,7 +5282,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Focused_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1d/Focused_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Focused_Shot",
     "Ranks": {
       "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31], "1": [5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2]
@@ -5326,7 +5305,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Hunter%27s_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7c/Hunter%27s_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Hunter%27s_Shot",
     "Ranks": {
       "0": [3, 4, 6, 7, 9, 10, 12, 13, 15, 16, 18, 19, 21, 22, 24, 25, 26, 28, 29, 31, 32, 34]
@@ -5349,7 +5328,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Keen_Arrow.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/80/Keen_Arrow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Keen_Arrow",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33]
@@ -5372,7 +5351,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Marauder%27s_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3d/Marauder%27s_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Marauder%27s_Shot",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45]
@@ -5395,7 +5374,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Melandru%27s_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ac/Melandru%27s_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Melandru%27s_Shot",
     "Ranks": {
       "0": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33], "1": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31], "2": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19]
@@ -5418,7 +5397,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Needling_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3e/Needling_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Needling_Shot",
     "Ranks": {
       "0": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38]
@@ -5441,7 +5420,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Penetrating_Attack.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/17/Penetrating_Attack.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Penetrating_Attack",
     "Ranks": {
       "0": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33]
@@ -5464,7 +5443,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Pin_Down.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/81/Pin_Down.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Pin_Down",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19, 20]
@@ -5487,7 +5466,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Power_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/be/Power_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Power_Shot",
     "Ranks": {
       "0": [25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45, 47, 48, 50, 52, 53, 55, 57, 58, 60]
@@ -5510,7 +5489,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Precision_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/ba/Precision_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Precision_Shot",
     "Ranks": {
       "0": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 13]
@@ -5533,7 +5512,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Prepared_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3d/Prepared_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Prepared_Shot",
     "Ranks": {
       "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31], "1": [1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 10, 10, 11, 11, 12, 12]
@@ -5556,7 +5535,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Punishing_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/96/Punishing_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Punishing_Shot",
     "Ranks": {
       "0": [10, 11, 11, 12, 13, 13, 14, 15, 15, 16, 17, 17, 18, 19, 19, 20, 21, 21, 22, 23, 23, 24]
@@ -5579,7 +5558,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Rapid_Fire.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/95/Rapid_Fire.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Rapid_Fire",
     "Ranks": {
       "0": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33]
@@ -5602,7 +5581,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Read_the_Wind.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/62/Read_the_Wind.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Read_the_Wind",
     "Ranks": {
       "0": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 13]
@@ -5625,7 +5604,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Savage_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fd/Savage_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Savage_Shot",
     "Ranks": {
       "0": [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34]
@@ -5648,7 +5627,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Screaming_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b6/Screaming_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Screaming_Shot",
     "Ranks": {
       "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -5671,7 +5650,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Seeking_Arrows.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/99/Seeking_Arrows.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Seeking_Arrows",
     "Ranks": {
       "0": [3, 4, 4, 5, 6, 7, 7, 8, 9, 10, 10, 11, 12, 13, 13, 14, 15, 15, 16, 17, 18, 18]
@@ -5694,7 +5673,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Sloth_Hunter%27s_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/92/Sloth_Hunter%27s_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Sloth_Hunter%27s_Shot",
     "Ranks": {
       "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31], "1": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45]
@@ -5717,7 +5696,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Splinter_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1d/Splinter_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Splinter_Shot",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19, 20], "1": [5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49, 53, 57, 61, 65, 69, 73, 77, 81, 85, 89]
@@ -5740,7 +5719,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Sundering_Attack.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2b/Sundering_Attack.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Sundering_Attack",
     "Ranks": {
       "0": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33]
@@ -5763,7 +5742,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Volley.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b9/Volley.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Volley",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -5786,7 +5765,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Apply_Poison.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/91/Apply_Poison.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Apply_Poison",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19]
@@ -5809,7 +5788,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Barbed_Arrows.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3a/Barbed_Arrows.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Barbed_Arrows",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19]
@@ -5832,7 +5811,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Barbed_Trap.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/64/Barbed_Trap.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Barbed_Trap",
     "Ranks": {
       "0": [7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28], "1": [3, 4, 6, 7, 9, 10, 12, 13, 15, 16, 18, 19, 21, 22, 24, 25, 26, 28, 29, 31, 32]
@@ -5855,7 +5834,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Brambles.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/72/Brambles.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Brambles",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], "2": [30, 38, 46, 54, 62, 70, 78, 86, 94, 102, 110, 118, 126, 134, 142, 150, 158, 166, 174, 182, 190]
@@ -5878,7 +5857,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Choking_Gas.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/70/Choking_Gas.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Choking_Gas",
     "Ranks": {
       "0": [1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 8, 9, 10, 11, 11, 12, 13, 13, 14, 15, 16], "1": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10]
@@ -5901,7 +5880,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Conflagration.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/75/Conflagration.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Conflagration",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [30, 38, 46, 54, 62, 70, 78, 86, 94, 102, 110, 118, 126, 134, 142, 150, 158, 166, 174, 182, 190]
@@ -5924,7 +5903,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dryder%27s_Defenses.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c5/Dryder%27s_Defenses.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dryder%27s_Defenses",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13], "1": [34, 36, 37, 39, 41, 43, 44, 46, 48, 50, 51, 53, 55, 57, 58, 60, 62, 63, 65, 67, 69]
@@ -5947,7 +5926,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dust_Trap.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a4/Dust_Trap.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dust_Trap",
     "Ranks": {
       "0": [3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10], "1": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
@@ -5970,7 +5949,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Equinox.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/db/Equinox.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Equinox",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [30, 38, 46, 54, 62, 70, 78, 86, 94, 102, 110, 118, 126, 134, 142, 150, 158, 166, 174, 182, 190]
@@ -5993,7 +5972,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Famine.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d4/Famine.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Famine",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43], "2": [30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110]
@@ -6016,7 +5995,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Flame_Trap.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5b/Flame_Trap.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Flame_Trap",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4]
@@ -6039,7 +6018,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Frozen_Soil.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/ff/Frozen_Soil.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Frozen_Soil",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110]
@@ -6062,7 +6041,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Greater_Conflagration.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/50/Greater_Conflagration.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Greater_Conflagration",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [30, 38, 46, 54, 62, 70, 78, 86, 94, 102, 110, 118, 126, 134, 142, 150, 158, 166, 174, 182, 190]
@@ -6085,7 +6064,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Healing_Spring.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/12/Healing_Spring.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Healing_Spring",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75]
@@ -6108,7 +6087,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ignite_Arrows.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d0/Ignite_Arrows.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ignite_Arrows",
     "Ranks": {
       "0": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
@@ -6131,7 +6110,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Incendiary_Arrows.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/90/Incendiary_Arrows.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Incendiary_Arrows",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4]
@@ -6154,7 +6133,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Kindle_Arrows.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/50/Kindle_Arrows.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Kindle_Arrows",
     "Ranks": {
       "0": [3, 4, 6, 7, 9, 10, 11, 13, 14, 16, 17, 18, 20, 21, 23, 24, 25, 27, 28, 30, 31]
@@ -6177,7 +6156,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Melandru%27s_Arrows.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/45/Melandru%27s_Arrows.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Melandru%27s_Arrows",
     "Ranks": {
       "0": [3, 4, 6, 7, 9, 10, 12, 13, 15, 16, 18, 19, 21, 22, 24, 25, 26, 28, 29, 31, 32], "1": [8, 9, 11, 12, 13, 15, 16, 17, 19, 20, 21, 23, 24, 25, 27, 28, 29, 31, 32, 33, 35]
@@ -6200,7 +6179,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Melandru%27s_Resilience.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b0/Melandru%27s_Resilience.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Melandru%27s_Resilience",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24]
@@ -6223,7 +6202,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Muddy_Terrain.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/87/Muddy_Terrain.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Muddy_Terrain",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110]
@@ -6246,7 +6225,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Natural_Stride.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5c/Natural_Stride.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Natural_Stride",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10]
@@ -6269,7 +6248,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Nature%27s_Renewal.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/73/Nature%27s_Renewal.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Nature%27s_Renewal",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [30, 38, 46, 54, 62, 70, 78, 86, 94, 102, 110, 118, 126, 134, 142, 150, 158, 166, 174, 182, 190]
@@ -6292,7 +6271,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Pestilence.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/39/Pestilence.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Pestilence",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110]
@@ -6315,7 +6294,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Piercing_Trap.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7d/Piercing_Trap.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Piercing_Trap",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65], "1": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75]
@@ -6338,7 +6317,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Poison_Arrow.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fd/Poison_Arrow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Poison_Arrow",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -6361,7 +6340,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Poison_Tip_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6b/Poison_Tip_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Poison_Tip_Signet",
     "Ranks": {
       "0": [8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15, 15, 16, 16, 17, 17]
@@ -6384,7 +6363,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Quickening_Zephyr.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/36/Quickening_Zephyr.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Quickening_Zephyr",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55]
@@ -6407,7 +6386,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Quicksand.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9a/Quicksand.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Quicksand",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110]
@@ -6430,7 +6409,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Roaring_Winds.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e7/Roaring_Winds.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Roaring_Winds",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6], "2": [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70]
@@ -6453,7 +6432,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Scavenger%27s_Focus.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c2/Scavenger%27s_Focus.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Scavenger%27s_Focus",
     "Ranks": {
       "0": [3, 4, 4, 5, 5, 6, 7, 7, 8, 8, 9, 10, 10, 11, 11, 12, 13, 13, 14, 14, 15]
@@ -6476,7 +6455,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Serpent%27s_Quickness.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/da/Serpent%27s_Quickness.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Serpent%27s_Quickness",
     "Ranks": {
       "0": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
@@ -6499,7 +6478,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Smoke_Trap.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f5/Smoke_Trap.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Smoke_Trap",
     "Ranks": {
       "0": [5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11, 11, 11, 12]
@@ -6522,7 +6501,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Snare.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/41/Snare.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Snare",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19]
@@ -6545,7 +6524,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spike_Trap.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1a/Spike_Trap.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spike_Trap",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50], "1": [3, 4, 6, 7, 9, 10, 12, 13, 15, 16, 18, 19, 21, 22, 24, 25, 26, 28, 29, 31, 32]
@@ -6568,7 +6547,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Storm_Chaser.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fa/Storm_Chaser.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Storm_Chaser",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24], "1": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6]
@@ -6591,7 +6570,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Tranquility.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ea/Tranquility.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Tranquility",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60], "2": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75]
@@ -6614,7 +6593,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Tripwire.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9d/Tripwire.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Tripwire",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -6637,7 +6616,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Troll_Unguent.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c7/Troll_Unguent.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Troll_Unguent",
     "Ranks": {
       "0": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12]
@@ -6660,7 +6639,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Winnowing.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/88/Winnowing.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Winnowing",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [30, 38, 46, 54, 62, 70, 78, 86, 94, 102, 110, 118, 126, 134, 142, 150, 158, 166, 174, 182, 190]
@@ -6683,7 +6662,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Winter.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/65/Winter.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Winter",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [30, 38, 46, 54, 62, 70, 78, 86, 94, 102, 110, 118, 126, 134, 142, 150, 158, 166, 174, 182, 190]
@@ -6706,7 +6685,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Antidote_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/90/Antidote_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Antidote_Signet",
     "Ranks": {
     }
@@ -6728,7 +6707,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Called_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/87/Called_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Called_Shot",
     "Ranks": {
     }
@@ -6750,7 +6729,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dual_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/12/Dual_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dual_Shot",
     "Ranks": {
     }
@@ -6772,7 +6751,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Forked_Arrow.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/06/Forked_Arrow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Forked_Arrow",
     "Ranks": {
     }
@@ -6794,7 +6773,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Magebane_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/70/Magebane_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Magebane_Shot",
     "Ranks": {
     }
@@ -6816,7 +6795,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Quick_Shot.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9a/Quick_Shot.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Quick_Shot",
     "Ranks": {
     }
@@ -6838,7 +6817,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Storm%27s_Embrace.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/36/Storm%27s_Embrace.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Storm%27s_Embrace",
     "Ranks": {
     }
@@ -6860,7 +6839,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Blessed_Aura.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b7/Blessed_Aura.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Blessed_Aura",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45]
@@ -6883,7 +6862,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Blessed_Light.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/40/Blessed_Light.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Blessed_Light",
     "Ranks": {
       "0": [10, 19, 27, 36, 45, 53, 62, 71, 79, 88, 97, 105, 114, 123, 131, 140, 149, 157, 166, 175, 183, 192]
@@ -6906,7 +6885,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Blessed_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f5/Blessed_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Blessed_Signet",
     "Ranks": {
       "0": [3, 4, 6, 7, 9, 10, 11, 13, 14, 16, 17, 18, 20, 21, 23, 24, 25, 27, 28, 30, 31, 32]
@@ -6929,7 +6908,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Boon_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a7/Boon_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Boon_Signet",
     "Ranks": {
       "0": [20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104], "1": [20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104]
@@ -6952,7 +6931,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Contemplation_of_Purity.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/81/Contemplation_of_Purity.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Contemplation_of_Purity",
     "Ranks": {
       "0": [0, 5, 11, 16, 21, 27, 32, 37, 43, 48, 53, 59, 64, 69, 75, 80, 85, 91, 96, 101, 107, 112], "1": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11]
@@ -6975,7 +6954,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Deny_Hexes.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/45/Deny_Hexes.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Deny_Hexes",
     "Ranks": {
     }
@@ -6997,7 +6976,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Divine_Boon.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1c/Divine_Boon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Divine_Boon",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78]
@@ -7020,7 +6999,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Divine_Healing.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c3/Divine_Healing.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Divine_Healing",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78]
@@ -7043,7 +7022,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Divine_Intervention.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ec/Divine_Intervention.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Divine_Intervention",
     "Ranks": {
       "0": [26, 40, 55, 69, 83, 97, 112, 126, 140, 154, 169, 183, 197, 211, 226, 240, 254, 269, 283, 297, 311, 326]
@@ -7066,7 +7045,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Divine_Spirit.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/dc/Divine_Spirit.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Divine_Spirit",
     "Ranks": {
       "0": [1, 2, 3, 4, 4, 5, 6, 7, 8, 9, 10, 11, 11, 12, 13, 14, 15, 16, 17, 17, 18, 19]
@@ -7089,7 +7068,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Healer%27s_Boon.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f6/Healer%27s_Boon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Healer%27s_Boon",
     "Ranks": {
       "0": [10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 49, 52, 55, 58, 61, 64, 67, 70, 73]
@@ -7112,7 +7091,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Heaven%27s_Delight.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/60/Heaven%27s_Delight.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Heaven%27s_Delight",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78]
@@ -7135,7 +7114,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Holy_Haste.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b3/Holy_Haste.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Holy_Haste",
     "Ranks": {
       "0": [1, 5, 9, 13, 17, 21, 25, 29, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84]
@@ -7158,7 +7137,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Peace_and_Harmony.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f7/Peace_and_Harmony.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Peace_and_Harmony",
     "Ranks": {
       "0": [0, 1, 1, 2, 2, 3, 4, 4, 5, 5, 6, 7, 7, 8, 8, 9, 10, 10, 11, 11, 12, 13], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -7181,7 +7160,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Release_Enchantments.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8b/Release_Enchantments.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Release_Enchantments",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47]
@@ -7204,7 +7183,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Scribe%27s_Insight.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c6/Scribe%27s_Insight.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Scribe%27s_Insight",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45]
@@ -7227,7 +7206,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Devotion.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b3/Signet_of_Devotion.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Devotion",
     "Ranks": {
       "0": [14, 20, 25, 31, 37, 43, 48, 54, 60, 66, 71, 77, 83, 89, 94, 100, 106, 111, 117, 123, 129, 134]
@@ -7250,7 +7229,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Smiter%27s_Boon.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/64/Smiter%27s_Boon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Smiter%27s_Boon",
     "Ranks": {
       "0": [0, 3, 6, 10, 13, 16, 19, 22, 26, 29, 32, 35, 38, 42, 45, 48, 51, 54, 58, 61, 64, 67]
@@ -7273,7 +7252,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spell_Breaker.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/08/Spell_Breaker.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spell_Breaker",
     "Ranks": {
       "0": [5, 6, 7, 7, 8, 9, 10, 11, 11, 12, 13, 14, 15, 15, 16, 17, 18, 19, 19, 20, 21, 22]
@@ -7296,7 +7275,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spell_Shield.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d6/Spell_Shield.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spell_Shield",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [10, 10, 9, 9, 9, 8, 8, 8, 7, 7, 7, 6, 6, 6, 5, 5, 5, 4, 4, 4, 3, 3]
@@ -7319,7 +7298,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Unyielding_Aura.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e6/Unyielding_Aura.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Unyielding_Aura",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78]
@@ -7342,7 +7321,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Watchful_Healing.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/74/Watchful_Healing.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Watchful_Healing",
     "Ranks": {
       "0": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5], "1": [30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96, 102, 108, 114, 120, 126, 132, 138, 144, 150, 156]
@@ -7365,7 +7344,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Watchful_Spirit.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a0/Watchful_Spirit.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Watchful_Spirit",
     "Ranks": {
       "0": [30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240]
@@ -7388,7 +7367,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Withdraw_Hexes.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/85/Withdraw_Hexes.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Withdraw_Hexes",
     "Ranks": {
       "0": [20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0, -1]
@@ -7411,7 +7390,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Cure_Hex.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/ca/Cure_Hex.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Cure_Hex",
     "Ranks": {
       "0": [30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96, 102, 108, 114, 120, 126, 132, 138, 144, 150, 156]
@@ -7434,7 +7413,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dwayna%27s_Kiss.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e5/Dwayna%27s_Kiss.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dwayna%27s_Kiss",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78], "1": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45]
@@ -7457,7 +7436,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dwayna%27s_Sorrow.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d8/Dwayna%27s_Sorrow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dwayna%27s_Sorrow",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -7480,7 +7459,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ethereal_Light.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a4/Ethereal_Light.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ethereal_Light",
     "Ranks": {
       "0": [25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125, 130]
@@ -7503,7 +7482,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Gift_of_Health.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a7/Gift_of_Health.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Gift_of_Health",
     "Ranks": {
       "0": [10, 10, 9, 9, 9, 8, 8, 8, 7, 7, 7, 6, 6, 6, 5, 5, 5, 4, 4, 4, 3, 3], "1": [15, 24, 33, 42, 51, 60, 69, 78, 87, 96, 105, 114, 123, 132, 141, 150, 159, 168, 177, 186, 195, 204]
@@ -7526,7 +7505,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Glimmer_of_Light.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e8/Glimmer_of_Light.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Glimmer_of_Light",
     "Ranks": {
       "0": [10, 17, 24, 31, 38, 45, 52, 59, 66, 73, 80, 87, 94, 101, 108, 115, 122, 129, 136, 143, 150, 157]
@@ -7549,7 +7528,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Heal_Area.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8f/Heal_Area.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Heal_Area",
     "Ranks": {
       "0": [30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240]
@@ -7572,7 +7551,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Heal_Other.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8e/Heal_Other.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Heal_Other",
     "Ranks": {
       "0": [35, 45, 54, 64, 74, 83, 93, 103, 112, 122, 132, 141, 151, 161, 170, 180, 190, 199, 209, 219, 228, 238]
@@ -7595,7 +7574,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Heal_Party.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f0/Heal_Party.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Heal_Party",
     "Ranks": {
       "0": [30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78, 81, 84, 87, 90, 93]
@@ -7618,7 +7597,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Healer%27s_Covenant.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9c/Healer%27s_Covenant.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Healer%27s_Covenant",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -7641,7 +7620,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Healing_Breeze.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7e/Healing_Breeze.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Healing_Breeze",
     "Ranks": {
       "0": [4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11, 11]
@@ -7664,7 +7643,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Healing_Burst.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6d/Healing_Burst.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Healing_Burst",
     "Ranks": {
       "0": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220]
@@ -7687,7 +7666,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Healing_Hands.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0b/Healing_Hands.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Healing_Hands",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47]
@@ -7710,7 +7689,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Healing_Light.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/45/Healing_Light.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Healing_Light",
     "Ranks": {
       "0": [40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104, 108, 112, 116, 120, 124], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -7733,7 +7712,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Healing_Ribbon.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/78/Healing_Ribbon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Healing_Ribbon",
     "Ranks": {
       "0": [20, 26, 32, 38, 44, 50, 56, 62, 68, 74, 80, 86, 92, 98, 104, 110, 116, 122, 128, 134, 140, 146], "1": [10, 16, 22, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82, 88, 94, 100, 106, 112, 118, 124, 130, 136]
@@ -7756,7 +7735,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Healing_Ring.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/95/Healing_Ring.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Healing_Ring",
     "Ranks": {
       "0": [30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240]
@@ -7779,7 +7758,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Healing_Seed.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/eb/Healing_Seed.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Healing_Seed",
     "Ranks": {
       "0": [3, 5, 7, 8, 10, 12, 14, 16, 17, 19, 21, 23, 25, 26, 28, 30, 32, 34, 35, 37, 39, 41]
@@ -7802,7 +7781,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Healing_Touch.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/aa/Healing_Touch.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Healing_Touch",
     "Ranks": {
       "0": [16, 19, 22, 25, 28, 31, 34, 37, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78]
@@ -7825,7 +7804,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Healing_Whisper.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/20/Healing_Whisper.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Healing_Whisper",
     "Ranks": {
       "0": [40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104, 108, 112, 116, 120, 124]
@@ -7848,7 +7827,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Infuse_Health.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/61/Infuse_Health.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Infuse_Health",
     "Ranks": {
       "0": [100, 102, 105, 107, 110, 112, 114, 117, 119, 122, 124, 126, 129, 131, 134, 136, 138, 141, 143, 146, 148, 150]
@@ -7871,7 +7850,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Jamei%27s_Gaze.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0d/Jamei%27s_Gaze.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Jamei%27s_Gaze",
     "Ranks": {
       "0": [35, 45, 54, 64, 74, 83, 93, 103, 112, 122, 132, 141, 151, 161, 170, 180, 190, 199, 209, 219, 228, 238]
@@ -7894,7 +7873,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Karei%27s_Healing_Circle.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f3/Karei%27s_Healing_Circle.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Karei%27s_Healing_Circle",
     "Ranks": {
       "0": [30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240]
@@ -7917,7 +7896,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Light_of_Deliverance.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1f/Light_of_Deliverance.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Light_of_Deliverance",
     "Ranks": {
       "0": [5, 9, 14, 18, 22, 27, 31, 35, 40, 44, 48, 53, 57, 61, 66, 70, 74, 79, 83, 87, 92, 96]
@@ -7940,7 +7919,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Live_Vicariously.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/ff/Live_Vicariously.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Live_Vicariously",
     "Ranks": {
       "0": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
@@ -7963,7 +7942,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mending.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/39/Mending.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mending",
     "Ranks": {
       "0": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5]
@@ -7986,7 +7965,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Orison_of_Healing.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5f/Orison_of_Healing.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Orison_of_Healing",
     "Ranks": {
       "0": [20, 23, 27, 30, 33, 37, 40, 43, 47, 50, 53, 57, 60, 63, 67, 70, 73, 77, 80, 83, 87, 90]
@@ -8009,7 +7988,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Patient_Spirit.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/93/Patient_Spirit.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Patient_Spirit",
     "Ranks": {
       "0": [30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96, 102, 108, 114, 120, 126, 132, 138, 144, 150, 156]
@@ -8032,7 +8011,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Renew_Life.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/50/Renew_Life.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Renew_Life",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125, 130, 135, 140, 145, 150, 155, 160]
@@ -8055,7 +8034,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Restful_Breeze.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7e/Restful_Breeze.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Restful_Breeze",
     "Ranks": {
       "0": [8, 9, 9, 10, 11, 11, 12, 13, 13, 14, 15, 15, 16, 17, 17, 18, 19, 19, 20, 21, 21, 22]
@@ -8078,7 +8057,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Restore_Life.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f9/Restore_Life.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Restore_Life",
     "Ranks": {
       "0": [20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68, 71, 74, 77, 80, 83], "1": [42, 45, 48, 52, 55, 58, 61, 64, 68, 71, 74, 77, 80, 84, 87, 90, 93, 96, 100, 103, 106, 109]
@@ -8101,7 +8080,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Resurrection_Chant.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/86/Resurrection_Chant.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Resurrection_Chant",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47]
@@ -8124,7 +8103,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Rejuvenation.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b9/Signet_of_Rejuvenation.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Rejuvenation",
     "Ranks": {
       "0": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99], "1": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -8147,7 +8126,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spotless_Mind.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/55/Spotless_Mind.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spotless_Mind",
     "Ranks": {
       "0": [1, 2, 3, 4, 5, 6, 7, 8, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
@@ -8170,7 +8149,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spotless_Soul.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ea/Spotless_Soul.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spotless_Soul",
     "Ranks": {
       "0": [1, 2, 3, 4, 5, 6, 7, 8, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
@@ -8193,7 +8172,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Supportive_Spirit.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/31/Supportive_Spirit.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Supportive_Spirit",
     "Ranks": {
       "0": [5, 6, 7, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 21, 22, 23, 24, 25, 27, 28, 29, 30], "1": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47]
@@ -8216,7 +8195,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vigorous_Spirit.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f9/Vigorous_Spirit.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vigorous_Spirit",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -8239,7 +8218,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Word_of_Healing.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/17/Word_of_Healing.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Word_of_Healing",
     "Ranks": {
       "0": [5, 11, 18, 24, 30, 37, 43, 49, 56, 62, 68, 75, 81, 87, 94, 100, 106, 113, 119, 125, 132, 138], "1": [30, 36, 41, 47, 53, 58, 64, 70, 75, 81, 87, 92, 98, 104, 109, 115, 121, 126, 132, 138, 143, 149]
@@ -8262,7 +8241,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Words_of_Comfort.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/cc/Words_of_Comfort.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Words_of_Comfort",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78], "1": [15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57]
@@ -8285,7 +8264,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Aegis.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bf/Aegis.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Aegis",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13, 13]
@@ -8308,7 +8287,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Air_of_Enchantment.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bb/Air_of_Enchantment.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Air_of_Enchantment",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12]
@@ -8331,7 +8310,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Amity.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ee/Amity.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Amity",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25]
@@ -8354,7 +8333,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Aura_of_Faith.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f7/Aura_of_Faith.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Aura_of_Faith",
     "Ranks": {
       "0": [50, 53, 57, 60, 63, 67, 70, 73, 77, 80, 83, 87, 90, 93, 97, 100, 103, 107, 110, 113, 117, 120], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -8377,7 +8356,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Aura_of_Stability.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/95/Aura_of_Stability.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Aura_of_Stability",
     "Ranks": {
       "0": [3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10]
@@ -8400,7 +8379,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Convert_Hexes.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/60/Convert_Hexes.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Convert_Hexes",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25]
@@ -8423,7 +8402,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dismiss_Condition.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/de/Dismiss_Condition.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dismiss_Condition",
     "Ranks": {
       "0": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -8446,7 +8425,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Divert_Hexes.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e7/Divert_Hexes.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Divert_Hexes",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4], "1": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -8469,7 +8448,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Draw_Conditions.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/34/Draw_Conditions.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Draw_Conditions",
     "Ranks": {
       "0": [6, 7, 9, 10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34]
@@ -8492,7 +8471,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Extinguish.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2e/Extinguish.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Extinguish",
     "Ranks": {
       "0": [10, 16, 22, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82, 88, 94, 100, 106, 112, 118, 124, 130, 136]
@@ -8515,7 +8494,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Guardian.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fa/Guardian.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Guardian",
     "Ranks": {
       "0": [2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9]
@@ -8538,7 +8517,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Life_Attunement.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f3/Life_Attunement.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Life_Attunement",
     "Ranks": {
       "0": [14, 16, 19, 21, 24, 26, 28, 31, 33, 36, 38, 40, 43, 45, 48, 50, 52, 55, 57, 60, 62, 64]
@@ -8561,7 +8540,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Life_Barrier.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/ca/Life_Barrier.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Life_Barrier",
     "Ranks": {
       "0": [20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62]
@@ -8584,7 +8563,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Life_Bond.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/84/Life_Bond.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Life_Bond",
     "Ranks": {
       "0": [3, 5, 7, 8, 10, 12, 14, 16, 17, 19, 21, 23, 25, 26, 28, 30, 32, 34, 35, 37, 39, 41]
@@ -8607,7 +8586,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Life_Sheath.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/de/Life_Sheath.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Life_Sheath",
     "Ranks": {
       "0": [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3], "1": [20, 25, 31, 36, 41, 47, 52, 57, 63, 68, 73, 79, 84, 89, 95, 100, 105, 111, 116, 121, 127, 132]
@@ -8630,7 +8609,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mark_of_Protection.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1b/Mark_of_Protection.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mark_of_Protection",
     "Ranks": {
       "0": [6, 10, 13, 17, 20, 24, 28, 31, 35, 38, 42, 46, 49, 53, 56, 60, 64, 67, 71, 74, 78, 82]
@@ -8653,7 +8632,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mend_Ailment.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a5/Mend_Ailment.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mend_Ailment",
     "Ranks": {
       "0": [5, 9, 14, 18, 22, 27, 31, 35, 40, 44, 48, 53, 57, 61, 66, 70, 74, 79, 83, 87, 92, 96]
@@ -8676,7 +8655,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mend_Condition.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e0/Mend_Condition.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mend_Condition",
     "Ranks": {
       "0": [5, 9, 14, 18, 22, 27, 31, 35, 40, 44, 48, 53, 57, 61, 66, 70, 74, 79, 83, 87, 92, 96]
@@ -8699,7 +8678,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mending_Touch.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8a/Mending_Touch.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mending_Touch",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78]
@@ -8722,7 +8701,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Pacifism.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/49/Pacifism.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Pacifism",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25]
@@ -8745,7 +8724,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Pensive_Guardian.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5e/Pensive_Guardian.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Pensive_Guardian",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13, 13]
@@ -8768,7 +8747,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Protective_Bond.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fa/Protective_Bond.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Protective_Bond",
     "Ranks": {
       "0": [6, 6, 6, 5, 5, 5, 5, 5, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 2, 2, 2, 2]
@@ -8791,7 +8770,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Protective_Spirit.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b1/Protective_Spirit.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Protective_Spirit",
     "Ranks": {
       "0": [5, 6, 7, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 21, 22, 23, 24, 25, 27, 28, 29, 30]
@@ -8814,7 +8793,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Purifying_Veil.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/60/Purifying_Veil.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Purifying_Veil",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -8837,7 +8816,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Rebirth.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/97/Rebirth.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Rebirth",
     "Ranks": {
       "0": [10, 10, 9, 9, 8, 8, 7, 7, 6, 6, 5, 5, 4, 4, 3, 3, 3, 2, 2, 1, 1, 0]
@@ -8860,7 +8839,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Restore_Condition.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ac/Restore_Condition.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Restore_Condition",
     "Ranks": {
       "0": [10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94]
@@ -8883,7 +8862,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Reversal_of_Fortune.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/64/Reversal_of_Fortune.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Reversal_of_Fortune",
     "Ranks": {
       "0": [15, 19, 24, 28, 32, 37, 41, 45, 50, 54, 58, 63, 67, 71, 76, 80, 84, 89, 93, 97, 102, 106]
@@ -8906,7 +8885,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Reverse_Hex.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/02/Reverse_Hex.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Reverse_Hex",
     "Ranks": {
       "0": [5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11, 11, 11, 12, 12], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -8929,7 +8908,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shield_Guardian.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/59/Shield_Guardian.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shield_Guardian",
     "Ranks": {
       "0": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5], "1": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -8952,7 +8931,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shield_of_Absorption.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bf/Shield_of_Absorption.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shield_of_Absorption",
     "Ranks": {
       "0": [3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8, 8, 9]
@@ -8975,7 +8954,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shield_of_Deflection.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1a/Shield_of_Deflection.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shield_of_Deflection",
     "Ranks": {
       "0": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 13], "1": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
@@ -8998,7 +8977,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shield_of_Regeneration.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/eb/Shield_of_Regeneration.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shield_of_Regeneration",
     "Ranks": {
       "0": [5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 13, 14, 14, 15, 15, 16, 16], "1": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 13]
@@ -9021,7 +9000,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shielding_Hands.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/42/Shielding_Hands.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shielding_Hands",
     "Ranks": {
       "0": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -9044,7 +9023,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spirit_Bond.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0f/Spirit_Bond.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spirit_Bond",
     "Ranks": {
       "0": [30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110, 114]
@@ -9067,7 +9046,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vital_Blessing.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/90/Vital_Blessing.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vital_Blessing",
     "Ranks": {
       "0": [40, 51, 61, 72, 83, 93, 104, 115, 125, 136, 147, 157, 168, 179, 189, 200, 211, 221, 232, 243, 253, 264]
@@ -9090,7 +9069,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Zealous_Benediction.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ea/Zealous_Benediction.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Zealous_Benediction",
     "Ranks": {
       "0": [30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240]
@@ -9113,7 +9092,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Balthazar%27s_Aura.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e3/Balthazar%27s_Aura.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Balthazar%27s_Aura",
     "Ranks": {
       "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
@@ -9136,7 +9115,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Balthazar%27s_Pendulum.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ec/Balthazar%27s_Pendulum.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Balthazar%27s_Pendulum",
     "Ranks": {
       "0": [5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11, 11, 11, 12, 12]
@@ -9159,7 +9138,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Balthazar%27s_Spirit.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/54/Balthazar%27s_Spirit.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Balthazar%27s_Spirit",
     "Ranks": {
       "0": [2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 6]
@@ -9182,7 +9161,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Bane_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/23/Bane_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Bane_Signet",
     "Ranks": {
       "0": [26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68]
@@ -9205,7 +9184,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Banish.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/91/Banish.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Banish",
     "Ranks": {
       "0": [20, 22, 25, 27, 30, 32, 34, 37, 39, 42, 44, 46, 49, 51, 54, 56, 58, 61, 63, 66, 68, 70]
@@ -9228,7 +9207,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Castigation_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e1/Castigation_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Castigation_Signet",
     "Ranks": {
       "0": [26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68], "1": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -9251,7 +9230,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Defender%27s_Zeal.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b8/Defender%27s_Zeal.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Defender%27s_Zeal",
     "Ranks": {
       "0": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33]
@@ -9274,7 +9253,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Holy_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/19/Holy_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Holy_Strike",
     "Ranks": {
       "0": [10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 49, 52, 55, 58, 61, 64, 67, 70, 73], "1": [10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 49, 52, 55, 58, 61, 64, 67, 70, 73]
@@ -9297,7 +9276,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Holy_Wrath.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/65/Holy_Wrath.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Holy_Wrath",
     "Ranks": {
       "0": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38], "1": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14], "2": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -9320,7 +9299,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Judge%27s_Insight.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/07/Judge%27s_Insight.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Judge%27s_Insight",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25]
@@ -9343,7 +9322,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Judge%27s_Intervention.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4f/Judge%27s_Intervention.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Judge%27s_Intervention",
     "Ranks": {
       "0": [30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240]
@@ -9366,7 +9345,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Kirin%27s_Wrath.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/70/Kirin%27s_Wrath.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Kirin%27s_Wrath",
     "Ranks": {
       "0": [8, 10, 11, 13, 14, 16, 18, 19, 21, 22, 24, 26, 27, 29, 30, 32, 34, 35, 37, 38, 40, 42]
@@ -9389,7 +9368,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ray_of_Judgment.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e4/Ray_of_Judgment.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ray_of_Judgment",
     "Ranks": {
       "0": [5, 8, 10, 13, 16, 18, 21, 24, 26, 29, 32, 34, 37, 40, 42, 45, 48, 50, 53, 56, 58, 61], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -9412,7 +9391,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Retribution.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fe/Retribution.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Retribution",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -9435,7 +9414,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Reversal_of_Damage.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/32/Reversal_of_Damage.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Reversal_of_Damage",
     "Ranks": {
       "0": [5, 10, 14, 19, 24, 28, 33, 38, 42, 47, 52, 56, 61, 66, 70, 75, 80, 84, 89, 94, 98, 103]
@@ -9458,7 +9437,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Scourge_Enchantment.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/91/Scourge_Enchantment.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Scourge_Enchantment",
     "Ranks": {
       "0": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -9481,7 +9460,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Scourge_Healing.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/36/Scourge_Healing.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Scourge_Healing",
     "Ranks": {
       "0": [15, 19, 24, 28, 32, 37, 41, 45, 50, 54, 58, 63, 67, 71, 76, 80, 84, 89, 93, 97, 102, 106]
@@ -9504,7 +9483,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Scourge_Sacrifice.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c6/Scourge_Sacrifice.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Scourge_Sacrifice",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25]
@@ -9527,7 +9506,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shield_of_Judgment.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e8/Shield_of_Judgment.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shield_of_Judgment",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -9550,7 +9529,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Judgment.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/aa/Signet_of_Judgment.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Judgment",
     "Ranks": {
       "0": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -9573,7 +9552,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Mystic_Wrath.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/04/Signet_of_Mystic_Wrath.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Mystic_Wrath",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47]
@@ -9596,7 +9575,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Rage.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0f/Signet_of_Rage.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Rage",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68], "1": [5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11, 11, 11, 12, 12]
@@ -9619,7 +9598,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Smite.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/75/Smite.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Smite",
     "Ranks": {
       "0": [10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 49, 52, 55, 58, 61, 64, 67, 70, 73], "1": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45]
@@ -9642,7 +9621,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Smite_Condition.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2e/Smite_Condition.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Smite_Condition",
     "Ranks": {
       "0": [10, 13, 17, 20, 23, 27, 30, 33, 37, 40, 43, 47, 50, 53, 57, 60, 63, 67, 70, 73, 77, 80]
@@ -9665,7 +9644,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Smite_Hex.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/41/Smite_Hex.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Smite_Hex",
     "Ranks": {
       "0": [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115]
@@ -9688,7 +9667,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spear_of_Light.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/05/Spear_of_Light.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spear_of_Light",
     "Ranks": {
       "0": [26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68], "1": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78]
@@ -9711,7 +9690,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Stonesoul_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/25/Stonesoul_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Stonesoul_Strike",
     "Ranks": {
       "0": [10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 49, 52, 55, 58, 61, 64, 67, 70, 73], "1": [10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 49, 52, 55, 58, 61, 64, 67, 70, 73]
@@ -9734,7 +9713,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Strength_of_Honor.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/42/Strength_of_Honor.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Strength_of_Honor",
     "Ranks": {
       "0": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33]
@@ -9757,7 +9736,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Symbol_of_Wrath.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e1/Symbol_of_Wrath.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Symbol_of_Wrath",
     "Ranks": {
       "0": [8, 10, 11, 13, 14, 16, 18, 19, 21, 22, 24, 26, 27, 29, 30, 32, 34, 35, 37, 38, 40, 42]
@@ -9780,7 +9759,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Word_of_Censure.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6b/Word_of_Censure.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Word_of_Censure",
     "Ranks": {
       "0": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -9803,7 +9782,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Zealot%27s_Fire.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/37/Zealot%27s_Fire.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Zealot%27s_Fire",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47]
@@ -9826,7 +9805,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Bonus Mission Pack",
-    "Image": "https://wiki.guildwars.com/wiki/File:Castigation_Signet_(Saul_D%27Alessio).jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9d/Castigation_Signet_%28Saul_D%27Alessio%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Castigation_Signet_(Saul_D%27Alessio)",
     "Ranks": {
       "0": [56, 58, 60], "1": [10, 11, 11]
@@ -9849,7 +9828,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Empathic_Removal.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/20/Empathic_Removal.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Empathic_Removal",
     "Ranks": {
     }
@@ -9871,7 +9850,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Essence_Bond.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1f/Essence_Bond.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Essence_Bond",
     "Ranks": {
     }
@@ -9893,7 +9872,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Holy_Veil.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/85/Holy_Veil.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Holy_Veil",
     "Ranks": {
     }
@@ -9915,7 +9894,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Light_of_Dwayna.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/31/Light_of_Dwayna.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Light_of_Dwayna",
     "Ranks": {
     }
@@ -9937,7 +9916,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Martyr.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a9/Martyr.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Martyr",
     "Ranks": {
     }
@@ -9959,7 +9938,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Purge_Conditions.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b6/Purge_Conditions.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Purge_Conditions",
     "Ranks": {
     }
@@ -9981,7 +9960,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Purge_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f2/Purge_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Purge_Signet",
     "Ranks": {
     }
@@ -10003,7 +9982,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Remove_Hex.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0f/Remove_Hex.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Remove_Hex",
     "Ranks": {
     }
@@ -10025,7 +10004,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Resurrect.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c1/Resurrect.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Resurrect",
     "Ranks": {
     }
@@ -10047,7 +10026,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Removal.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/af/Signet_of_Removal.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Removal",
     "Ranks": {
     }
@@ -10069,7 +10048,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Succor.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f8/Succor.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Succor",
     "Ranks": {
     }
@@ -10091,7 +10070,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vengeance.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/17/Vengeance.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vengeance",
     "Ranks": {
     }
@@ -10113,7 +10092,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Awaken_the_Blood.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e4/Awaken_the_Blood.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Awaken_the_Blood",
     "Ranks": {
       "0": [20, 22, 23, 25, 26, 28, 30, 31, 33, 34, 36, 38, 39, 41, 42, 44, 46, 47, 49, 50, 52, 54]
@@ -10136,7 +10115,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Barbed_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d1/Barbed_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Barbed_Signet",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19, 20]
@@ -10159,7 +10138,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Blood_Bond.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/66/Blood_Bond.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Blood_Bond",
     "Ranks": {
       "0": [3, 4, 4, 5, 5, 6, 7, 7, 8, 8, 9, 10, 10, 11, 11, 12, 13, 13, 14, 14, 15, 16], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "2": [20, 25, 31, 36, 41, 47, 52, 57, 63, 68, 73, 79, 84, 89, 95, 100, 105, 111, 116, 121, 127, 132]
@@ -10182,7 +10161,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Blood_Drinker.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/72/Blood_Drinker.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Blood_Drinker",
     "Ranks": {
       "0": [20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68, 71, 74, 77, 80, 83]
@@ -10205,7 +10184,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Blood_is_Power.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/28/Blood_is_Power.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Blood_is_Power",
     "Ranks": {
       "0": [3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7, 7, 7, 7]
@@ -10228,7 +10207,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Blood_of_the_Aggressor.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/55/Blood_of_the_Aggressor.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Blood_of_the_Aggressor",
     "Ranks": {
       "0": [5, 8, 10, 13, 16, 18, 21, 24, 26, 29, 32, 34, 37, 40, 42, 45, 48, 50, 53, 56, 58, 61], "1": [3, 4, 4, 5, 5, 6, 7, 7, 8, 8, 9, 10, 10, 11, 11, 12, 13, 13, 14, 14, 15, 16]
@@ -10251,7 +10230,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Blood_Renewal.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/cd/Blood_Renewal.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Blood_Renewal",
     "Ranks": {
       "0": [3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7, 7, 7, 7], "1": [40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250]
@@ -10274,7 +10253,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Blood_Ritual.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/83/Blood_Ritual.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Blood_Ritual",
     "Ranks": {
       "0": [8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12, 13, 13, 14, 14, 14, 15, 15, 16, 16, 16]
@@ -10297,7 +10276,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Cultist%27s_Fervor.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bc/Cultist%27s_Fervor.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Cultist%27s_Fervor",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8]
@@ -10320,7 +10299,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dark_Bond.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c9/Dark_Bond.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dark_Bond",
     "Ranks": {
       "0": [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72]
@@ -10343,7 +10322,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dark_Fury.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d4/Dark_Fury.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dark_Fury",
     "Ranks": {
     }
@@ -10365,7 +10344,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dark_Pact.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/af/Dark_Pact.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dark_Pact",
     "Ranks": {
       "0": [10, 13, 15, 18, 20, 23, 25, 28, 30, 33, 35, 38, 40, 43, 45, 48, 51, 53, 56, 58, 61, 63]
@@ -10388,7 +10367,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Demonic_Flesh.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/01/Demonic_Flesh.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Demonic_Flesh",
     "Ranks": {
       "0": [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -10411,7 +10390,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Jaundiced_Gaze.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9d/Jaundiced_Gaze.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Jaundiced_Gaze",
     "Ranks": {
       "0": [1, 2, 3, 4, 5, 6, 7, 8, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], "1": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], "2": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -10434,7 +10413,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Life_Siphon.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8a/Life_Siphon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Life_Siphon",
     "Ranks": {
       "0": [12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25, 26, 26, 27, 28, 29], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4], "2": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -10457,7 +10436,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Life_Transfer.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/49/Life_Transfer.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Life_Transfer",
     "Ranks": {
       "0": [6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12, 13, 13, 14, 14, 14], "1": [3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10]
@@ -10480,7 +10459,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lifebane_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c5/Lifebane_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lifebane_Strike",
     "Ranks": {
       "0": [12, 14, 17, 19, 22, 24, 26, 29, 31, 34, 36, 38, 41, 43, 46, 48, 50, 53, 55, 58, 60, 62], "1": [12, 14, 17, 19, 22, 24, 26, 29, 31, 34, 36, 38, 41, 43, 46, 48, 50, 53, 55, 58, 60, 62]
@@ -10503,7 +10482,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mark_of_Fury.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e0/Mark_of_Fury.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mark_of_Fury",
     "Ranks": {
       "0": [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3], "1": [1, 2, 3, 4, 5, 6, 7, 8, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
@@ -10526,7 +10505,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mark_of_Subversion.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2a/Mark_of_Subversion.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mark_of_Subversion",
     "Ranks": {
       "0": [10, 15, 21, 26, 32, 37, 43, 48, 54, 59, 65, 70, 76, 81, 87, 92, 97, 103, 108, 114, 119, 125]
@@ -10549,7 +10528,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Offering_of_Blood.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e6/Offering_of_Blood.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Offering_of_Blood",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25]
@@ -10572,7 +10551,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Oppressive_Gaze.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2e/Oppressive_Gaze.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Oppressive_Gaze",
     "Ranks": {
       "0": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38], "1": [3, 4, 4, 5, 5, 6, 7, 7, 8, 8, 9, 10, 10, 11, 11, 12, 13, 13, 14, 14, 15, 16]
@@ -10595,7 +10574,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Order_of_Pain.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7c/Order_of_Pain.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Order_of_Pain",
     "Ranks": {
       "0": [3, 4, 5, 6, 6, 7, 8, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 18, 19, 19, 20, 21]
@@ -10618,7 +10597,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Order_of_the_Vampire.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/39/Order_of_the_Vampire.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Order_of_the_Vampire",
     "Ranks": {
       "0": [3, 4, 5, 6, 6, 7, 8, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 18, 19, 19, 20, 21]
@@ -10641,7 +10620,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ravenous_Gaze.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/40/Ravenous_Gaze.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ravenous_Gaze",
     "Ranks": {
       "0": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36], "1": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
@@ -10664,7 +10643,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shadow_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/08/Shadow_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shadow_Strike",
     "Ranks": {
       "0": [12, 14, 17, 19, 22, 24, 26, 29, 31, 34, 36, 38, 41, 43, 46, 48, 50, 53, 55, 58, 60, 62], "1": [12, 14, 17, 19, 22, 24, 26, 29, 31, 34, 36, 38, 41, 43, 46, 48, 50, 53, 55, 58, 60, 62]
@@ -10687,7 +10666,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Agony.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/46/Signet_of_Agony.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Agony",
     "Ranks": {
       "0": [10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94]
@@ -10710,7 +10689,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Suffering.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e8/Signet_of_Suffering.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Suffering",
     "Ranks": {
       "0": [2, 3, 4, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
@@ -10733,7 +10712,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Soul_Leech.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0b/Soul_Leech.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Soul_Leech",
     "Ranks": {
       "0": [16, 20, 25, 29, 33, 37, 42, 46, 50, 54, 59, 63, 67, 71, 76, 80, 84, 89, 93, 97, 101, 106]
@@ -10756,7 +10735,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spoil_Victor.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/76/Spoil_Victor.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spoil_Victor",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19, 20], "1": [25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125, 130]
@@ -10779,7 +10758,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Strip_Enchantment.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/91/Strip_Enchantment.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Strip_Enchantment",
     "Ranks": {
       "0": [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3], "1": [5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49, 53, 57, 61, 65, 69, 73, 77, 81, 85, 89]
@@ -10802,7 +10781,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Touch_of_Agony.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6a/Touch_of_Agony.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Touch_of_Agony",
     "Ranks": {
       "0": [20, 23, 25, 28, 30, 33, 35, 38, 40, 43, 45, 48, 50, 53, 55, 58, 61, 63, 66, 68, 71, 73]
@@ -10825,7 +10804,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Unholy_Feast.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bd/Unholy_Feast.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Unholy_Feast",
     "Ranks": {
       "0": [10, 14, 17, 21, 25, 28, 32, 36, 39, 43, 47, 50, 54, 58, 61, 65, 69, 72, 76, 80, 83, 87], "1": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5]
@@ -10848,7 +10827,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vampiric_Bite.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b1/Vampiric_Bite.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vampiric_Bite",
     "Ranks": {
       "0": [29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68, 71, 74, 77, 80, 83, 86, 89, 92]
@@ -10871,7 +10850,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vampiric_Gaze.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2f/Vampiric_Gaze.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vampiric_Gaze",
     "Ranks": {
       "0": [18, 21, 24, 26, 29, 32, 35, 38, 40, 43, 46, 49, 52, 54, 57, 60, 63, 66, 68, 71, 74, 77]
@@ -10894,7 +10873,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vampiric_Spirit.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/51/Vampiric_Spirit.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vampiric_Spirit",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68], "1": [5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11, 11, 11, 12, 12]
@@ -10917,7 +10896,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vampiric_Swarm.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c2/Vampiric_Swarm.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vampiric_Swarm",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78]
@@ -10940,7 +10919,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vampiric_Touch.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/dd/Vampiric_Touch.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vampiric_Touch",
     "Ranks": {
       "0": [29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68, 71, 74, 77, 80, 83, 86, 89, 92]
@@ -10963,7 +10942,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wallow%27s_Bite.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/03/Wallow%27s_Bite.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wallow%27s_Bite",
     "Ranks": {
       "0": [20, 23, 25, 28, 30, 33, 35, 38, 40, 43, 45, 48, 50, 53, 55, 58, 61, 63, 66, 68, 71, 73]
@@ -10986,7 +10965,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Well_of_Blood.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/02/Well_of_Blood.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Well_of_Blood",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25], "1": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8]
@@ -11009,7 +10988,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Well_of_Power.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/74/Well_of_Power.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Well_of_Power",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25], "1": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8]
@@ -11032,7 +11011,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Atrophy.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e9/Atrophy.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Atrophy",
     "Ranks": {
       "0": [3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8, 8, 9]
@@ -11055,7 +11034,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Barbs.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c1/Barbs.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Barbs",
     "Ranks": {
       "0": [1, 2, 3, 4, 5, 6, 7, 8, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
@@ -11078,7 +11057,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Cacophony.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/af/Cacophony.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Cacophony",
     "Ranks": {
       "0": [35, 40, 44, 49, 54, 58, 63, 68, 72, 77, 82, 86, 91, 96, 100, 105, 110, 114, 119, 124, 128, 133]
@@ -11101,7 +11080,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Chilblains.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0a/Chilblains.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Chilblains",
     "Ranks": {
       "0": [10, 12, 15, 17, 19, 21, 24, 26, 28, 30, 33, 35, 37, 39, 42, 44, 46, 49, 51, 53, 55, 58], "1": [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
@@ -11124,7 +11103,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Corrupt_Enchantment.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bd/Corrupt_Enchantment.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Corrupt_Enchantment",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11]
@@ -11147,7 +11126,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Defile_Defenses.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e7/Defile_Defenses.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Defile_Defenses",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96, 102, 108, 114, 120, 126, 132, 138, 144, 150, 156]
@@ -11170,7 +11149,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Defile_Enchantments.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c3/Defile_Enchantments.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Defile_Enchantments",
     "Ranks": {
       "0": [6, 10, 13, 17, 20, 24, 28, 31, 35, 38, 42, 46, 49, 53, 56, 60, 64, 67, 71, 74, 78, 82], "1": [4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -11193,7 +11172,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Defile_Flesh.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c7/Defile_Flesh.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Defile_Flesh",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47]
@@ -11216,7 +11195,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Depravity.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ae/Depravity.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Depravity",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -11239,7 +11218,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Desecrate_Enchantments.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0a/Desecrate_Enchantments.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Desecrate_Enchantments",
     "Ranks": {
       "0": [6, 10, 13, 17, 20, 24, 28, 31, 35, 38, 42, 46, 49, 53, 56, 60, 64, 67, 71, 74, 78, 82], "1": [4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -11262,7 +11241,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Enfeeble.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/28/Enfeeble.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Enfeeble",
     "Ranks": {
       "0": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38]
@@ -11285,7 +11264,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Enfeebling_Blood.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/58/Enfeebling_Blood.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Enfeebling_Blood",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -11308,7 +11287,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Enfeebling_Touch.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/90/Enfeebling_Touch.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Enfeebling_Touch",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -11331,7 +11310,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Envenom_Enchantments.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/05/Envenom_Enchantments.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Envenom_Enchantments",
     "Ranks": {
       "0": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 13]
@@ -11354,7 +11333,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Faintheartedness.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/61/Faintheartedness.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Faintheartedness",
     "Ranks": {
       "0": [3, 4, 5, 6, 6, 7, 8, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 18, 19, 19, 20, 21], "1": [0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4]
@@ -11377,7 +11356,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Feast_of_Corruption.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/47/Feast_of_Corruption.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Feast_of_Corruption",
     "Ranks": {
       "0": [16, 20, 25, 29, 33, 37, 42, 46, 50, 54, 59, 63, 67, 71, 76, 80, 84, 89, 93, 97, 101, 106], "1": [8, 10, 12, 14, 17, 19, 21, 23, 25, 27, 29, 31, 34, 36, 38, 40, 42, 44, 46, 49, 51, 53]
@@ -11400,7 +11379,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Insidious_Parasite.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/48/Insidious_Parasite.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Insidious_Parasite",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19], "1": [15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57]
@@ -11423,7 +11402,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lingering_Curse.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a6/Lingering_Curse.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lingering_Curse",
     "Ranks": {
       "0": [6, 8, 9, 11, 12, 14, 16, 17, 19, 20, 22, 24, 25, 27, 28, 30, 32, 33, 35, 36, 38, 40], "1": [0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4]
@@ -11446,7 +11425,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Malaise.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/37/Malaise.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Malaise",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -11469,7 +11448,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mark_of_Pain.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b0/Mark_of_Pain.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mark_of_Pain",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -11492,7 +11471,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Meekness.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/05/Meekness.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Meekness",
     "Ranks": {
       "0": [5, 7, 8, 10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40]
@@ -11515,7 +11494,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Order_of_Apostasy.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/91/Order_of_Apostasy.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Order_of_Apostasy",
     "Ranks": {
       "0": [25, 24, 24, 23, 22, 22, 21, 20, 20, 19, 18, 18, 17, 16, 16, 15, 14, 14, 13, 12, 12, 11]
@@ -11538,7 +11517,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Pain_of_Disenchantment.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/11/Pain_of_Disenchantment.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Pain_of_Disenchantment",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4], "1": [10, 16, 22, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82, 88, 94, 100, 106, 112, 118, 124, 130, 136]
@@ -11561,7 +11540,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Parasitic_Bond.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1d/Parasitic_Bond.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Parasitic_Bond",
     "Ranks": {
       "0": [30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96, 102, 108, 114, 120, 126, 132, 138, 144, 150, 156]
@@ -11584,7 +11563,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Plague_Sending.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/16/Plague_Sending.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Plague_Sending",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -11607,7 +11586,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Plague_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b1/Plague_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Plague_Signet",
     "Ranks": {
       "0": [100, 107, 113, 120, 127, 133, 140, 147, 153, 160, 167, 173, 180, 187, 193, 200, 207, 213, 220, 227, 233, 240]
@@ -11630,7 +11609,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Plague_Touch.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7e/Plague_Touch.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Plague_Touch",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -11653,7 +11632,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Poisoned_Heart.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/18/Poisoned_Heart.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Poisoned_Heart",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19]
@@ -11676,7 +11655,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Price_of_Failure.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/17/Price_of_Failure.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Price_of_Failure",
     "Ranks": {
       "0": [1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 49, 52, 55, 58, 61, 64]
@@ -11699,7 +11678,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Reckless_Haste.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2e/Reckless_Haste.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Reckless_Haste",
     "Ranks": {
       "0": [6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12, 13, 13, 14, 14, 14]
@@ -11722,7 +11701,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Rend_Enchantments.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d9/Rend_Enchantments.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Rend_Enchantments",
     "Ranks": {
       "0": [5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 10, 10, 10, 10, 11], "1": [55, 53, 51, 49, 47, 45, 43, 41, 39, 37, 35, 33, 31, 29, 27, 25, 23, 21, 19, 17, 15, 13]
@@ -11745,7 +11724,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Rigor_Mortis.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/90/Rigor_Mortis.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Rigor_Mortis",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25]
@@ -11768,7 +11747,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Rip_Enchantment.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/50/Rip_Enchantment.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Rip_Enchantment",
     "Ranks": {
       "0": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33]
@@ -11791,7 +11770,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shadow_of_Fear.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a8/Shadow_of_Fear.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shadow_of_Fear",
     "Ranks": {
       "0": [5, 7, 8, 10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40]
@@ -11814,7 +11793,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shivers_of_Dread.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6f/Shivers_of_Dread.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shivers_of_Dread",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52], "1": [10, 10, 9, 9, 9, 8, 8, 8, 7, 7, 7, 6, 6, 6, 5, 5, 5, 4, 4, 4, 3, 3]
@@ -11837,7 +11816,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Soul_Barbs.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c5/Soul_Barbs.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Soul_Barbs",
     "Ranks": {
       "0": [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
@@ -11860,7 +11839,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Soul_Bind.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6c/Soul_Bind.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Soul_Bind",
     "Ranks": {
       "0": [20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104]
@@ -11883,7 +11862,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spinal_Shivers.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6f/Spinal_Shivers.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spinal_Shivers",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52], "1": [10, 10, 9, 9, 9, 8, 8, 8, 7, 7, 7, 6, 6, 6, 5, 5, 5, 4, 4, 4, 3, 3]
@@ -11906,7 +11885,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spiteful_Spirit.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/00/Spiteful_Spirit.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spiteful_Spirit",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25], "1": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47]
@@ -11929,7 +11908,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Suffering.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e4/Suffering.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Suffering",
     "Ranks": {
       "0": [6, 8, 9, 11, 12, 14, 16, 17, 19, 20, 22, 24, 25, 27, 28, 30, 32, 33, 35, 36, 38, 40], "1": [0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4]
@@ -11952,7 +11931,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ulcerous_Lungs.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/63/Ulcerous_Lungs.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ulcerous_Lungs",
     "Ranks": {
       "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31], "1": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19, 20]
@@ -11975,7 +11954,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vocal_Minority.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f3/Vocal_Minority.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vocal_Minority",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -11998,7 +11977,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Weaken_Armor.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8d/Weaken_Armor.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Weaken_Armor",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -12021,7 +12000,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Weaken_Knees.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6b/Weaken_Knees.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Weaken_Knees",
     "Ranks": {
       "0": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22], "1": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5], "2": [5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11, 11, 11, 12, 12]
@@ -12044,7 +12023,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Well_of_Darkness.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/58/Well_of_Darkness.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Well_of_Darkness",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -12067,7 +12046,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Well_of_Ruin.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/19/Well_of_Ruin.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Well_of_Ruin",
     "Ranks": {
       "0": [5, 7, 8, 10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -12090,7 +12069,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Well_of_Silence.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a4/Well_of_Silence.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Well_of_Silence",
     "Ranks": {
       "0": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38], "1": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5]
@@ -12113,7 +12092,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Well_of_Weariness.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/97/Well_of_Weariness.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Well_of_Weariness",
     "Ranks": {
       "0": [10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 49, 52, 55, 58, 61, 64, 67, 70, 73]
@@ -12136,7 +12115,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wither.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a0/Wither.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wither",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47], "1": [2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5], "2": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -12159,7 +12138,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Animate_Bone_Fiend.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0b/Animate_Bone_Fiend.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Animate_Bone_Fiend",
     "Ranks": {
       "0": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
@@ -12182,7 +12161,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Animate_Bone_Horror.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/22/Animate_Bone_Horror.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Animate_Bone_Horror",
     "Ranks": {
       "0": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
@@ -12205,7 +12184,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Animate_Bone_Minions.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ab/Animate_Bone_Minions.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Animate_Bone_Minions",
     "Ranks": {
       "0": [0, 1, 2, 2, 3, 4, 5, 6, 6, 7, 8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17]
@@ -12228,7 +12207,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Animate_Flesh_Golem.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/71/Animate_Flesh_Golem.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Animate_Flesh_Golem",
     "Ranks": {
       "0": [3, 4, 6, 7, 9, 10, 12, 13, 15, 16, 18, 19, 21, 22, 24, 25, 26, 28, 29, 31, 32, 34]
@@ -12251,7 +12230,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Animate_Shambling_Horror.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ac/Animate_Shambling_Horror.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Animate_Shambling_Horror",
     "Ranks": {
       "0": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23], "1": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
@@ -12274,7 +12253,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Animate_Vampiric_Horror.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/01/Animate_Vampiric_Horror.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Animate_Vampiric_Horror",
     "Ranks": {
       "0": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
@@ -12297,7 +12276,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Aura_of_the_Lich.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5e/Aura_of_the_Lich.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Aura_of_the_Lich",
     "Ranks": {
       "0": [5, 8, 10, 13, 16, 18, 21, 24, 26, 29, 32, 34, 37, 40, 42, 45, 48, 50, 53, 56, 58, 61], "1": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
@@ -12320,7 +12299,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Bitter_Chill.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2c/Bitter_Chill.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Bitter_Chill",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78]
@@ -12343,7 +12322,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Blood_of_the_Master.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d5/Blood_of_the_Master.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Blood_of_the_Master",
     "Ranks": {
       "0": [30, 36, 41, 47, 53, 59, 64, 70, 76, 82, 87, 93, 99, 105, 110, 116, 122, 127, 133, 139, 145, 150]
@@ -12366,7 +12345,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Consume_Corpse.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/ca/Consume_Corpse.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Consume_Corpse",
     "Ranks": {
       "0": [25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125, 130], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -12389,7 +12368,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Contagion.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/14/Contagion.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Contagion",
     "Ranks": {
       "0": [10, 10, 9, 9, 9, 8, 8, 8, 7, 7, 7, 6, 6, 6, 5, 5, 5, 4, 4, 4, 3, 3]
@@ -12412,7 +12391,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dark_Aura.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ee/Dark_Aura.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dark_Aura",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -12435,7 +12414,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Death_Nova.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/be/Death_Nova.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Death_Nova",
     "Ranks": {
       "0": [26, 31, 36, 41, 46, 51, 56, 61, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125, 130]
@@ -12458,7 +12437,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Deathly_Chill.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4a/Deathly_Chill.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Deathly_Chill",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -12481,7 +12460,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Deathly_Swarm.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/93/Deathly_Swarm.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Deathly_Swarm",
     "Ranks": {
       "0": [30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110, 114]
@@ -12504,7 +12483,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Discord.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/64/Discord.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Discord",
     "Ranks": {
       "0": [30, 35, 41, 46, 51, 57, 62, 67, 73, 78, 83, 89, 94, 99, 105, 110, 115, 121, 126, 131, 137, 142]
@@ -12527,7 +12506,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Feast_for_the_Dead.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fa/Feast_for_the_Dead.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Feast_for_the_Dead",
     "Ranks": {
       "0": [10, 16, 22, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82, 88, 94, 100, 106, 112, 118, 124, 130, 136]
@@ -12550,7 +12529,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Fetid_Ground.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/52/Fetid_Ground.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Fetid_Ground",
     "Ranks": {
       "0": [15, 18, 22, 25, 28, 32, 35, 38, 42, 45, 48, 52, 55, 58, 62, 65, 68, 72, 75, 78, 82, 85], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -12573,7 +12552,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Infuse_Condition.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4e/Infuse_Condition.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Infuse_Condition",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78]
@@ -12596,7 +12575,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Jagged_Bones.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/85/Jagged_Bones.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Jagged_Bones",
     "Ranks": {
       "0": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
@@ -12619,7 +12598,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Malign_Intervention.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/66/Malign_Intervention.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Malign_Intervention",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
@@ -12642,7 +12621,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Necrotic_Traversal.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/63/Necrotic_Traversal.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Necrotic_Traversal",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -12665,7 +12644,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Order_of_Undeath.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6e/Order_of_Undeath.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Order_of_Undeath",
     "Ranks": {
       "0": [3, 4, 5, 6, 6, 7, 8, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 18, 19, 19, 20, 21]
@@ -12688,7 +12667,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Putrid_Bile.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/38/Putrid_Bile.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Putrid_Bile",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4], "2": [25, 29, 33, 37, 41, 45, 49, 53, 57, 61, 65, 69, 73, 77, 81, 85, 89, 93, 97, 101, 105, 109]
@@ -12711,7 +12690,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Putrid_Explosion.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6d/Putrid_Explosion.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Putrid_Explosion",
     "Ranks": {
       "0": [24, 30, 37, 43, 50, 56, 62, 69, 75, 82, 88, 94, 101, 107, 114, 120, 126, 133, 139, 146, 152, 158]
@@ -12734,7 +12713,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Putrid_Flesh.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9f/Putrid_Flesh.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Putrid_Flesh",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19]
@@ -12757,7 +12736,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Rising_Bile.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5a/Rising_Bile.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Rising_Bile",
     "Ranks": {
     }
@@ -12779,7 +12758,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Rotting_Flesh.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/dd/Rotting_Flesh.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Rotting_Flesh",
     "Ranks": {
       "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
@@ -12802,7 +12781,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Soul_Feast.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/29/Soul_Feast.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Soul_Feast",
     "Ranks": {
       "0": [50, 65, 81, 96, 111, 127, 142, 157, 173, 188, 203, 219, 234, 249, 265, 280, 295, 311, 326, 341, 357, 372]
@@ -12825,7 +12804,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Tainted_Flesh.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/26/Tainted_Flesh.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Tainted_Flesh",
     "Ranks": {
       "0": [20, 22, 23, 25, 26, 28, 30, 31, 33, 34, 36, 38, 39, 41, 42, 44, 46, 47, 49, 50, 52, 54], "1": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19, 20]
@@ -12848,7 +12827,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Taste_of_Death.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/ca/Taste_of_Death.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Taste_of_Death",
     "Ranks": {
       "0": [100, 120, 140, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340, 360, 380, 400, 420, 440, 460, 480, 500, 520]
@@ -12871,7 +12850,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Taste_of_Pain.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/96/Taste_of_Pain.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Taste_of_Pain",
     "Ranks": {
       "0": [30, 38, 46, 54, 62, 70, 78, 86, 94, 102, 110, 118, 126, 134, 142, 150, 158, 166, 174, 182, 190, 198]
@@ -12894,7 +12873,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Toxic_Chill.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d4/Toxic_Chill.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Toxic_Chill",
     "Ranks": {
       "0": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99], "1": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
@@ -12917,7 +12896,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Verata%27s_Aura.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f4/Verata%27s_Aura.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Verata%27s_Aura",
     "Ranks": {
       "0": [120, 132, 144, 156, 168, 180, 192, 204, 216, 228, 240, 252, 264, 276, 288, 300, 312, 324, 336, 348, 360, 372]
@@ -12940,7 +12919,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Verata%27s_Gaze.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b6/Verata%27s_Gaze.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Verata%27s_Gaze",
     "Ranks": {
     }
@@ -12962,7 +12941,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Verata%27s_Sacrifice.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/41/Verata%27s_Sacrifice.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Verata%27s_Sacrifice",
     "Ranks": {
       "0": [5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11, 11, 11, 12, 12]
@@ -12985,7 +12964,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vile_Miasma.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6a/Vile_Miasma.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vile_Miasma",
     "Ranks": {
       "0": [10, 14, 17, 21, 25, 28, 32, 36, 39, 43, 47, 50, 54, 58, 61, 65, 69, 72, 76, 80, 83, 87], "1": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -13008,7 +12987,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vile_Touch.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/82/Vile_Touch.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vile_Touch",
     "Ranks": {
       "0": [20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68, 71, 74, 77, 80, 83]
@@ -13031,7 +13010,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Virulence.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4a/Virulence.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Virulence",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19, 20]
@@ -13054,7 +13033,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Well_of_Suffering.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/31/Well_of_Suffering.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Well_of_Suffering",
     "Ranks": {
       "0": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38], "1": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8]
@@ -13077,7 +13056,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Well_of_the_Profane.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/74/Well_of_the_Profane.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Well_of_the_Profane",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25]
@@ -13100,7 +13079,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Withering_Aura.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/84/Withering_Aura.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Withering_Aura",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -13123,7 +13102,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Angorodon%27s_Gaze.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ee/Angorodon%27s_Gaze.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Angorodon%27s_Gaze",
     "Ranks": {
       "0": [10, 13, 15, 18, 21, 23, 26, 29, 31, 34, 37, 39, 42, 45, 47, 50, 53, 55, 58, 61, 63, 66], "1": [3, 4, 4, 5, 5, 6, 7, 7, 8, 8, 9, 10, 10, 11, 11, 12, 13, 13, 14, 14, 15, 16]
@@ -13146,7 +13125,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Foul_Feast.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/02/Foul_Feast.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Foul_Feast",
     "Ranks": {
       "0": [0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63], "1": [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3]
@@ -13169,7 +13148,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Hexer%27s_Vigor.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/43/Hexer%27s_Vigor.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Hexer%27s_Vigor",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11]
@@ -13192,7 +13171,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Icy_Veins.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/89/Icy_Veins.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Icy_Veins",
     "Ranks": {
       "0": [10, 15, 21, 26, 31, 37, 42, 47, 53, 58, 63, 69, 74, 79, 85, 90, 95, 101, 106, 111, 117, 122], "1": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45], "2": [20, 26, 32, 38, 44, 50, 56, 62, 68, 74, 80, 86, 92, 98, 104, 110, 116, 122, 128, 134, 140, 146]
@@ -13215,7 +13194,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Masochism.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/13/Masochism.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Masochism",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52], "1": [5, 5, 5, 5, 4, 4, 4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 3, 3, 2, 2, 2]
@@ -13238,7 +13217,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Reaper%27s_Mark.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c8/Reaper%27s_Mark.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Reaper%27s_Mark",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7], "1": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19]
@@ -13261,7 +13240,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Lost_Souls.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/ff/Signet_of_Lost_Souls.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Lost_Souls",
     "Ranks": {
       "0": [10, 16, 22, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82, 88, 94, 100, 106, 112, 118, 124, 130, 136], "1": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -13284,7 +13263,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Sorrow.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/32/Signet_of_Sorrow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Sorrow",
     "Ranks": {
       "0": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -13307,7 +13286,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wail_of_Doom.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d8/Wail_of_Doom.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wail_of_Doom",
     "Ranks": {
       "0": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5]
@@ -13330,7 +13309,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Gaze_of_Contempt.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/45/Gaze_of_Contempt.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Gaze_of_Contempt",
     "Ranks": {
     }
@@ -13352,7 +13331,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Grenth%27s_Balance.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5e/Grenth%27s_Balance.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Grenth%27s_Balance",
     "Ranks": {
     }
@@ -13374,7 +13353,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Aneurysm.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/55/Aneurysm.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Aneurysm",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4], "1": [1, 3, 5, 7, 9, 11, 13, 15, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42]
@@ -13397,7 +13376,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Arcane_Larceny.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fb/Arcane_Larceny.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Arcane_Larceny",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47]
@@ -13420,7 +13399,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Arcane_Thievery.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a6/Arcane_Thievery.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Arcane_Thievery",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47]
@@ -13443,7 +13422,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Backfire.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a1/Backfire.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Backfire",
     "Ranks": {
       "0": [35, 42, 49, 56, 63, 70, 77, 84, 91, 98, 105, 112, 119, 126, 133, 140, 147, 154, 161, 168, 175, 182]
@@ -13466,7 +13445,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Blackout.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/84/Blackout.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Blackout",
     "Ranks": {
       "0": [2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 8]
@@ -13489,7 +13468,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Chaos_Storm.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/88/Chaos_Storm.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Chaos_Storm",
     "Ranks": {
       "0": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33], "1": [0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3]
@@ -13512,7 +13491,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Complicate.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/93/Complicate.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Complicate",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 12, 13, 13, 14, 14, 15]
@@ -13535,7 +13514,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Cry_of_Frustration.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e7/Cry_of_Frustration.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Cry_of_Frustration",
     "Ranks": {
       "0": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -13558,7 +13537,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Diversion.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/62/Diversion.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Diversion",
     "Ranks": {
       "0": [10, 13, 16, 19, 22, 25, 28, 31, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68, 71, 74]
@@ -13581,7 +13560,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Empathy.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7d/Empathy.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Empathy",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19], "1": [10, 13, 16, 19, 22, 25, 28, 31, 34, 37, 40, 43, 46, 49, 52, 55, 58, 61, 64, 67, 70, 73], "2": [1, 2, 3, 4, 5, 6, 7, 8, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
@@ -13604,7 +13583,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Enchanter%27s_Conundrum.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d1/Enchanter%27s_Conundrum.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Enchanter%27s_Conundrum",
     "Ranks": {
       "0": [100, 107, 113, 120, 127, 133, 140, 147, 153, 160, 167, 173, 180, 187, 193, 200, 207, 213, 220, 227, 233, 240], "1": [10, 16, 22, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82, 88, 94, 100, 106, 112, 118, 124, 130, 136]
@@ -13627,7 +13606,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Energy_Burn.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a6/Energy_Burn.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Energy_Burn",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14], "1": [9, 18, 18, 27, 27, 36, 45, 45, 54, 54, 63, 72, 72, 81, 81, 90, 99, 99, 108, 108, 117, 126]
@@ -13650,7 +13629,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Energy_Surge.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f6/Energy_Surge.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Energy_Surge",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14], "1": [9, 18, 18, 27, 27, 36, 45, 45, 54, 54, 63, 72, 72, 81, 81, 90, 99, 99, 108, 108, 117, 126]
@@ -13673,7 +13652,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Guilt.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c7/Guilt.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Guilt",
     "Ranks": {
       "0": [5, 6, 6, 7, 7, 8, 9, 9, 10, 10, 11, 12, 12, 13, 13, 14, 15, 15, 16, 16, 17, 18]
@@ -13696,7 +13675,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Hex_Breaker.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3d/Hex_Breaker.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Hex_Breaker",
     "Ranks": {
       "0": [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110], "1": [10, 12, 15, 17, 20, 22, 24, 27, 29, 32, 34, 36, 39, 41, 44, 46, 48, 51, 53, 56, 58, 60]
@@ -13719,7 +13698,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Hex_Eater_Vortex.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7e/Hex_Eater_Vortex.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Hex_Eater_Vortex",
     "Ranks": {
       "0": [30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110, 114]
@@ -13742,7 +13721,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ignorance.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5c/Ignorance.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ignorance",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25]
@@ -13765,7 +13744,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mind_Wrack.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/92/Mind_Wrack.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mind_Wrack",
     "Ranks": {
       "0": [5, 7, 10, 12, 14, 17, 19, 21, 24, 26, 28, 31, 33, 35, 38, 40, 42, 45, 47, 49, 52, 54], "1": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33], "2": [15, 21, 26, 32, 38, 43, 49, 55, 60, 66, 72, 77, 83, 89, 94, 100, 106, 111, 117, 123, 128, 134]
@@ -13788,7 +13767,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mistrust.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d9/Mistrust.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mistrust",
     "Ranks": {
       "0": [10, 16, 22, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82, 88, 94, 100, 106, 112, 118, 124, 130, 136]
@@ -13811,7 +13790,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Overload.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/24/Overload.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Overload",
     "Ranks": {
       "0": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -13834,7 +13813,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Panic.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f7/Panic.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Panic",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -13857,7 +13836,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Power_Block.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5e/Power_Block.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Power_Block",
     "Ranks": {
       "0": [1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 8, 9, 10, 11, 11, 12, 13, 13, 14, 15, 16, 16]
@@ -13880,7 +13859,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Power_Flux.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/03/Power_Flux.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Power_Flux",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12]
@@ -13903,7 +13882,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Power_Leak.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/07/Power_Leak.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Power_Leak",
     "Ranks": {
       "0": [3, 4, 5, 6, 7, 8, 9, 10, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
@@ -13926,7 +13905,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Power_Lock.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/94/Power_Lock.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Power_Lock",
     "Ranks": {
       "0": [5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 13, 14, 14, 15, 15, 16, 16]
@@ -13949,7 +13928,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Power_Spike.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/48/Power_Spike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Power_Spike",
     "Ranks": {
       "0": [30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96, 102, 108, 114, 120, 126, 132, 138, 144, 150, 156]
@@ -13972,7 +13951,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Price_of_Pride.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/17/Price_of_Pride.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Price_of_Pride",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9]
@@ -13995,7 +13974,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Psychic_Distraction.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/70/Psychic_Distraction.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Psychic_Distraction",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 12, 13, 13, 14, 14, 15]
@@ -14018,7 +13997,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shame.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fb/Shame.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shame",
     "Ranks": {
       "0": [5, 6, 6, 7, 7, 8, 9, 9, 10, 10, 11, 12, 12, 13, 13, 14, 15, 15, 16, 16, 17, 18]
@@ -14041,7 +14020,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shatter_Delusions.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f1/Shatter_Delusions.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shatter_Delusions",
     "Ranks": {
       "0": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -14064,7 +14043,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shatter_Enchantment.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4c/Shatter_Enchantment.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shatter_Enchantment",
     "Ranks": {
       "0": [14, 20, 25, 31, 37, 43, 48, 54, 60, 66, 71, 77, 83, 89, 94, 100, 106, 111, 117, 123, 129, 134]
@@ -14087,7 +14066,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shatter_Hex.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d2/Shatter_Hex.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shatter_Hex",
     "Ranks": {
       "0": [30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96, 102, 108, 114, 120, 126, 132, 138, 144, 150, 156]
@@ -14110,7 +14089,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Disruption.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/87/Signet_of_Disruption.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Disruption",
     "Ranks": {
       "0": [10, 13, 15, 18, 21, 24, 26, 29, 32, 35, 37, 40, 43, 46, 48, 51, 54, 56, 59, 62, 65, 67]
@@ -14133,7 +14112,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Distraction.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/db/Signet_of_Distraction.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Distraction",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -14156,7 +14135,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Weariness.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fd/Signet_of_Weariness.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Weariness",
     "Ranks": {
       "0": [3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10], "1": [1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 8, 9, 10, 11, 11, 12, 13, 13, 14, 15, 16, 16]
@@ -14179,7 +14158,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Simple_Thievery.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/11/Simple_Thievery.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Simple_Thievery",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -14202,7 +14181,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spiritual_Pain.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/21/Spiritual_Pain.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spiritual_Pain",
     "Ranks": {
       "0": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99], "1": [25, 32, 38, 45, 52, 58, 65, 72, 78, 85, 92, 98, 105, 112, 118, 125, 132, 138, 145, 152, 158, 165]
@@ -14225,7 +14204,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Unnatural_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/10/Unnatural_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Unnatural_Signet",
     "Ranks": {
       "0": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -14248,7 +14227,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Visions_of_Regret.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/93/Visions_of_Regret.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Visions_of_Regret",
     "Ranks": {
       "0": [15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68], "2": [20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125]
@@ -14271,7 +14250,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wastrel%27s_Demise.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4b/Wastrel%27s_Demise.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wastrel%27s_Demise",
     "Ranks": {
     }
@@ -14293,7 +14272,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wastrel%27s_Worry.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f3/Wastrel%27s_Worry.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wastrel%27s_Worry",
     "Ranks": {
       "0": [20, 25, 31, 36, 41, 47, 52, 57, 63, 68, 73, 79, 84, 89, 95, 100, 105, 111, 116, 121, 127, 132]
@@ -14316,7 +14295,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Bonus Mission Pack",
-    "Image": "https://wiki.guildwars.com/wiki/File:Unnatural_Signet_(Saul_D%27Alessio).jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2f/Unnatural_Signet_%28Saul_D%27Alessio%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Unnatural_Signet_(Saul_D%27Alessio)",
     "Ranks": {
       "0": [43, 47], "1": [26, 29]
@@ -14339,7 +14318,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Arcane_Languor.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d5/Arcane_Languor.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Arcane_Languor",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -14362,7 +14341,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Keystone_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/31/Keystone_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Keystone_Signet",
     "Ranks": {
       "0": [0, 0, 1, 1, 2, 2, 2, 3, 3, 4, 4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8], "1": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78]
@@ -14385,7 +14364,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mantra_of_Recovery.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/00/Mantra_of_Recovery.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Recovery",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [33, 36, 38, 41, 44, 46, 49, 52, 54, 57, 60, 62, 65, 68, 70, 73, 76, 78, 81, 84, 86, 89]
@@ -14408,7 +14387,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Persistence_of_Memory.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/26/Persistence_of_Memory.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Persistence_of_Memory",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -14431,7 +14410,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Power_Return.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e1/Power_Return.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Power_Return",
     "Ranks": {
       "0": [10, 10, 9, 9, 9, 8, 8, 8, 7, 7, 7, 6, 6, 6, 5, 5, 5, 4, 4, 4, 3, 3]
@@ -14454,7 +14433,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Psychic_Instability.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/db/Psychic_Instability.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Psychic_Instability",
     "Ranks": {
       "0": [2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5]
@@ -14477,7 +14456,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Stolen_Speed.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f0/Stolen_Speed.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Stolen_Speed",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -14500,7 +14479,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Symbolic_Celerity.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f0/Symbolic_Celerity.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Symbolic_Celerity",
     "Ranks": {
       "0": [36, 38, 39, 41, 42, 44, 46, 47, 49, 50, 52, 54, 55, 57, 58, 60, 62, 63, 65, 66, 68, 70]
@@ -14523,7 +14502,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Symbolic_Posture.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/71/Symbolic_Posture.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Symbolic_Posture",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104]
@@ -14546,7 +14525,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Symbols_of_Inspiration.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a4/Symbols_of_Inspiration.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Symbols_of_Inspiration",
     "Ranks": {
       "0": [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43]
@@ -14569,7 +14548,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Accumulated_Pain.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/30/Accumulated_Pain.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Accumulated_Pain",
     "Ranks": {
       "0": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -14592,7 +14571,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Air_of_Disenchantment.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/89/Air_of_Disenchantment.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Air_of_Disenchantment",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360]
@@ -14615,7 +14594,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ancestor%27s_Visage.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c0/Ancestor%27s_Visage.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ancestor%27s_Visage",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12]
@@ -14638,7 +14617,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Arcane_Conundrum.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6a/Arcane_Conundrum.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Arcane_Conundrum",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19], "1": [1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9]
@@ -14661,7 +14640,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Calculated_Risk.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/87/Calculated_Risk.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Calculated_Risk",
     "Ranks": {
       "0": [3, 4, 6, 7, 9, 10, 11, 13, 14, 16, 17, 18, 20, 21, 23, 24, 25, 27, 28, 30, 31, 32], "1": [15, 21, 26, 32, 38, 43, 49, 55, 60, 66, 72, 77, 83, 89, 94, 100, 106, 111, 117, 123, 128, 134]
@@ -14684,7 +14663,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Clumsiness.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e9/Clumsiness.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Clumsiness",
     "Ranks": {
       "0": [10, 15, 21, 26, 32, 37, 43, 48, 54, 59, 65, 70, 76, 81, 87, 92, 97, 103, 108, 114, 119, 125]
@@ -14707,7 +14686,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Confusing_Images.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fd/Confusing_Images.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Confusing_Images",
     "Ranks": {
       "0": [2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 13]
@@ -14730,7 +14709,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Conjure_Nightmare.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/76/Conjure_Nightmare.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Conjure_Nightmare",
     "Ranks": {
       "0": [2, 3, 4, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
@@ -14753,7 +14732,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Conjure_Phantasm.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d7/Conjure_Phantasm.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Conjure_Phantasm",
     "Ranks": {
       "0": [2, 3, 4, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
@@ -14776,7 +14755,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Crippling_Anguish.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e4/Crippling_Anguish.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Crippling_Anguish",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11]
@@ -14799,7 +14778,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Distortion.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8f/Distortion.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Distortion",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -14822,7 +14801,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ethereal_Burden.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f4/Ethereal_Burden.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ethereal_Burden",
     "Ranks": {
       "0": [10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15, 16, 16, 17, 17, 18, 19, 19, 20, 20, 21, 21]
@@ -14845,7 +14824,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Fevered_Dreams.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/72/Fevered_Dreams.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Fevered_Dreams",
     "Ranks": {
       "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -14868,7 +14847,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Fragility.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/42/Fragility.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Fragility",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -14891,7 +14870,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Frustration.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3f/Frustration.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Frustration",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -14914,7 +14893,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Illusion_of_Haste.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/cf/Illusion_of_Haste.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Illusion_of_Haste",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13, 13]
@@ -14937,7 +14916,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Illusion_of_Pain.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/46/Illusion_of_Pain.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Illusion_of_Pain",
     "Ranks": {
       "0": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 13], "1": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 13], "2": [36, 42, 47, 53, 58, 64, 70, 75, 81, 86, 92, 98, 103, 109, 114, 120, 126, 131, 137, 142, 148, 154]
@@ -14960,7 +14939,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Illusion_of_Weakness.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1a/Illusion_of_Weakness.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Illusion_of_Weakness",
     "Ranks": {
       "0": [50, 63, 75, 88, 101, 113, 126, 139, 151, 164, 177, 189, 202, 215, 227, 240, 253, 265, 278, 291, 303, 316], "1": [50, 63, 75, 88, 101, 113, 126, 139, 151, 164, 177, 189, 202, 215, 227, 240, 253, 265, 278, 291, 303, 316]
@@ -14983,7 +14962,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Illusionary_Weaponry.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ab/Illusionary_Weaponry.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Illusionary_Weaponry",
     "Ranks": {
       "0": [8, 10, 12, 14, 17, 19, 21, 23, 25, 27, 29, 31, 34, 36, 38, 40, 42, 44, 46, 49, 51, 53]
@@ -15006,7 +14985,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Images_of_Remorse.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/aa/Images_of_Remorse.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Images_of_Remorse",
     "Ranks": {
       "0": [5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11, 11, 11, 12, 12], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4], "2": [10, 13, 16, 18, 21, 24, 27, 30, 32, 35, 38, 41, 44, 46, 49, 52, 55, 58, 60, 63, 66, 69]
@@ -15029,7 +15008,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Imagined_Burden.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5b/Imagined_Burden.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Imagined_Burden",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25]
@@ -15052,7 +15031,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ineptitude.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6d/Ineptitude.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ineptitude",
     "Ranks": {
       "0": [30, 37, 44, 51, 58, 65, 72, 79, 86, 93, 100, 107, 114, 121, 128, 135, 142, 149, 156, 163, 170, 177]
@@ -15075,7 +15054,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Kitah%27s_Burden.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d3/Kitah%27s_Burden.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Kitah%27s_Burden",
     "Ranks": {
       "0": [10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15, 16, 16, 17, 17, 18, 19, 19, 20, 20, 21, 21]
@@ -15098,7 +15077,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Migraine.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ad/Migraine.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Migraine",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11]
@@ -15121,7 +15100,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Phantom_Pain.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e7/Phantom_Pain.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Phantom_Pain",
     "Ranks": {
       "0": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -15144,7 +15123,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Recurring_Insecurity.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/42/Recurring_Insecurity.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Recurring_Insecurity",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -15167,7 +15146,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shared_Burden.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/72/Shared_Burden.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shared_Burden",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -15190,7 +15169,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shrinking_Armor.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e9/Shrinking_Armor.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shrinking_Armor",
     "Ranks": {
       "0": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -15213,7 +15192,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Clumsiness.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7e/Signet_of_Clumsiness.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Clumsiness",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78]
@@ -15236,7 +15215,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Illusions.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1f/Signet_of_Illusions.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Illusions",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -15259,7 +15238,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Soothing_Images.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/97/Soothing_Images.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Soothing_Images",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25]
@@ -15282,7 +15261,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Sum_of_All_Fears.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/dc/Sum_of_All_Fears.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Sum_of_All_Fears",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -15305,7 +15284,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Sympathetic_Visage.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/63/Sympathetic_Visage.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Sympathetic_Visage",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12]
@@ -15328,7 +15307,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wandering_Eye.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/37/Wandering_Eye.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wandering_Eye",
     "Ranks": {
       "0": [30, 35, 41, 46, 51, 57, 62, 67, 73, 78, 83, 89, 94, 99, 105, 110, 115, 121, 126, 131, 137, 142]
@@ -15351,7 +15330,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Auspicious_Incantation.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ae/Auspicious_Incantation.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Auspicious_Incantation",
     "Ranks": {
       "0": [10, 10, 9, 9, 9, 8, 8, 8, 7, 7, 7, 6, 6, 6, 5, 5, 5, 4, 4, 4, 3, 3], "1": [110, 116, 122, 128, 134, 140, 146, 152, 158, 164, 170, 176, 182, 188, 194, 200, 206, 212, 218, 224, 230, 236]
@@ -15374,7 +15353,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Channeling.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1e/Channeling.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Channeling",
     "Ranks": {
       "0": [8, 11, 14, 18, 21, 24, 27, 30, 34, 37, 40, 43, 46, 50, 53, 56, 59, 62, 66, 69, 72, 75]
@@ -15397,7 +15376,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Discharge_Enchantment.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ad/Discharge_Enchantment.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Discharge_Enchantment",
     "Ranks": {
       "0": [20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62]
@@ -15420,7 +15399,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Drain_Delusions.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2b/Drain_Delusions.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Drain_Delusions",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7], "1": [4, 4, 8, 8, 8, 8, 12, 12, 12, 12, 16, 16, 16, 16, 20, 20, 20, 24, 24, 24, 24, 28]
@@ -15443,7 +15422,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Drain_Enchantment.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/13/Drain_Enchantment.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Drain_Enchantment",
     "Ranks": {
       "0": [8, 9, 9, 10, 10, 11, 12, 12, 13, 13, 14, 15, 15, 16, 16, 17, 18, 18, 19, 19, 20, 21], "1": [40, 45, 51, 56, 61, 67, 72, 77, 83, 88, 93, 99, 104, 109, 115, 120, 125, 131, 136, 141, 147, 152]
@@ -15466,7 +15445,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Elemental_Resistance.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fc/Elemental_Resistance.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Elemental_Resistance",
     "Ranks": {
       "0": [30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110, 114], "1": [24, 23, 22, 22, 21, 20, 19, 18, 18, 17, 16, 15, 14, 14, 13, 12, 11, 10, 10, 9, 8, 7]
@@ -15489,7 +15468,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Energy_Drain.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8c/Energy_Drain.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Energy_Drain",
     "Ranks": {
       "0": [2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 12], "1": [6, 6, 9, 9, 12, 12, 15, 15, 18, 18, 21, 21, 24, 24, 27, 27, 27, 30, 30, 33, 33, 36]
@@ -15512,7 +15491,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Energy_Tap.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/67/Energy_Tap.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Energy_Tap",
     "Ranks": {
       "0": [4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 8, 8, 8, 8], "1": [8, 8, 8, 10, 10, 10, 10, 10, 12, 12, 12, 12, 12, 14, 14, 14, 14, 14, 16, 16, 16, 16]
@@ -15535,7 +15514,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ether_Feast.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/03/Ether_Feast.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ether_Feast",
     "Ranks": {
       "0": [20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68, 71, 74, 77, 80, 83], "1": [60, 69, 78, 87, 96, 105, 114, 123, 132, 141, 150, 159, 168, 177, 186, 195, 204, 213, 222, 231, 240, 249]
@@ -15558,7 +15537,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ether_Lord.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1a/Ether_Lord.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ether_Lord",
     "Ranks": {
       "0": [5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11, 11, 11, 12, 12], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4], "2": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -15581,7 +15560,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ether_Phantom.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2e/Ether_Phantom.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ether_Phantom",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -15604,7 +15583,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ether_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/09/Ether_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ether_Signet",
     "Ranks": {
       "0": [5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11, 11, 11, 12, 12], "1": [10, 11, 11, 12, 13, 13, 14, 15, 15, 16, 17, 17, 18, 19, 19, 20, 21, 21, 22, 23, 23, 24]
@@ -15627,7 +15606,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Extend_Conditions.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/59/Extend_Conditions.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Extend_Conditions",
     "Ranks": {
       "0": [5, 11, 18, 24, 30, 37, 43, 49, 56, 62, 68, 75, 81, 87, 94, 100, 106, 113, 119, 125, 132, 138]
@@ -15650,7 +15629,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Feedback.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5a/Feedback.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Feedback",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12]
@@ -15673,7 +15652,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Hex_Eater_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/35/Hex_Eater_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Hex_Eater_Signet",
     "Ranks": {
       "0": [2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 6], "1": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5]
@@ -15696,7 +15675,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Inspired_Enchantment.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/12/Inspired_Enchantment.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Inspired_Enchantment",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19, 20]
@@ -15719,7 +15698,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Inspired_Hex.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/34/Inspired_Hex.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Inspired_Hex",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12]
@@ -15742,7 +15721,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Leech_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/53/Leech_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Leech_Signet",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19, 20]
@@ -15765,7 +15744,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lyssa%27s_Aura.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c1/Lyssa%27s_Aura.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lyssa%27s_Aura",
     "Ranks": {
       "0": [0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7]
@@ -15788,7 +15767,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mantra_of_Concentration.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2a/Mantra_of_Concentration.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Concentration",
     "Ranks": {
       "0": [1, 3, 6, 8, 11, 13, 16, 18, 21, 23, 26, 28, 31, 33, 36, 38, 40, 43, 45, 48, 50, 53]
@@ -15811,7 +15790,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mantra_of_Earth.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/00/Mantra_of_Earth.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Earth",
     "Ranks": {
       "0": [30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110, 114], "1": [26, 28, 29, 31, 32, 34, 36, 37, 39, 40, 42, 44, 45, 47, 48, 50, 52, 53, 55, 56, 58, 60]
@@ -15834,7 +15813,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mantra_of_Flame.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f8/Mantra_of_Flame.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Flame",
     "Ranks": {
       "0": [30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110, 114], "1": [26, 28, 29, 31, 32, 34, 36, 37, 39, 40, 42, 44, 45, 47, 48, 50, 52, 53, 55, 56, 58, 60]
@@ -15857,7 +15836,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mantra_of_Frost.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6a/Mantra_of_Frost.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Frost",
     "Ranks": {
       "0": [30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110, 114], "1": [26, 28, 29, 31, 32, 34, 36, 37, 39, 40, 42, 44, 45, 47, 48, 50, 52, 53, 55, 56, 58, 60]
@@ -15880,7 +15859,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mantra_of_Inscriptions.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/da/Mantra_of_Inscriptions.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Inscriptions",
     "Ranks": {
       "0": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33], "1": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -15903,7 +15882,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mantra_of_Lightning.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d4/Mantra_of_Lightning.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Lightning",
     "Ranks": {
       "0": [30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110, 114], "1": [26, 28, 29, 31, 32, 34, 36, 37, 39, 40, 42, 44, 45, 47, 48, 50, 52, 53, 55, 56, 58, 60]
@@ -15926,7 +15905,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mantra_of_Persistence.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e7/Mantra_of_Persistence.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Persistence",
     "Ranks": {
       "0": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33], "1": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -15949,7 +15928,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mantra_of_Recall.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a0/Mantra_of_Recall.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Recall",
     "Ranks": {
       "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
@@ -15972,7 +15951,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mantra_of_Resolve.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/22/Mantra_of_Resolve.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Resolve",
     "Ranks": {
       "0": [30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110, 114], "1": [10, 10, 9, 9, 8, 8, 8, 7, 7, 6, 6, 6, 5, 5, 4, 4, 4, 3, 3, 2, 2, 2]
@@ -15995,7 +15974,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mantra_of_Signets.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c4/Mantra_of_Signets.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Signets",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52], "1": [5, 9, 12, 16, 20, 23, 27, 31, 34, 38, 42, 45, 49, 53, 56, 60, 64, 67, 71, 75, 78, 82]
@@ -16018,7 +15997,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Physical_Resistance.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1e/Physical_Resistance.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Physical_Resistance",
     "Ranks": {
       "0": [30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110, 114], "1": [24, 23, 22, 22, 21, 20, 19, 18, 18, 17, 16, 15, 14, 14, 13, 12, 11, 10, 10, 9, 8, 7]
@@ -16041,7 +16020,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Power_Drain.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/86/Power_Drain.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Power_Drain",
     "Ranks": {
       "0": [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43], "1": [-4, -2, 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38], "2": [-1, 0, 0, 0, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 5, 6]
@@ -16064,7 +16043,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Power_Leech.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b8/Power_Leech.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Power_Leech",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19]
@@ -16087,7 +16066,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Revealed_Enchantment.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5d/Revealed_Enchantment.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Revealed_Enchantment",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19, 20]
@@ -16110,7 +16089,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Revealed_Hex.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/74/Revealed_Hex.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Revealed_Hex",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12]
@@ -16133,7 +16112,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Humility.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7d/Signet_of_Humility.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Humility",
     "Ranks": {
       "0": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
@@ -16156,7 +16135,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Recall.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/47/Signet_of_Recall.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Recall",
     "Ranks": {
       "0": [13, 13, 14, 14, 15, 15, 16, 16, 17, 17, 18, 18, 19, 19, 20, 20, 20, 21, 21, 22, 22, 23]
@@ -16179,7 +16158,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spirit_of_Failure.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/ba/Spirit_of_Failure.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spirit_of_Failure",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -16202,7 +16181,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spirit_Shackles.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/25/Spirit_Shackles.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spirit_Shackles",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -16225,7 +16204,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Tease.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5d/Tease.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Tease",
     "Ranks": {
       "0": [0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7]
@@ -16248,7 +16227,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Waste_Not,_Want_Not.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5c/Waste_Not%2C_Want_Not.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Waste_Not,_Want_Not",
     "Ranks": {
       "0": [8, 8, 9, 9, 9, 10, 10, 10, 11, 11, 11, 12, 12, 12, 13, 13, 13, 14, 14, 14, 15, 15], "1": [3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10], "2": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2]
@@ -16271,7 +16250,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Arcane_Echo.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b2/Arcane_Echo.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Arcane_Echo",
     "Ranks": {
     }
@@ -16293,7 +16272,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Arcane_Mimicry.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d4/Arcane_Mimicry.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Arcane_Mimicry",
     "Ranks": {
     }
@@ -16315,7 +16294,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Echo.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a0/Echo.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Echo",
     "Ranks": {
     }
@@ -16337,7 +16316,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Epidemic.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3b/Epidemic.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Epidemic",
     "Ranks": {
     }
@@ -16359,7 +16338,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Expel_Hexes.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/44/Expel_Hexes.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Expel_Hexes",
     "Ranks": {
     }
@@ -16381,7 +16360,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Hypochondria.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d1/Hypochondria.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Hypochondria",
     "Ranks": {
     }
@@ -16403,7 +16382,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lyssa%27s_Balance.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/eb/Lyssa%27s_Balance.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lyssa%27s_Balance",
     "Ranks": {
     }
@@ -16425,7 +16404,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mirror_of_Disenchantment.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f2/Mirror_of_Disenchantment.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mirror_of_Disenchantment",
     "Ranks": {
     }
@@ -16447,7 +16426,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shatter_Storm.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5e/Shatter_Storm.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shatter_Storm",
     "Ranks": {
     }
@@ -16469,7 +16448,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Disenchantment.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ea/Signet_of_Disenchantment.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Disenchantment",
     "Ranks": {
     }
@@ -16491,7 +16470,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Midnight.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/eb/Signet_of_Midnight.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Midnight",
     "Ranks": {
     }
@@ -16513,7 +16492,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Web_of_Disruption.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d1/Web_of_Disruption.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Web_of_Disruption",
     "Ranks": {
     }
@@ -16535,7 +16514,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Air_Attunement.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/32/Air_Attunement.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Air_Attunement",
     "Ranks": {
       "0": [36, 38, 39, 41, 42, 44, 46, 47, 49, 50, 52, 54, 55, 57, 58, 60, 62, 63, 65, 66, 68, 70]
@@ -16558,7 +16537,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Arc_Lightning.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a9/Arc_Lightning.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Arc_Lightning",
     "Ranks": {
       "0": [5, 7, 10, 12, 14, 17, 19, 21, 24, 26, 28, 31, 33, 35, 38, 40, 42, 45, 47, 49, 52, 54], "1": [15, 20, 24, 29, 34, 38, 43, 48, 52, 57, 62, 66, 71, 76, 80, 85, 90, 94, 99, 104, 108, 113]
@@ -16581,7 +16560,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Blinding_Flash.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/eb/Blinding_Flash.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Blinding_Flash",
     "Ranks": {
       "0": [3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10]
@@ -16604,7 +16583,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Blinding_Surge.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a4/Blinding_Surge.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Blinding_Surge",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68], "1": [3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10]
@@ -16627,7 +16606,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Chain_Lightning.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/aa/Chain_Lightning.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Chain_Lightning",
     "Ranks": {
       "0": [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115]
@@ -16650,7 +16629,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Chilling_Winds.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/17/Chilling_Winds.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Chilling_Winds",
     "Ranks": {
       "0": [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72], "1": [25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125, 130]
@@ -16673,7 +16652,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Conjure_Lightning.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/54/Conjure_Lightning.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Conjure_Lightning",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -16696,7 +16675,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Enervating_Charge.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/63/Enervating_Charge.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Enervating_Charge",
     "Ranks": {
       "0": [25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45, 47, 48, 50, 52, 53, 55, 57, 58, 60], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -16719,7 +16698,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Gale.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/cf/Gale.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Gale",
     "Ranks": {
     }
@@ -16741,7 +16720,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Glimmering_Mark.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/82/Glimmering_Mark.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Glimmering_Mark",
     "Ranks": {
       "0": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33]
@@ -16764,7 +16743,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Glyph_of_Swiftness.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b0/Glyph_of_Swiftness.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Glyph_of_Swiftness",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -16787,7 +16766,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Gust.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a1/Gust.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Gust",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13, 13], "1": [15, 19, 22, 26, 30, 33, 37, 41, 44, 48, 52, 55, 59, 63, 66, 70, 74, 77, 81, 85, 88, 92]
@@ -16810,7 +16789,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Invoke_Lightning.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/93/Invoke_Lightning.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Invoke_Lightning",
     "Ranks": {
       "0": [10, 15, 21, 26, 31, 37, 42, 47, 53, 58, 63, 69, 74, 79, 85, 90, 95, 101, 106, 111, 117, 122]
@@ -16833,7 +16812,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lightning_Bolt.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fb/Lightning_Bolt.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lightning_Bolt",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -16856,7 +16835,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lightning_Hammer.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ac/Lightning_Hammer.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lightning_Hammer",
     "Ranks": {
       "0": [10, 16, 22, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82, 88, 94, 100, 106, 112, 118, 124, 130, 136], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -16879,7 +16858,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lightning_Javelin.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/35/Lightning_Javelin.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lightning_Javelin",
     "Ranks": {
       "0": [15, 17, 20, 22, 24, 27, 29, 31, 34, 36, 38, 41, 43, 45, 48, 50, 52, 55, 57, 59, 62, 64]
@@ -16902,7 +16881,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lightning_Orb.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/03/Lightning_Orb.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lightning_Orb",
     "Ranks": {
       "0": [10, 16, 22, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82, 88, 94, 100, 106, 112, 118, 124, 130, 136]
@@ -16925,7 +16904,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lightning_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9f/Lightning_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lightning_Strike",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -16948,7 +16927,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lightning_Surge.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a1/Lightning_Surge.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lightning_Surge",
     "Ranks": {
       "0": [14, 20, 25, 31, 37, 43, 48, 54, 60, 66, 71, 77, 83, 89, 94, 100, 106, 111, 117, 123, 129, 134], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -16971,7 +16950,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lightning_Touch.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ac/Lightning_Touch.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lightning_Touch",
     "Ranks": {
       "0": [10, 13, 17, 20, 23, 27, 30, 33, 37, 40, 43, 47, 50, 53, 57, 60, 63, 67, 70, 73, 77, 80], "1": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5], "2": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -16994,7 +16973,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mind_Shock.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/29/Mind_Shock.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mind_Shock",
     "Ranks": {
       "0": [10, 13, 15, 18, 21, 23, 26, 29, 31, 34, 37, 39, 42, 45, 47, 50, 53, 55, 58, 61, 63, 66], "1": [10, 13, 15, 18, 21, 23, 26, 29, 31, 34, 37, 39, 42, 45, 47, 50, 53, 55, 58, 61, 63, 66]
@@ -17017,7 +16996,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ride_the_Lightning.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fc/Ride_the_Lightning.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ride_the_Lightning",
     "Ranks": {
       "0": [10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94], "1": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -17040,7 +17019,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shell_Shock.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ac/Shell_Shock.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shell_Shock",
     "Ranks": {
       "0": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -17063,7 +17042,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shock.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/61/Shock.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shock",
     "Ranks": {
       "0": [10, 13, 17, 20, 23, 27, 30, 33, 37, 40, 43, 47, 50, 53, 57, 60, 63, 67, 70, 73, 77, 80]
@@ -17086,7 +17065,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shock_Arrow.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/97/Shock_Arrow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shock_Arrow",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -17109,7 +17088,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Storm_Djinn%27s_Haste.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5d/Storm_Djinn%27s_Haste.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Storm_Djinn%27s_Haste",
     "Ranks": {
       "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
@@ -17132,7 +17111,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Teinai%27s_Wind.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/ba/Teinai%27s_Wind.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Teinai%27s_Wind",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52], "1": [40, 43, 45, 48, 51, 53, 56, 59, 61, 64, 67, 69, 72, 75, 77, 80, 83, 85, 88, 91, 93, 96], "2": [50, 55, 59, 64, 69, 73, 78, 83, 87, 92, 97, 101, 106, 111, 115, 120, 125, 129, 134, 139, 143, 148]
@@ -17155,7 +17134,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Thunderclap.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bc/Thunderclap.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Thunderclap",
     "Ranks": {
       "0": [10, 13, 15, 18, 21, 23, 26, 29, 31, 34, 37, 39, 42, 45, 47, 50, 53, 55, 58, 61, 63, 66], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -17178,7 +17157,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Whirlwind.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/59/Whirlwind.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Whirlwind",
     "Ranks": {
       "0": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -17201,7 +17180,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Windborne_Speed.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c4/Windborne_Speed.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Windborne_Speed",
     "Ranks": {
       "0": [5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 13, 14, 14, 15, 15, 16, 16]
@@ -17224,7 +17203,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Aftershock.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/af/Aftershock.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Aftershock",
     "Ranks": {
       "0": [26, 31, 36, 41, 46, 51, 56, 61, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125, 130], "1": [10, 14, 18, 22, 25, 29, 33, 37, 41, 45, 49, 53, 56, 60, 64, 68, 72, 76, 80, 83, 87, 91]
@@ -17247,7 +17226,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Armor_of_Earth.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8e/Armor_of_Earth.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Armor_of_Earth",
     "Ranks": {
       "0": [24, 26, 29, 31, 34, 36, 38, 41, 43, 46, 48, 50, 53, 55, 58, 60, 62, 65, 67, 70, 72, 74], "1": [50, 48, 45, 43, 40, 38, 36, 33, 31, 28, 26, 24, 21, 19, 16, 14, 12, 9, 7, 4, 2, 0]
@@ -17270,7 +17249,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ash_Blast.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3c/Ash_Blast.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ash_Blast",
     "Ranks": {
       "0": [35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77], "1": [20, 24, 27, 31, 35, 38, 42, 46, 49, 53, 57, 60, 64, 68, 71, 75, 79, 82, 86, 90, 93, 97]
@@ -17293,7 +17272,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Churning_Earth.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/51/Churning_Earth.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Churning_Earth",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -17316,7 +17295,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Crystal_Wave.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/60/Crystal_Wave.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Crystal_Wave",
     "Ranks": {
       "0": [10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94], "1": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19]
@@ -17339,7 +17318,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dragon%27s_Stomp.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1f/Dragon%27s_Stomp.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dragon%27s_Stomp",
     "Ranks": {
       "0": [26, 31, 36, 41, 46, 51, 56, 61, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125, 130]
@@ -17362,7 +17341,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Earth_Attunement.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/78/Earth_Attunement.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Earth_Attunement",
     "Ranks": {
       "0": [36, 38, 39, 41, 42, 44, 46, 47, 49, 50, 52, 54, 55, 57, 58, 60, 62, 63, 65, 66, 68, 70]
@@ -17385,7 +17364,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Earthen_Shackles.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b2/Earthen_Shackles.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Earthen_Shackles",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -17408,7 +17387,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Earthquake.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b9/Earthquake.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Earthquake",
     "Ranks": {
       "0": [26, 31, 36, 41, 46, 51, 56, 61, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125, 130]
@@ -17431,7 +17410,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ebon_Hawk.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7b/Ebon_Hawk.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ebon_Hawk",
     "Ranks": {
       "0": [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115], "1": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19]
@@ -17454,7 +17433,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Eruption.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3f/Eruption.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Eruption",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -17477,7 +17456,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Glowstone.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/30/Glowstone.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Glowstone",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -17500,7 +17479,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Grasping_Earth.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0c/Grasping_Earth.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Grasping_Earth",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -17523,7 +17502,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Iron_Mist.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fe/Iron_Mist.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Iron_Mist",
     "Ranks": {
       "0": [8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15, 15, 16, 16, 17, 17, 18]
@@ -17546,7 +17525,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Kinetic_Armor.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fc/Kinetic_Armor.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Kinetic_Armor",
     "Ranks": {
       "0": [20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104]
@@ -17569,7 +17548,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Magnetic_Aura.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/dc/Magnetic_Aura.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Magnetic_Aura",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7], "1": [10, 13, 15, 18, 21, 23, 26, 29, 31, 34, 37, 39, 42, 45, 47, 50, 53, 55, 58, 61, 63, 66]
@@ -17592,7 +17571,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Magnetic_Surge.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4a/Magnetic_Surge.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Magnetic_Surge",
     "Ranks": {
       "0": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99], "1": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -17615,7 +17594,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Obsidian_Flame.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/21/Obsidian_Flame.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Obsidian_Flame",
     "Ranks": {
       "0": [22, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82, 88, 94, 100, 106, 112, 118, 124, 130, 136, 142, 148]
@@ -17638,7 +17617,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Obsidian_Flesh.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c2/Obsidian_Flesh.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Obsidian_Flesh",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25]
@@ -17661,7 +17640,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Sandstorm.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/75/Sandstorm.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Sandstorm",
     "Ranks": {
       "0": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38], "1": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38]
@@ -17684,7 +17663,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shockwave.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/18/Shockwave.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shockwave",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78], "1": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -17707,7 +17686,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Sliver_Armor.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e5/Sliver_Armor.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Sliver_Armor",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13, 13], "1": [25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45, 47, 48, 50, 52, 53, 55, 57, 58, 60], "2": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47]
@@ -17730,7 +17709,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Stone_Daggers.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3e/Stone_Daggers.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Stone_Daggers",
     "Ranks": {
       "0": [8, 10, 11, 13, 15, 16, 18, 20, 21, 23, 25, 26, 28, 30, 31, 33, 35, 36, 38, 40, 41, 43], "1": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -17753,7 +17732,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Stone_Sheath.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9e/Stone_Sheath.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Stone_Sheath",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [1, 3, 5, 7, 9, 11, 13, 15, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42], "2": [15, 19, 22, 26, 30, 33, 37, 41, 44, 48, 52, 55, 59, 63, 66, 70, 74, 77, 81, 85, 88, 92], "3": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -17776,7 +17755,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Stone_Striker.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/14/Stone_Striker.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Stone_Striker",
     "Ranks": {
       "0": [5, 7, 8, 10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40]
@@ -17799,7 +17778,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Stoneflesh_Aura.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/15/Stoneflesh_Aura.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Stoneflesh_Aura",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19], "1": [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43]
@@ -17822,7 +17801,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Stoning.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8d/Stoning.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Stoning",
     "Ranks": {
       "0": [45, 49, 53, 57, 61, 65, 69, 73, 77, 81, 85, 89, 93, 97, 101, 105, 109, 113, 117, 121, 125, 129]
@@ -17845,7 +17824,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Teinai%27s_Crystals.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/24/Teinai%27s_Crystals.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Teinai%27s_Crystals",
     "Ranks": {
       "0": [20, 21, 23, 24, 25, 27, 28, 29, 31, 32, 33, 35, 36, 37, 39, 40, 41, 43, 44, 45, 47, 48], "1": [20, 21, 23, 24, 25, 27, 28, 29, 31, 32, 33, 35, 36, 37, 39, 40, 41, 43, 44, 45, 47, 48], "2": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19]
@@ -17868,7 +17847,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Unsteady_Ground.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bf/Unsteady_Ground.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Unsteady_Ground",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -17891,7 +17870,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ward_Against_Elements.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/be/Ward_Against_Elements.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ward_Against_Elements",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25]
@@ -17914,7 +17893,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ward_Against_Foes.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8e/Ward_Against_Foes.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ward_Against_Foes",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25]
@@ -17937,7 +17916,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ward_Against_Melee.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e0/Ward_Against_Melee.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ward_Against_Melee",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -17960,7 +17939,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ward_of_Stability.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ab/Ward_of_Stability.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ward_of_Stability",
     "Ranks": {
       "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
@@ -17983,7 +17962,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ward_of_Weakness.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/97/Ward_of_Weakness.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ward_of_Weakness",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -18006,7 +17985,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Aura_of_Restoration.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c3/Aura_of_Restoration.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Aura_of_Restoration",
     "Ranks": {
       "0": [200, 220, 240, 260, 280, 300, 320, 340, 360, 380, 400, 420, 440, 460, 480, 500, 520, 540, 560, 580, 600, 620], "1": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
@@ -18029,7 +18008,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Elemental_Attunement.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/34/Elemental_Attunement.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Elemental_Attunement",
     "Ranks": {
       "0": [25, 27, 30, 32, 34, 37, 39, 41, 44, 46, 48, 51, 53, 55, 58, 60, 62, 65, 67, 69, 72, 74], "1": [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
@@ -18052,7 +18031,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Energy_Blast.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1f/Energy_Blast.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Energy_Blast",
     "Ranks": {
       "0": [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
@@ -18075,7 +18054,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Energy_Boon.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/00/Energy_Boon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Energy_Boon",
     "Ranks": {
       "0": [36, 38, 39, 41, 42, 44, 46, 47, 49, 50, 52, 54, 55, 57, 58, 60, 62, 63, 65, 66, 68, 70], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4], "2": [1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 8, 9, 10, 11, 11, 12, 13, 13, 14, 15, 16, 16]
@@ -18098,7 +18077,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ether_Prism.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/39/Ether_Prism.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ether_Prism",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -18121,7 +18100,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ether_Prodigy.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/30/Ether_Prodigy.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ether_Prodigy",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25], "1": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52], "2": [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2]
@@ -18144,7 +18123,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ether_Renewal.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/97/Ether_Renewal.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ether_Renewal",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5], "2": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -18167,7 +18146,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Glyph_of_Energy.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c1/Glyph_of_Energy.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Glyph_of_Energy",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4], "1": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31], "2": [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
@@ -18190,7 +18169,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Glyph_of_Lesser_Energy.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/53/Glyph_of_Lesser_Energy.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Glyph_of_Lesser_Energy",
     "Ranks": {
       "0": [10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15, 16, 16, 17, 17, 18, 19, 19, 20, 20, 21, 21]
@@ -18213,7 +18192,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Glyph_of_Restoration.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7f/Glyph_of_Restoration.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Glyph_of_Restoration",
     "Ranks": {
       "0": [30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125, 130, 135], "1": [150, 167, 183, 200, 217, 233, 250, 267, 283, 300, 317, 333, 350, 367, 383, 400, 417, 433, 450, 467, 483, 500]
@@ -18236,7 +18215,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Master_of_Magic.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/35/Master_of_Magic.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Master_of_Magic",
     "Ranks": {
       "0": [1, 5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49, 53, 57, 61, 65, 69, 73, 77, 81, 85], "1": [8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12, 13, 13, 14, 14, 14, 15, 15, 16, 16, 16]
@@ -18259,7 +18238,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Bed_of_Coals.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fa/Bed_of_Coals.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Bed_of_Coals",
     "Ranks": {
       "0": [5, 7, 8, 10, 11, 13, 15, 16, 18, 19, 21, 23, 24, 26, 27, 29, 31, 32, 34, 35, 37, 39], "1": [3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8, 8, 9]
@@ -18282,7 +18261,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Breath_of_Fire.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4e/Breath_of_Fire.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Breath_of_Fire",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -18305,7 +18284,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Burning_Speed.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/89/Burning_Speed.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Burning_Speed",
     "Ranks": {
       "0": [30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51], "1": [3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11]
@@ -18328,7 +18307,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Conjure_Flame.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a6/Conjure_Flame.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Conjure_Flame",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -18351,7 +18330,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Double_Dragon.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7a/Double_Dragon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Double_Dragon",
     "Ranks": {
       "0": [5, 7, 8, 10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40], "1": [0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4]
@@ -18374,7 +18353,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Elemental_Flame.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e3/Elemental_Flame.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Elemental_Flame",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45], "1": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -18397,7 +18376,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Fire_Attunement.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e5/Fire_Attunement.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Fire_Attunement",
     "Ranks": {
       "0": [36, 38, 39, 41, 42, 44, 46, 47, 49, 50, 52, 54, 55, 57, 58, 60, 62, 63, 65, 66, 68, 70]
@@ -18420,7 +18399,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Fire_Storm.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2c/Fire_Storm.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Fire_Storm",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47]
@@ -18443,7 +18422,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Fireball.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/44/Fireball.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Fireball",
     "Ranks": {
       "0": [7, 14, 21, 28, 35, 42, 49, 56, 63, 70, 77, 84, 91, 98, 105, 112, 119, 126, 133, 140, 147, 154]
@@ -18466,7 +18445,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Flame_Burst.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/85/Flame_Burst.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Flame_Burst",
     "Ranks": {
       "0": [15, 22, 29, 36, 43, 50, 57, 64, 71, 78, 85, 92, 99, 106, 113, 120, 127, 134, 141, 148, 155, 162]
@@ -18489,7 +18468,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Flame_Djinn%27s_Haste.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bf/Flame_Djinn%27s_Haste.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Flame_Djinn%27s_Haste",
     "Ranks": {
       "0": [15, 22, 29, 36, 43, 50, 57, 64, 71, 78, 85, 92, 99, 106, 113, 120, 127, 134, 141, 148, 155, 162], "1": [8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12, 13, 13, 14, 14, 14, 15, 15, 16, 16, 16]
@@ -18512,7 +18491,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Flare.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/31/Flare.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Flare",
     "Ranks": {
       "0": [20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68, 71, 74, 77, 80, 83]
@@ -18535,7 +18514,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Glowing_Gaze.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bf/Glowing_Gaze.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Glowing_Gaze",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -18558,7 +18537,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Glyph_of_Immolation.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/51/Glyph_of_Immolation.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Glyph_of_Immolation",
     "Ranks": {
       "0": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5], "1": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5]
@@ -18581,7 +18560,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Immolate.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4a/Immolate.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Immolate",
     "Ranks": {
       "0": [20, 24, 27, 31, 35, 38, 42, 46, 49, 53, 57, 60, 64, 68, 71, 75, 79, 82, 86, 90, 93, 97], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -18604,7 +18583,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Incendiary_Bonds.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d5/Incendiary_Bonds.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Incendiary_Bonds",
     "Ranks": {
       "0": [20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -18627,7 +18606,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Inferno.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f0/Inferno.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Inferno",
     "Ranks": {
       "0": [30, 37, 44, 51, 58, 65, 72, 79, 86, 93, 100, 107, 114, 121, 128, 135, 142, 149, 156, 163, 170, 177]
@@ -18650,7 +18629,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lava_Arrows.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8b/Lava_Arrows.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lava_Arrows",
     "Ranks": {
       "0": [20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68, 71, 74, 77, 80, 83]
@@ -18673,7 +18652,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lava_Font.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a3/Lava_Font.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lava_Font",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -18696,7 +18675,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Liquid_Flame.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bb/Liquid_Flame.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Liquid_Flame",
     "Ranks": {
       "0": [7, 14, 21, 28, 35, 42, 49, 56, 63, 70, 77, 84, 91, 98, 105, 112, 119, 126, 133, 140, 147, 154]
@@ -18719,7 +18698,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mark_of_Rodgort.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f3/Mark_of_Rodgort.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mark_of_Rodgort",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45], "1": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5]
@@ -18742,7 +18721,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Meteor.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/cf/Meteor.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Meteor",
     "Ranks": {
       "0": [7, 14, 21, 28, 35, 42, 49, 56, 63, 70, 77, 84, 91, 98, 105, 112, 119, 126, 133, 140, 147, 154]
@@ -18765,7 +18744,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Meteor_Shower.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/30/Meteor_Shower.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Meteor_Shower",
     "Ranks": {
       "0": [7, 14, 21, 28, 35, 42, 49, 56, 63, 70, 77, 84, 91, 98, 105, 112, 119, 126, 133, 140, 147, 154]
@@ -18788,7 +18767,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mind_Blast.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3d/Mind_Blast.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mind_Blast",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78], "1": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11]
@@ -18811,7 +18790,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mind_Burn.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4f/Mind_Burn.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mind_Burn",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78], "1": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78], "2": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -18834,7 +18813,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Phoenix.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ac/Phoenix.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Phoenix",
     "Ranks": {
       "0": [10, 13, 17, 20, 23, 27, 30, 33, 37, 40, 43, 47, 50, 53, 57, 60, 63, 67, 70, 73, 77, 80], "1": [20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104]
@@ -18857,7 +18836,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Rodgort%27s_Invocation.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/39/Rodgort%27s_Invocation.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Rodgort%27s_Invocation",
     "Ranks": {
       "0": [15, 22, 29, 36, 43, 50, 57, 64, 71, 78, 85, 92, 99, 106, 113, 120, 127, 134, 141, 148, 155, 162], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -18880,7 +18859,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Savannah_Heat.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/50/Savannah_Heat.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Savannah_Heat",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "2": [75, 90, 105, 120, 135, 150, 165, 180, 195, 210, 225, 240, 255, 270, 285, 300, 315, 330, 345, 360, 375, 390]
@@ -18903,7 +18882,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Searing_Flames.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/39/Searing_Flames.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Searing_Flames",
     "Ranks": {
       "0": [10, 16, 22, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82, 88, 94, 100, 106, 112, 118, 124, 130, 136], "1": [1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9]
@@ -18926,7 +18905,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Searing_Heat.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/87/Searing_Heat.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Searing_Heat",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -18949,7 +18928,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Smoldering_Embers.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/de/Smoldering_Embers.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Smoldering_Embers",
     "Ranks": {
       "0": [10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94], "1": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33]
@@ -18972,7 +18951,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Star_Burst.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5a/Star_Burst.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Star_Burst",
     "Ranks": {
       "0": [7, 14, 21, 28, 35, 42, 49, 56, 63, 70, 77, 84, 91, 98, 105, 112, 119, 126, 133, 140, 147, 154], "1": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5]
@@ -18995,7 +18974,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Teinai%27s_Heat.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/51/Teinai%27s_Heat.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Teinai%27s_Heat",
     "Ranks": {
       "0": [10, 10, 11, 11, 11, 12, 12, 12, 13, 13, 13, 14, 14, 14, 15, 15, 15, 16, 16, 16, 17, 17], "1": [2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 6]
@@ -19018,7 +18997,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Armor_of_Frost.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/29/Armor_of_Frost.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Armor_of_Frost",
     "Ranks": {
       "0": [10, 12, 13, 15, 16, 18, 20, 21, 23, 24, 26, 28, 29, 31, 32, 34, 36, 37, 39, 40, 42, 44]
@@ -19041,7 +19020,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Armor_of_Mist.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ad/Armor_of_Mist.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Armor_of_Mist",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25], "1": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -19064,7 +19043,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Blurred_Vision.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5f/Blurred_Vision.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Blurred_Vision",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12]
@@ -19087,7 +19066,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Conjure_Frost.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fc/Conjure_Frost.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Conjure_Frost",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -19110,7 +19089,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Deep_Freeze.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/22/Deep_Freeze.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Deep_Freeze",
     "Ranks": {
       "0": [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115]
@@ -19133,7 +19112,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Freezing_Gust.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5a/Freezing_Gust.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Freezing_Gust",
     "Ranks": {
       "0": [20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104], "1": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -19156,7 +19135,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Frigid_Armor.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7b/Frigid_Armor.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Frigid_Armor",
     "Ranks": {
       "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31], "1": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -19179,7 +19158,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Frozen_Burst.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/22/Frozen_Burst.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Frozen_Burst",
     "Ranks": {
       "0": [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115], "1": [3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10]
@@ -19202,7 +19181,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Glowing_Ice.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/01/Glowing_Ice.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Glowing_Ice",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -19225,7 +19204,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ice_Prison.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/eb/Ice_Prison.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ice_Prison",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25]
@@ -19248,7 +19227,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ice_Spear.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e1/Ice_Spear.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ice_Spear",
     "Ranks": {
       "0": [10, 13, 17, 20, 23, 27, 30, 33, 37, 40, 43, 47, 50, 53, 57, 60, 63, 67, 70, 73, 77, 80], "1": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5]
@@ -19271,7 +19250,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ice_Spikes.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0b/Ice_Spikes.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ice_Spikes",
     "Ranks": {
       "0": [20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104], "1": [2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 8]
@@ -19294,7 +19273,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Icy_Prism.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/55/Icy_Prism.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Icy_Prism",
     "Ranks": {
       "0": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99], "1": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -19317,7 +19296,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Icy_Shackles.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d1/Icy_Shackles.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Icy_Shackles",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -19340,7 +19319,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Maelstrom.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/dd/Maelstrom.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Maelstrom",
     "Ranks": {
       "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
@@ -19363,7 +19342,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mind_Freeze.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/be/Mind_Freeze.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mind_Freeze",
     "Ranks": {
       "0": [10, 13, 17, 20, 23, 27, 30, 33, 37, 40, 43, 47, 50, 53, 57, 60, 63, 67, 70, 73, 77, 80], "1": [10, 13, 17, 20, 23, 27, 30, 33, 37, 40, 43, 47, 50, 53, 57, 60, 63, 67, 70, 73, 77, 80], "2": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -19386,7 +19365,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mirror_of_Ice.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/33/Mirror_of_Ice.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mirror_of_Ice",
     "Ranks": {
       "0": [15, 19, 22, 26, 30, 33, 37, 41, 44, 48, 52, 55, 59, 63, 66, 70, 74, 77, 81, 85, 88, 92], "1": [2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 8]
@@ -19409,7 +19388,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mist_Form.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f3/Mist_Form.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mist_Form",
     "Ranks": {
       "0": [10, 12, 15, 17, 19, 22, 24, 26, 29, 31, 33, 36, 38, 40, 43, 45, 47, 50, 52, 54, 57, 59], "1": [50, 63, 77, 90, 103, 117, 130, 143, 157, 170, 183, 197, 210, 223, 237, 250, 263, 277, 290, 303, 317, 330]
@@ -19432,7 +19411,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Rust.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/33/Rust.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Rust",
     "Ranks": {
       "0": [10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "2": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -19455,7 +19434,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shard_Storm.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0b/Shard_Storm.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shard_Storm",
     "Ranks": {
       "0": [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115], "1": [2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 8]
@@ -19478,7 +19457,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shatterstone.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/36/Shatterstone.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shatterstone",
     "Ranks": {
       "0": [25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125, 130], "1": [25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125, 130]
@@ -19501,7 +19480,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Slippery_Ground.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4b/Slippery_Ground.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Slippery_Ground",
     "Ranks": {
     }
@@ -19523,7 +19502,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Steam.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/04/Steam.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Steam",
     "Ranks": {
       "0": [20, 23, 25, 28, 31, 33, 36, 39, 41, 44, 47, 49, 52, 55, 57, 60, 63, 65, 68, 71, 73, 76], "1": [5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11, 11, 11, 12, 12]
@@ -19546,7 +19525,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Swirling_Aura.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/88/Swirling_Aura.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Swirling_Aura",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8]
@@ -19569,7 +19548,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Teinai%27s_Prison.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ad/Teinai%27s_Prison.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Teinai%27s_Prison",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8], "1": [5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 10, 10, 10, 10, 11]
@@ -19592,7 +19571,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vapor_Blade.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ed/Vapor_Blade.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vapor_Blade",
     "Ranks": {
       "0": [15, 23, 31, 39, 47, 55, 63, 71, 79, 87, 95, 103, 111, 119, 127, 135, 143, 151, 159, 167, 175, 183]
@@ -19615,7 +19594,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ward_Against_Harm.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3f/Ward_Against_Harm.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ward_Against_Harm",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4], "2": [12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25, 26, 26, 27, 28, 29], "3": [12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25, 26, 26, 27, 28, 29]
@@ -19638,7 +19617,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Water_Attunement.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/43/Water_Attunement.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Water_Attunement",
     "Ranks": {
       "0": [36, 38, 39, 41, 42, 44, 46, 47, 49, 50, 52, 54, 55, 57, 58, 60, 62, 63, 65, 66, 68, 70]
@@ -19661,7 +19640,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Water_Trident.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ee/Water_Trident.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Water_Trident",
     "Ranks": {
       "0": [10, 15, 21, 26, 31, 37, 42, 47, 53, 58, 63, 69, 74, 79, 85, 90, 95, 101, 106, 111, 117, 122]
@@ -19684,7 +19663,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Winter%27s_Embrace.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/78/Winter%27s_Embrace.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Winter%27s_Embrace",
     "Ranks": {
       "0": [2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 8], "1": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19]
@@ -19707,7 +19686,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Glyph_of_Concentration.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/91/Glyph_of_Concentration.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Glyph_of_Concentration",
     "Ranks": {
     }
@@ -19729,7 +19708,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Glyph_of_Elemental_Power.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e9/Glyph_of_Elemental_Power.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Glyph_of_Elemental_Power",
     "Ranks": {
     }
@@ -19751,7 +19730,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Glyph_of_Essence.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/30/Glyph_of_Essence.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Glyph_of_Essence",
     "Ranks": {
     }
@@ -19773,7 +19752,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Glyph_of_Renewal.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8a/Glyph_of_Renewal.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Glyph_of_Renewal",
     "Ranks": {
     }
@@ -19795,7 +19774,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Glyph_of_Sacrifice.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/10/Glyph_of_Sacrifice.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Glyph_of_Sacrifice",
     "Ranks": {
     }
@@ -19817,7 +19796,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Second_Wind.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f9/Second_Wind.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Second_Wind",
     "Ranks": {
     }
@@ -19839,7 +19818,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Assassin%27s_Remedy.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/25/Assassin%27s_Remedy.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Assassin%27s_Remedy",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13]
@@ -19862,7 +19841,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Black_Lotus_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/60/Black_Lotus_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Black_Lotus_Strike",
     "Ranks": {
       "0": [10, 11, 13, 14, 16, 17, 18, 20, 21, 23, 24, 25, 27, 28, 30, 31, 32, 34, 35, 37, 38], "1": [5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 13, 14, 14, 15, 15, 16]
@@ -19885,7 +19864,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Critical_Defenses.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/19/Critical_Defenses.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Critical_Defenses",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12]
@@ -19908,7 +19887,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Critical_Eye.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/57/Critical_Eye.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Critical_Eye",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43], "1": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19]
@@ -19931,7 +19910,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Critical_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/ff/Critical_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Critical_Strike",
     "Ranks": {
       "0": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4]
@@ -19954,7 +19933,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dark_Apostasy.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ad/Dark_Apostasy.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dark_Apostasy",
     "Ranks": {
       "0": [3, 4, 5, 6, 7, 8, 9, 10, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22], "1": [10, 10, 9, 9, 8, 8, 8, 7, 7, 6, 6, 6, 5, 5, 4, 4, 4, 3, 3, 2, 2]
@@ -19977,7 +19956,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Deadly_Haste.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d4/Deadly_Haste.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Deadly_Haste",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65], "2": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65]
@@ -20000,7 +19979,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Locust%27s_Fury.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5d/Locust%27s_Fury.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Locust%27s_Fury",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43]
@@ -20023,7 +20002,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Malicious_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/54/Malicious_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Malicious_Strike",
     "Ranks": {
       "0": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37]
@@ -20046,7 +20025,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Palm_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c5/Palm_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Palm_Strike",
     "Ranks": {
       "0": [10, 14, 17, 21, 25, 28, 32, 36, 39, 43, 47, 50, 54, 58, 61, 65, 69, 72, 76, 80, 83], "1": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6]
@@ -20069,7 +20048,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Seeping_Wound.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/96/Seeping_Wound.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Seeping_Wound",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9], "1": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32]
@@ -20092,7 +20071,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Sharpen_Daggers.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1c/Sharpen_Daggers.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Sharpen_Daggers",
     "Ranks": {
       "0": [5, 7, 8, 10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38], "1": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18]
@@ -20115,7 +20094,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shattering_Assault.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d4/Shattering_Assault.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shattering_Assault",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65]
@@ -20138,7 +20117,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Twisting_Fangs.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8e/Twisting_Fangs.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Twisting_Fangs",
     "Ranks": {
       "0": [10, 11, 11, 12, 13, 13, 14, 15, 15, 16, 17, 17, 18, 19, 19, 20, 21, 21, 22, 23, 23], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -20161,7 +20140,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Unsuspecting_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/64/Unsuspecting_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Unsuspecting_Strike",
     "Ranks": {
       "0": [19, 20, 21, 21, 22, 23, 24, 25, 25, 26, 27, 28, 29, 29, 30, 31, 32, 33, 33, 34, 35], "1": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95]
@@ -20184,7 +20163,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Way_of_the_Assassin.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/74/Way_of_the_Assassin.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Way_of_the_Assassin",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], "1": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45]
@@ -20207,7 +20186,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Way_of_the_Master.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/27/Way_of_the_Master.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Way_of_the_Master",
     "Ranks": {
       "0": [3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43]
@@ -20230,7 +20209,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Black_Mantis_Thrust.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4e/Black_Mantis_Thrust.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Black_Mantis_Thrust",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25], "1": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19, 20]
@@ -20253,7 +20232,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Black_Spider_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/62/Black_Spider_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Black_Spider_Strike",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -20276,7 +20255,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Blades_of_Steel.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1e/Blades_of_Steel.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Blades_of_Steel",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 9, 9, 10, 11, 12, 12, 13, 14, 15, 15, 16, 17, 17, 18, 19, 20, 20]
@@ -20299,7 +20278,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Death_Blossom.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/04/Death_Blossom.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Death_Blossom",
     "Ranks": {
       "0": [20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45, 47, 48, 50, 52, 53, 55], "1": [20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45, 47, 48, 50, 52, 53, 55]
@@ -20322,7 +20301,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Desperate_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bb/Desperate_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Desperate_Strike",
     "Ranks": {
       "0": [50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92], "1": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78]
@@ -20345,7 +20324,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Disrupting_Stab.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8e/Disrupting_Stab.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Disrupting_Stab",
     "Ranks": {
       "0": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 13]
@@ -20368,7 +20347,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Exhausting_Assault.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/26/Exhausting_Assault.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Exhausting_Assault",
     "Ranks": {
     }
@@ -20390,7 +20369,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Falling_Lotus_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f6/Falling_Lotus_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Falling_Lotus_Strike",
     "Ranks": {
       "0": [15, 16, 18, 19, 20, 22, 23, 24, 26, 27, 28, 30, 31, 32, 34, 35, 36, 38, 39, 40, 42, 43], "1": [1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 8, 9, 10, 11, 11, 12, 13, 13, 14, 15, 16, 16]
@@ -20413,7 +20392,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Falling_Spider.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/44/Falling_Spider.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Falling_Spider",
     "Ranks": {
       "0": [15, 16, 18, 19, 20, 22, 23, 24, 26, 27, 28, 30, 31, 32, 34, 35, 36, 38, 39, 40, 42, 43], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -20436,7 +20415,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Flashing_Blades.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/38/Flashing_Blades.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Flashing_Blades",
     "Ranks": {
       "0": [5, 7, 8, 10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -20459,7 +20438,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Fox_Fangs.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/de/Fox_Fangs.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Fox_Fangs",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45]
@@ -20482,7 +20461,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Fox%27s_Promise.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ed/Fox%27s_Promise.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Fox%27s_Promise",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -20505,7 +20484,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Golden_Fang_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0c/Golden_Fang_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Golden_Fang_Strike",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -20528,7 +20507,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Golden_Fox_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bb/Golden_Fox_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Golden_Fox_Strike",
     "Ranks": {
       "0": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38]
@@ -20551,7 +20530,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Golden_Lotus_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/25/Golden_Lotus_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Golden_Lotus_Strike",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 5, 5, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 9, 9, 9, 9]
@@ -20574,7 +20553,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Golden_Phoenix_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b5/Golden_Phoenix_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Golden_Phoenix_Strike",
     "Ranks": {
       "0": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38]
@@ -20597,7 +20576,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Golden_Skull_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/05/Golden_Skull_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Golden_Skull_Strike",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -20620,7 +20599,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Horns_of_the_Ox.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/58/Horns_of_the_Ox.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Horns_of_the_Ox",
     "Ranks": {
       "0": [1, 2, 2, 3, 4, 4, 5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15]
@@ -20643,7 +20622,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Jagged_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/02/Jagged_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Jagged_Strike",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -20666,7 +20645,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Jungle_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/15/Jungle_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Jungle_Strike",
     "Ranks": {
       "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31], "1": [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43]
@@ -20689,7 +20668,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Leaping_Mantis_Sting.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ae/Leaping_Mantis_Sting.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Leaping_Mantis_Sting",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19], "1": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19, 20]
@@ -20712,7 +20691,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lotus_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a9/Lotus_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lotus_Strike",
     "Ranks": {
       "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -20735,7 +20714,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Moebius_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/49/Moebius_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Moebius_Strike",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45]
@@ -20758,7 +20737,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Nine_Tail_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a7/Nine_Tail_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Nine_Tail_Strike",
     "Ranks": {
       "0": [15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45, 47, 48, 50]
@@ -20781,7 +20760,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Repeating_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a2/Repeating_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Repeating_Strike",
     "Ranks": {
       "0": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38]
@@ -20804,7 +20783,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Temple_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9b/Temple_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Temple_Strike",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -20827,7 +20806,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Trampling_Ox.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9c/Trampling_Ox.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Trampling_Ox",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -20850,7 +20829,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wild_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/93/Wild_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wild_Strike",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45]
@@ -20873,7 +20852,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Assassin%27s_Promise.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/80/Assassin%27s_Promise.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Assassin%27s_Promise",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -20896,7 +20875,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Augury_of_Death.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/84/Augury_of_Death.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Augury_of_Death",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -20919,7 +20898,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Crippling_Dagger.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d8/Crippling_Dagger.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Crippling_Dagger",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75], "1": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19]
@@ -20942,7 +20921,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dancing_Daggers.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f4/Dancing_Daggers.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dancing_Daggers",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45]
@@ -20965,7 +20944,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dark_Prison.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0b/Dark_Prison.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dark_Prison",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8]
@@ -20988,7 +20967,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Deadly_Paradox.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8a/Deadly_Paradox.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Deadly_Paradox",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18]
@@ -21011,7 +20990,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Disrupting_Dagger.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3b/Disrupting_Dagger.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Disrupting_Dagger",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43]
@@ -21034,7 +21013,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Enduring_Toxin.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/96/Enduring_Toxin.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Enduring_Toxin",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6]
@@ -21057,7 +21036,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Entangling_Asp.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a4/Entangling_Asp.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Entangling_Asp",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -21080,7 +21059,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Expose_Defenses.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/85/Expose_Defenses.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Expose_Defenses",
     "Ranks": {
       "0": [1, 2, 2, 3, 4, 4, 5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14]
@@ -21103,7 +21082,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Expunge_Enchantments.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/29/Expunge_Enchantments.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Expunge_Enchantments",
     "Ranks": {
       "0": [10, 10, 9, 9, 9, 8, 8, 8, 7, 7, 7, 6, 6, 6, 5, 5, 5, 4, 4, 4, 3]
@@ -21126,7 +21105,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Impale.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8f/Impale.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Impale",
     "Ranks": {
       "0": [25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120, 125], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -21149,7 +21128,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Iron_Palm.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/cb/Iron_Palm.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Iron_Palm",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65]
@@ -21172,7 +21151,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mantis_Touch.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f5/Mantis_Touch.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mantis_Touch",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -21195,7 +21174,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mark_of_Death.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bb/Mark_of_Death.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mark_of_Death",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12]
@@ -21218,7 +21197,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mark_of_Insecurity.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/24/Mark_of_Insecurity.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mark_of_Insecurity",
     "Ranks": {
       "0": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4], "2": [30, 33, 37, 40, 43, 47, 50, 53, 57, 60, 63, 67, 70, 73, 77, 80, 83, 87, 90, 93, 97]
@@ -21241,7 +21220,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Sadist%27s_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/40/Sadist%27s_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Sadist%27s_Signet",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50]
@@ -21264,7 +21243,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Scorpion_Wire.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fc/Scorpion_Wire.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Scorpion_Wire",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24]
@@ -21287,7 +21266,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shadow_Fang.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/53/Shadow_Fang.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shadow_Fang",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -21310,7 +21289,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shadow_Prison.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7f/Shadow_Prison.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shadow_Prison",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9]
@@ -21333,7 +21312,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shameful_Fear.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f7/Shameful_Fear.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shameful_Fear",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -21356,7 +21335,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shroud_of_Silence.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d0/Shroud_of_Silence.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shroud_of_Silence",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4]
@@ -21379,7 +21358,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Deadly_Corruption.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ef/Signet_of_Deadly_Corruption.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Deadly_Corruption",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45]
@@ -21402,7 +21381,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Shadows.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1b/Signet_of_Shadows.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Shadows",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45], "1": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75]
@@ -21425,7 +21404,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Toxic_Shock.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/62/Signet_of_Toxic_Shock.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Toxic_Shock",
     "Ranks": {
       "0": [10, 16, 22, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82, 88, 94, 100, 106, 112, 118, 124, 130]
@@ -21448,7 +21427,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Siphon_Speed.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/53/Siphon_Speed.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Siphon_Speed",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18]
@@ -21471,7 +21450,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Siphon_Strength.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/64/Siphon_Strength.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Siphon_Strength",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65]
@@ -21494,7 +21473,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vampiric_Assault.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a1/Vampiric_Assault.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vampiric_Assault",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50]
@@ -21517,7 +21496,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Way_of_the_Empty_Palm.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/98/Way_of_the_Empty_Palm.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Way_of_the_Empty_Palm",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -21540,7 +21519,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Beguiling_Haze.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9b/Beguiling_Haze.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Beguiling_Haze",
     "Ranks": {
       "0": [3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11]
@@ -21563,7 +21542,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Blinding_Powder.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/80/Blinding_Powder.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Blinding_Powder",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19]
@@ -21586,7 +21565,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Caltrops.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/93/Caltrops.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Caltrops",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18]
@@ -21609,7 +21588,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dark_Escape.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8e/Dark_Escape.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dark_Escape",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18]
@@ -21632,7 +21611,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Death%27s_Charge.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/91/Death%27s_Charge.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Death%27s_Charge",
     "Ranks": {
       "0": [65, 74, 83, 92, 101, 110, 119, 128, 137, 146, 155, 164, 173, 182, 191, 200, 209, 218, 227, 236, 245]
@@ -21655,7 +21634,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Death%27s_Retreat.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/14/Death%27s_Retreat.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Death%27s_Retreat",
     "Ranks": {
       "0": [40, 46, 52, 58, 64, 70, 76, 82, 88, 94, 100, 106, 112, 118, 124, 130, 136, 142, 148, 154, 160]
@@ -21678,7 +21657,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Feigned_Neutrality.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/89/Feigned_Neutrality.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Feigned_Neutrality",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12]
@@ -21701,7 +21680,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Heart_of_Shadow.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/26/Heart_of_Shadow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Heart_of_Shadow",
     "Ranks": {
       "0": [30, 38, 46, 54, 62, 70, 78, 86, 94, 102, 110, 118, 126, 134, 142, 150, 158, 166, 174, 182, 190]
@@ -21724,7 +21703,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Hidden_Caltrops.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c2/Hidden_Caltrops.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Hidden_Caltrops",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13], "1": [1, 2, 3, 4, 5, 6, 7, 8, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
@@ -21747,7 +21726,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mirrored_Stance.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/05/Mirrored_Stance.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mirrored_Stance",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43]
@@ -21770,7 +21749,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Return.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5f/Return.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Return",
     "Ranks": {
       "0": [3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10]
@@ -21793,7 +21772,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shadow_Form.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e4/Shadow_Form.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shadow_Form",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32]
@@ -21816,7 +21795,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shadow_of_Haste.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c9/Shadow_of_Haste.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shadow_of_Haste",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50]
@@ -21839,7 +21818,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shadow_Refuge.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b5/Shadow_Refuge.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shadow_Refuge",
     "Ranks": {
       "0": [5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11, 11, 11, 12], "1": [40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104, 108, 112, 116, 120]
@@ -21862,7 +21841,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shadow_Shroud.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/cf/Shadow_Shroud.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shadow_Shroud",
     "Ranks": {
       "0": [3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11]
@@ -21885,7 +21864,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shadowy_Burden.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3a/Shadowy_Burden.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shadowy_Burden",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19]
@@ -21908,7 +21887,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shroud_of_Distress.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/85/Shroud_of_Distress.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shroud_of_Distress",
     "Ranks": {
       "0": [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70], "1": [3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10]
@@ -21931,7 +21910,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Smoke_Powder_Defense.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/88/Smoke_Powder_Defense.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Smoke_Powder_Defense",
     "Ranks": {
       "0": [2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7]
@@ -21954,7 +21933,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Unseen_Fury.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e2/Unseen_Fury.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Unseen_Fury",
     "Ranks": {
       "0": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12], "1": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37]
@@ -21977,7 +21956,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Viper%27s_Defense.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8b/Viper%27s_Defense.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Viper%27s_Defense",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -22000,7 +21979,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Way_of_Perfection.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/dd/Way_of_Perfection.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Way_of_Perfection",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50]
@@ -22023,7 +22002,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Way_of_the_Fox.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/99/Way_of_the_Fox.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Way_of_the_Fox",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43], "1": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8]
@@ -22046,7 +22025,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Way_of_the_Lotus.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b0/Way_of_the_Lotus.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Way_of_the_Lotus",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -22069,7 +22048,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Assault_Enchantments.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d7/Assault_Enchantments.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Assault_Enchantments",
     "Ranks": {
     }
@@ -22091,7 +22070,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Aura_of_Displacement.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b9/Aura_of_Displacement.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Aura_of_Displacement",
     "Ranks": {
     }
@@ -22113,7 +22092,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dash.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/20/Dash.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dash",
     "Ranks": {
     }
@@ -22135,7 +22114,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lift_Enchantment.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c3/Lift_Enchantment.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lift_Enchantment",
     "Ranks": {
     }
@@ -22157,7 +22136,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mark_of_Instability.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fe/Mark_of_Instability.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mark_of_Instability",
     "Ranks": {
     }
@@ -22179,7 +22158,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Recall.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3f/Recall.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Recall",
     "Ranks": {
     }
@@ -22201,7 +22180,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shadow_Meld.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/10/Shadow_Meld.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shadow_Meld",
     "Ranks": {
     }
@@ -22223,7 +22202,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shadow_Walk.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e4/Shadow_Walk.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shadow_Walk",
     "Ranks": {
     }
@@ -22245,7 +22224,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Malice.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/69/Signet_of_Malice.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Malice",
     "Ranks": {
     }
@@ -22267,7 +22246,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Twilight.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e4/Signet_of_Twilight.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Twilight",
     "Ranks": {
     }
@@ -22289,7 +22268,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spirit_Walk.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/56/Spirit_Walk.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spirit_Walk",
     "Ranks": {
     }
@@ -22311,7 +22290,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Swap.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/50/Swap.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Swap",
     "Ranks": {
     }
@@ -22333,7 +22312,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wastrel%27s_Collapse.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5e/Wastrel%27s_Collapse.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wastrel%27s_Collapse",
     "Ranks": {
     }
@@ -22355,7 +22334,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Agony.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f8/Agony.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Agony",
     "Ranks": {
       "0": [1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 8, 9, 10, 11, 11, 12, 13, 13, 14, 15, 16, 16], "1": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 13], "2": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 13], "3": [30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110, 114]
@@ -22378,7 +22357,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ancestors%27_Rage.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d1/Ancestors%27_Rage.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ancestors%27_Rage",
     "Ranks": {
       "0": [5, 12, 19, 26, 33, 40, 47, 54, 61, 68, 75, 82, 89, 96, 103, 110, 117, 124, 131, 138, 145, 152]
@@ -22401,7 +22380,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Bloodsong.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bc/Bloodsong.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Bloodsong",
     "Ranks": {
       "0": [1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 8, 9, 10, 11, 11, 12, 13, 13, 14, 15, 16, 16], "1": [30, 38, 46, 54, 62, 70, 78, 86, 94, 102, 110, 118, 126, 134, 142, 150, 158, 166, 174, 182, 190, 198], "2": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33]
@@ -22424,7 +22403,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Caretaker%27s_Charge.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ad/Caretaker%27s_Charge.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Caretaker%27s_Charge",
     "Ranks": {
       "0": [20, 24, 27, 31, 35, 38, 42, 46, 49, 53, 57, 60, 64, 68, 71, 75, 79, 82, 86, 90, 93, 97], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -22447,7 +22426,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Channeled_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6c/Channeled_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Channeled_Strike",
     "Ranks": {
       "0": [5, 11, 17, 23, 29, 35, 41, 47, 53, 59, 65, 71, 77, 83, 89, 95, 101, 107, 113, 119, 125, 131], "1": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47]
@@ -22470,7 +22449,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Clamor_of_Souls.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4d/Clamor_of_Souls.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Clamor_of_Souls",
     "Ranks": {
       "0": [10, 14, 17, 21, 25, 28, 32, 36, 39, 43, 47, 50, 54, 58, 61, 65, 69, 72, 76, 80, 83, 87]
@@ -22493,7 +22472,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Cruel_Was_Daoshen.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a7/Cruel_Was_Daoshen.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Cruel_Was_Daoshen",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78], "1": [15, 20, 24, 29, 34, 38, 43, 48, 52, 57, 62, 66, 71, 76, 80, 85, 90, 94, 99, 104, 108, 113]
@@ -22516,7 +22495,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Destruction.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/57/Destruction.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Destruction",
     "Ranks": {
       "0": [1, 2, 3, 4, 4, 5, 6, 7, 8, 9, 10, 11, 11, 12, 13, 14, 15, 16, 17, 17, 18, 19], "1": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33]
@@ -22539,7 +22518,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Destructive_Was_Glaive.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/41/Destructive_Was_Glaive.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Destructive_Was_Glaive",
     "Ranks": {
       "0": [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72], "1": [15, 20, 24, 29, 34, 38, 43, 48, 52, 57, 62, 66, 71, 76, 80, 85, 90, 94, 99, 104, 108, 113]
@@ -22562,7 +22541,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Essence_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/56/Essence_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Essence_Strike",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78], "1": [1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 10, 10, 11, 11, 12, 12]
@@ -22585,7 +22564,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Gaze_from_Beyond.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9c/Gaze_from_Beyond.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Gaze_from_Beyond",
     "Ranks": {
       "0": [20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68, 71, 74, 77, 80, 83], "1": [2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 8]
@@ -22608,7 +22587,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Gaze_of_Fury.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/72/Gaze_of_Fury.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Gaze_of_Fury",
     "Ranks": {
       "0": [1, 2, 3, 4, 4, 5, 6, 7, 8, 9, 10, 11, 11, 12, 13, 14, 15, 16, 17, 17, 18, 19], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "2": [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72]
@@ -22631,7 +22610,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Grasping_Was_Kuurong.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f2/Grasping_Was_Kuurong.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Grasping_Was_Kuurong",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78], "1": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -22654,7 +22633,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lamentation.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ea/Lamentation.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lamentation",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4], "2": [10, 13, 15, 18, 21, 23, 26, 29, 31, 34, 37, 39, 42, 45, 47, 50, 53, 55, 58, 61, 63, 66]
@@ -22677,7 +22656,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Nightmare_Weapon.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/39/Nightmare_Weapon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Nightmare_Weapon",
     "Ranks": {
       "0": [10, 13, 15, 18, 21, 23, 26, 29, 31, 34, 37, 39, 42, 45, 47, 50, 53, 55, 58, 61, 63, 66], "1": [10, 13, 15, 18, 21, 23, 26, 29, 31, 34, 37, 39, 42, 45, 47, 50, 53, 55, 58, 61, 63, 66]
@@ -22700,7 +22679,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Offering_of_Spirit.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/14/Offering_of_Spirit.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Offering_of_Spirit",
     "Ranks": {
       "0": [8, 9, 9, 10, 10, 11, 12, 12, 13, 13, 14, 15, 15, 16, 16, 17, 18, 18, 19, 19, 20, 21]
@@ -22723,7 +22702,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Painful_Bond.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3f/Painful_Bond.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Painful_Bond",
     "Ranks": {
       "0": [10, 11, 11, 12, 13, 13, 14, 15, 15, 16, 17, 17, 18, 19, 19, 20, 21, 21, 22, 23, 23, 24], "1": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25]
@@ -22746,7 +22725,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Renewing_Surge.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/cb/Renewing_Surge.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Renewing_Surge",
     "Ranks": {
       "0": [1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 8, 9, 10, 11, 11, 12, 13, 13, 14, 15, 16, 16], "1": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11]
@@ -22769,7 +22748,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Spirits.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f7/Signet_of_Spirits.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Spirits",
     "Ranks": {
       "0": [1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 8, 9, 10, 11, 11, 12, 13, 13, 14, 15, 16, 16], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -22792,7 +22771,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spirit_Boon_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/86/Spirit_Boon_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spirit_Boon_Strike",
     "Ranks": {
       "0": [20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68, 71, 74, 77, 80, 83], "1": [20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68, 71, 74, 77, 80, 83]
@@ -22815,7 +22794,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spirit_Burn.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/db/Spirit_Burn.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spirit_Burn",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68], "1": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -22838,7 +22817,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spirit_Rift.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/53/Spirit_Rift.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spirit_Rift",
     "Ranks": {
       "0": [25, 32, 38, 45, 52, 58, 65, 72, 78, 85, 92, 98, 105, 112, 118, 125, 132, 138, 145, 152, 158, 165], "1": [1, 2, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 19, 20, 21, 23, 24, 25, 26, 28]
@@ -22861,7 +22840,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spirit_Siphon.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/43/Spirit_Siphon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spirit_Siphon",
     "Ranks": {
       "0": [15, 17, 20, 22, 24, 27, 29, 31, 34, 36, 38, 41, 43, 45, 48, 50, 52, 55, 57, 59, 62, 64], "1": [4, 5, 6, 7, 7, 8, 9, 9, 10, 11, 11, 12, 13, 14, 14, 15, 16, 17, 17, 18, 19, 19]
@@ -22884,7 +22863,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Splinter_Weapon.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8e/Splinter_Weapon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Splinter_Weapon",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -22907,7 +22886,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wailing_Weapon.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/99/Wailing_Weapon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wailing_Weapon",
     "Ranks": {
       "0": [3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11]
@@ -22930,7 +22909,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Warmonger%27s_Weapon.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e1/Warmonger%27s_Weapon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Warmonger%27s_Weapon",
     "Ranks": {
       "0": [3, 4, 4, 5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17]
@@ -22953,7 +22932,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Weapon_of_Aggression.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f2/Weapon_of_Aggression.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Weapon_of_Aggression",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19]
@@ -22976,7 +22955,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Weapon_of_Fury.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2d/Weapon_of_Fury.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Weapon_of_Fury",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -22999,7 +22978,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wielder%27s_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ad/Wielder%27s_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wielder%27s_Strike",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68], "1": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -23022,7 +23001,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Destructive_Was_Glaive_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/4/45/Destructive_Was_Glaive_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Destructive_Was_Glaive_(PvP)",
     "Ranks": {
       "0": [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72], "1": [15, 20, 24, 29, 34, 38, 43, 48, 52, 57, 62, 66, 71, 76, 80, 85, 90, 94, 99, 104, 108, 113]
@@ -23045,7 +23024,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Anguish.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d2/Anguish.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Anguish",
     "Ranks": {
       "0": [1, 2, 2, 3, 4, 4, 5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "2": [15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57]
@@ -23068,7 +23047,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Armor_of_Unfeeling.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f2/Armor_of_Unfeeling.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Armor_of_Unfeeling",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45]
@@ -23091,7 +23070,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Binding_Chains.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/19/Binding_Chains.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Binding_Chains",
     "Ranks": {
       "0": [1, 3, 5, 7, 9, 11, 13, 15, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42]
@@ -23114,7 +23093,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Brutal_Weapon.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/87/Brutal_Weapon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Brutal_Weapon",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52], "1": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19]
@@ -23137,7 +23116,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Disenchantment.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c4/Disenchantment.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Disenchantment",
     "Ranks": {
       "0": [1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 8, 9, 10, 11, 11, 12, 13, 13, 14, 15, 16, 16], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "2": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45]
@@ -23160,7 +23139,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Displacement.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a4/Displacement.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Displacement",
     "Ranks": {
       "0": [1, 2, 3, 4, 4, 5, 6, 7, 8, 9, 10, 11, 11, 12, 13, 14, 15, 16, 17, 17, 18, 19], "1": [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72], "2": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -23183,7 +23162,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dissonance.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e0/Dissonance.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dissonance",
     "Ranks": {
       "0": [1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 8, 9, 10, 11, 11, 12, 13, 13, 14, 15, 16, 16], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "2": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
@@ -23206,7 +23185,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dulled_Weapon.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/97/Dulled_Weapon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dulled_Weapon",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19], "1": [1, 2, 3, 4, 5, 6, 7, 8, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
@@ -23229,7 +23208,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Earthbind.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6f/Earthbind.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Earthbind",
     "Ranks": {
       "0": [1, 2, 3, 4, 4, 5, 6, 7, 8, 9, 10, 11, 11, 12, 13, 14, 15, 16, 17, 17, 18, 19], "1": [50, 48, 47, 45, 43, 42, 40, 38, 37, 35, 33, 32, 30, 28, 27, 25, 23, 22, 20, 18, 17, 15], "2": [15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57]
@@ -23252,7 +23231,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ghostly_Weapon.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9d/Ghostly_Weapon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ghostly_Weapon",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -23275,7 +23254,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Guided_Weapon.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c4/Guided_Weapon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Guided_Weapon",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12]
@@ -23298,7 +23277,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mighty_Was_Vorizun.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8a/Mighty_Was_Vorizun.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mighty_Was_Vorizun",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78]
@@ -23321,7 +23300,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Pain.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1a/Pain.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Pain",
     "Ranks": {
       "0": [1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 8, 9, 10, 11, 11, 12, 13, 13, 14, 15, 16, 16], "1": [5, 7, 8, 10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40], "2": [30, 38, 46, 54, 62, 70, 78, 86, 94, 102, 110, 118, 126, 134, 142, 150, 158, 166, 174, 182, 190, 198]
@@ -23344,7 +23323,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Restoration.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f8/Restoration.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Restoration",
     "Ranks": {
       "0": [1, 2, 3, 4, 4, 5, 6, 7, 8, 9, 10, 11, 11, 12, 13, 14, 15, 16, 17, 17, 18, 19], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -23367,7 +23346,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shadowsong.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/34/Shadowsong.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shadowsong",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14], "1": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8], "2": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -23390,7 +23369,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shelter.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/cf/Shelter.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shelter",
     "Ranks": {
       "0": [1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 8, 9, 10, 11, 11, 12, 13, 13, 14, 15, 16, 16], "1": [75, 73, 71, 69, 67, 65, 63, 61, 59, 57, 55, 53, 51, 49, 47, 45, 43, 41, 39, 37, 35, 33], "2": [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72]
@@ -23413,7 +23392,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Ghostly_Might.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bf/Signet_of_Ghostly_Might.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Ghostly_Might",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11, 11, 11, 12, 12]
@@ -23436,7 +23415,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Soothing.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/cf/Soothing.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Soothing",
     "Ranks": {
       "0": [1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 8, 9, 10, 11, 11, 12, 13, 13, 14, 15, 16, 16], "1": [15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57]
@@ -23459,7 +23438,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Sundering_Weapon.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/20/Sundering_Weapon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Sundering_Weapon",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -23482,7 +23461,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Union.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/28/Union.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Union",
     "Ranks": {
       "0": [1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 8, 9, 10, 11, 11, 12, 13, 13, 14, 15, 16, 16], "1": [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72]
@@ -23505,7 +23484,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vital_Weapon.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6c/Vital_Weapon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vital_Weapon",
     "Ranks": {
       "0": [5, 7, 8, 10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40], "1": [40, 49, 58, 67, 76, 85, 94, 103, 112, 121, 130, 139, 148, 157, 166, 175, 184, 193, 202, 211, 220, 229]
@@ -23528,7 +23507,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wanderlust.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/cb/Wanderlust.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wanderlust",
     "Ranks": {
       "0": [1, 2, 2, 3, 4, 5, 5, 6, 7, 8, 8, 9, 10, 11, 11, 12, 13, 13, 14, 15, 16, 16], "1": [70, 69, 67, 66, 65, 63, 62, 61, 59, 58, 57, 55, 54, 53, 51, 50, 49, 47, 46, 45, 43, 42], "2": [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72]
@@ -23551,7 +23530,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Weapon_of_Quickening.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/78/Weapon_of_Quickening.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Weapon_of_Quickening",
     "Ranks": {
       "0": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33]
@@ -23574,7 +23553,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Blind_Was_Mingson.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/06/Blind_Was_Mingson.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Blind_Was_Mingson",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78], "1": [3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10]
@@ -23597,7 +23576,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Death_Pact_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fe/Death_Pact_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Death_Pact_Signet",
     "Ranks": {
       "0": [15, 21, 26, 32, 38, 43, 49, 55, 60, 66, 72, 77, 83, 89, 94, 100, 106, 111, 117, 123, 128, 134]
@@ -23620,7 +23599,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Defiant_Was_Xinrae.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3c/Defiant_Was_Xinrae.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Defiant_Was_Xinrae",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -23643,7 +23622,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Flesh_of_My_Flesh.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c3/Flesh_of_My_Flesh.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Flesh_of_My_Flesh",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -23666,7 +23645,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Generous_Was_Tsungrai.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/59/Generous_Was_Tsungrai.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Generous_Was_Tsungrai",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78], "1": [50, 56, 62, 68, 74, 80, 86, 92, 98, 104, 110, 116, 122, 128, 134, 140, 146, 152, 158, 164, 170, 176], "2": [100, 112, 124, 136, 148, 160, 172, 184, 196, 208, 220, 232, 244, 256, 268, 280, 292, 304, 316, 328, 340, 352]
@@ -23689,7 +23668,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ghostmirror_Light.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d5/Ghostmirror_Light.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ghostmirror_Light",
     "Ranks": {
       "0": [15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120], "1": [15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120]
@@ -23712,7 +23691,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Life.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5e/Life.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Life",
     "Ranks": {
       "0": [1, 2, 3, 4, 4, 5, 6, 7, 8, 9, 10, 11, 11, 12, 13, 14, 15, 16, 17, 17, 18, 19], "1": [1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9]
@@ -23735,7 +23714,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lively_Was_Naomei.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d3/Lively_Was_Naomei.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lively_Was_Naomei",
     "Ranks": {
       "0": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -23758,7 +23737,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mend_Body_and_Soul.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/84/Mend_Body_and_Soul.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mend_Body_and_Soul",
     "Ranks": {
       "0": [20, 26, 33, 39, 45, 52, 58, 64, 71, 77, 83, 90, 96, 102, 109, 115, 121, 128, 134, 140, 147, 153]
@@ -23781,7 +23760,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mending_Grip.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/eb/Mending_Grip.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mending_Grip",
     "Ranks": {
       "0": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -23804,7 +23783,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Preservation.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b9/Preservation.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Preservation",
     "Ranks": {
       "0": [1, 2, 3, 4, 4, 5, 6, 7, 8, 9, 10, 11, 11, 12, 13, 14, 15, 16, 17, 17, 18, 19], "1": [10, 17, 24, 31, 38, 45, 52, 59, 66, 73, 80, 87, 94, 101, 108, 115, 122, 129, 136, 143, 150, 157]
@@ -23827,7 +23806,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Protective_Was_Kaolai.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ed/Protective_Was_Kaolai.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Protective_Was_Kaolai",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78], "1": [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115]
@@ -23850,7 +23829,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Pure_Was_Li_Ming.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/35/Pure_Was_Li_Ming.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Pure_Was_Li_Ming",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [10, 13, 15, 18, 21, 23, 26, 29, 31, 34, 37, 39, 42, 45, 47, 50, 53, 55, 58, 61, 63, 66], "2": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5]
@@ -23873,7 +23852,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Recovery.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6d/Recovery.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Recovery",
     "Ranks": {
       "0": [1, 2, 3, 4, 4, 5, 6, 7, 8, 9, 10, 11, 11, 12, 13, 14, 15, 16, 17, 17, 18, 19], "1": [20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62], "2": [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72]
@@ -23896,7 +23875,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Recuperation.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a2/Recuperation.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Recuperation",
     "Ranks": {
       "0": [1, 2, 3, 4, 4, 5, 6, 7, 8, 9, 10, 11, 11, 12, 13, 14, 15, 16, 17, 17, 18, 19], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4], "2": [15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57]
@@ -23919,7 +23898,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Rejuvenation.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/97/Rejuvenation.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Rejuvenation",
     "Ranks": {
       "0": [1, 2, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 19, 20, 21, 23, 24, 25, 26, 28], "1": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 13], "2": [30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110, 114]
@@ -23942,7 +23921,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Resilient_Was_Xiko.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e5/Resilient_Was_Xiko.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Resilient_Was_Xiko",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5]
@@ -23965,7 +23944,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Resilient_Weapon.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1e/Resilient_Weapon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Resilient_Weapon",
     "Ranks": {
       "0": [3, 4, 4, 5, 5, 6, 7, 7, 8, 8, 9, 10, 10, 11, 11, 12, 13, 13, 14, 14, 15, 16], "1": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8]
@@ -23988,7 +23967,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Soothing_Memories.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f3/Soothing_Memories.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Soothing_Memories",
     "Ranks": {
       "0": [10, 16, 22, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82, 88, 94, 100, 106, 112, 118, 124, 130, 136]
@@ -24011,7 +23990,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spirit_Light.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/ca/Spirit_Light.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spirit_Light",
     "Ranks": {
       "0": [60, 68, 76, 84, 92, 100, 108, 116, 124, 132, 140, 148, 156, 164, 172, 180, 188, 196, 204, 212, 220, 228]
@@ -24034,7 +24013,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spirit_Light_Weapon.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a3/Spirit_Light_Weapon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spirit_Light_Weapon",
     "Ranks": {
       "0": [1, 2, 3, 4, 5, 6, 7, 8, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], "1": [1, 2, 3, 4, 5, 6, 7, 8, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
@@ -24057,7 +24036,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spirit_Transfer.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/16/Spirit_Transfer.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spirit_Transfer",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68], "1": [25, 40, 55, 70, 85, 100, 115, 130, 145, 160, 175, 190, 205, 220, 235, 250, 265, 280, 295, 310, 325, 340]
@@ -24080,7 +24059,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spiritleech_Aura.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/98/Spiritleech_Aura.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spiritleech_Aura",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -24103,7 +24082,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Tranquil_Was_Tanasen.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/34/Tranquil_Was_Tanasen.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Tranquil_Was_Tanasen",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
@@ -24126,7 +24105,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vengeful_Was_Khanhei.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/36/Vengeful_Was_Khanhei.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vengeful_Was_Khanhei",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13, 13], "1": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47]
@@ -24149,7 +24128,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vengeful_Weapon.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d8/Vengeful_Weapon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vengeful_Weapon",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78]
@@ -24172,7 +24151,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vocal_Was_Sogolon.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/44/Vocal_Was_Sogolon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vocal_Was_Sogolon",
     "Ranks": {
       "0": [20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62]
@@ -24195,7 +24174,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Weapon_of_Remedy.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/18/Weapon_of_Remedy.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Weapon_of_Remedy",
     "Ranks": {
       "0": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -24218,7 +24197,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Weapon_of_Shadow.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7b/Weapon_of_Shadow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Weapon_of_Shadow",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -24241,7 +24220,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Weapon_of_Warding.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f9/Weapon_of_Warding.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Weapon_of_Warding",
     "Ranks": {
       "0": [3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10], "1": [2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5]
@@ -24264,7 +24243,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wielder%27s_Boon.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/ca/Wielder%27s_Boon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wielder%27s_Boon",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78], "1": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -24287,7 +24266,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Xinrae%27s_Weapon.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/33/Xinrae%27s_Weapon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Xinrae%27s_Weapon",
     "Ranks": {
       "0": [20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104]
@@ -24310,7 +24289,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Anguished_Was_Lingwah.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a2/Anguished_Was_Lingwah.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Anguished_Was_Lingwah",
     "Ranks": {
       "0": [10, 13, 17, 20, 23, 27, 30, 33, 37, 40, 43, 47, 50, 53, 57, 60, 63, 67, 70, 73, 77, 80], "1": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -24333,7 +24312,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Attuned_Was_Songkai.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/24/Attuned_Was_Songkai.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Attuned_Was_Songkai",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -24356,7 +24335,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Boon_of_Creation.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1a/Boon_of_Creation.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Boon_of_Creation",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68], "2": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8]
@@ -24379,7 +24358,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Consume_Soul.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/70/Consume_Soul.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Consume_Soul",
     "Ranks": {
       "0": [5, 9, 12, 16, 20, 23, 27, 31, 34, 38, 42, 45, 49, 53, 56, 60, 64, 67, 71, 75, 78, 82], "1": [25, 32, 38, 45, 52, 58, 65, 72, 78, 85, 92, 98, 105, 112, 118, 125, 132, 138, 145, 152, 158, 165]
@@ -24402,7 +24381,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Doom.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/85/Doom.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Doom",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -24425,7 +24404,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Empowerment.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/64/Empowerment.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Empowerment",
     "Ranks": {
       "0": [1, 2, 3, 4, 4, 5, 6, 7, 8, 9, 10, 11, 11, 12, 13, 14, 15, 16, 17, 17, 18, 19], "1": [15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57], "2": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78]
@@ -24448,7 +24427,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Energetic_Was_Lee_Sa.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/96/Energetic_Was_Lee_Sa.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Energetic_Was_Lee_Sa",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19], "1": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14], "2": [4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "3": [-6, -5, -4, -3, -2, -1, 0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
@@ -24471,7 +24450,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Explosive_Growth.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/77/Explosive_Growth.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Explosive_Growth",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78], "1": [20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68, 71, 74, 77, 80, 83]
@@ -24494,7 +24473,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Feast_of_Souls.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e7/Feast_of_Souls.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Feast_of_Souls",
     "Ranks": {
       "0": [50, 53, 57, 60, 63, 67, 70, 73, 77, 80, 83, 87, 90, 93, 97, 100, 103, 107, 110, 113, 117, 120]
@@ -24517,7 +24496,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ghostly_Haste.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/95/Ghostly_Haste.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ghostly_Haste",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -24540,7 +24519,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Reclaim_Essence.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bb/Reclaim_Essence.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Reclaim_Essence",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -24563,7 +24542,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Renewing_Memories.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/14/Renewing_Memories.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Renewing_Memories",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47]
@@ -24586,7 +24565,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ritual_Lord.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/15/Ritual_Lord.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ritual_Lord",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47], "1": [2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5], "2": [10, 13, 17, 20, 23, 27, 30, 33, 37, 40, 43, 47, 50, 53, 57, 60, 63, 67, 70, 73, 77, 80]
@@ -24609,7 +24588,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Rupture_Soul.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/31/Rupture_Soul.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Rupture_Soul",
     "Ranks": {
       "0": [50, 56, 62, 68, 74, 80, 86, 92, 98, 104, 110, 116, 122, 128, 134, 140, 146, 152, 158, 164, 170, 176], "1": [3, 4, 4, 5, 5, 6, 7, 7, 8, 8, 9, 10, 10, 11, 11, 12, 13, 13, 14, 14, 15, 16]
@@ -24632,7 +24611,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Sight_Beyond_Sight.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/12/Sight_Beyond_Sight.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Sight_Beyond_Sight",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25]
@@ -24655,7 +24634,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Binding.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/20/Signet_of_Binding.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Binding",
     "Ranks": {
       "0": [200, 190, 180, 170, 160, 150, 140, 130, 120, 110, 100, 90, 80, 70, 60, 50, 40, 30, 20, 10, 0, 0]
@@ -24678,7 +24657,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Creation.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1c/Signet_of_Creation.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Creation",
     "Ranks": {
       "0": [3, 4, 4, 5, 5, 6, 7, 7, 8, 8, 9, 10, 10, 11, 11, 12, 13, 13, 14, 14, 15, 16]
@@ -24701,7 +24680,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Soul_Twisting.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/24/Soul_Twisting.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Soul_Twisting",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4], "1": [5, 8, 10, 13, 16, 18, 21, 24, 26, 29, 32, 34, 37, 40, 42, 45, 48, 50, 53, 56, 58, 61]
@@ -24724,7 +24703,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spirit_Channeling.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0b/Spirit_Channeling.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spirit_Channeling",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8], "1": [3, 4, 4, 5, 5, 6, 7, 7, 8, 8, 9, 10, 10, 11, 11, 12, 13, 13, 14, 14, 15, 16]
@@ -24747,7 +24726,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spirit_to_Flesh.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bc/Spirit_to_Flesh.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spirit_to_Flesh",
     "Ranks": {
       "0": [30, 44, 58, 72, 86, 100, 114, 128, 142, 156, 170, 184, 198, 212, 226, 240, 254, 268, 282, 296, 310, 324]
@@ -24770,7 +24749,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spirit%27s_Gift.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fd/Spirit%27s_Gift.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spirit%27s_Gift",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -24793,7 +24772,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spirit%27s_Strength.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f9/Spirit%27s_Strength.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spirit%27s_Strength",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78], "1": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47]
@@ -24816,7 +24795,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Weapon_of_Renewal.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4c/Weapon_of_Renewal.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Weapon_of_Renewal",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12], "1": [1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9]
@@ -24839,7 +24818,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wielder%27s_Remedy.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a8/Wielder%27s_Remedy.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wielder%27s_Remedy",
     "Ranks": {
       "0": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38]
@@ -24862,7 +24841,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wielder%27s_Zeal.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/47/Wielder%27s_Zeal.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wielder%27s_Zeal",
     "Ranks": {
       "0": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38], "1": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -24885,7 +24864,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Draw_Spirit.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1d/Draw_Spirit.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Draw_Spirit",
     "Ranks": {
     }
@@ -24907,7 +24886,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Brace_Yourself!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3f/%22Brace_Yourself%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Brace_Yourself!%22",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19], "1": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -24930,7 +24909,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Can%27t_Touch_This!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3d/%22Can%27t_Touch_This%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Can%27t_Touch_This!%22",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -24953,7 +24932,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Fall_Back!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/39/%22Fall_Back%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Fall_Back!%22",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12], "1": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19]
@@ -24976,7 +24955,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Find_Their_Weakness!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/cb/%22Find_Their_Weakness%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Find_Their_Weakness!%22",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68], "2": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -24999,7 +24978,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Go_for_the_Eyes!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c7/%22Go_for_the_Eyes%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Go_for_the_Eyes!%22",
     "Ranks": {
       "0": [30, 35, 39, 44, 49, 53, 58, 63, 67, 72, 77, 81, 86, 91, 95, 100, 105, 109, 114, 119, 123, 128]
@@ -25022,7 +25001,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Help_Me!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e2/%22Help_Me%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Help_Me!%22",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14], "1": [15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120]
@@ -25045,7 +25024,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Incoming!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d5/%22Incoming%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Incoming!%22",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12], "1": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19]
@@ -25068,7 +25047,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Make_Haste!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ed/%22Make_Haste%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Make_Haste!%22",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -25091,7 +25070,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Never_Give_Up!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7c/%22Never_Give_Up%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Never_Give_Up!%22",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -25114,7 +25093,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Never_Surrender!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/51/%22Never_Surrender%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Never_Surrender!%22",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -25137,7 +25116,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Stand_Your_Ground!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/af/%22Stand_Your_Ground%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Stand_Your_Ground!%22",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -25160,7 +25139,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22We_Shall_Return!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/39/%22We_Shall_Return%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22We_Shall_Return!%22",
     "Ranks": {
       "0": [25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45, 47, 48, 50, 52, 53, 55, 57, 58, 60], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -25183,7 +25162,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Anthem_of_Disruption.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/43/Anthem_of_Disruption.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Anthem_of_Disruption",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -25206,7 +25185,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Anthem_of_Envy.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f0/Anthem_of_Envy.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Anthem_of_Envy",
     "Ranks": {
       "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
@@ -25229,7 +25208,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Anthem_of_Guidance.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4e/Anthem_of_Guidance.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Anthem_of_Guidance",
     "Ranks": {
     }
@@ -25251,7 +25230,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Anthem_of_Weariness.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a2/Anthem_of_Weariness.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Anthem_of_Weariness",
     "Ranks": {
       "0": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
@@ -25274,7 +25253,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Bladeturn_Refrain.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a0/Bladeturn_Refrain.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Bladeturn_Refrain",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -25297,7 +25276,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Crippling_Anthem.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/23/Crippling_Anthem.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Crippling_Anthem",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19]
@@ -25320,7 +25299,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Godspeed.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/df/Godspeed.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Godspeed",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -25343,7 +25322,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Lead_the_Way!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8c/%22Lead_the_Way%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Lead_the_Way!%22",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6]
@@ -25366,7 +25345,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Make_Your_Time!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ea/%22Make_Your_Time%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Make_Your_Time!%22",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6]
@@ -25389,7 +25368,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22They%27re_on_Fire!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0f/%22They%27re_on_Fire%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22They%27re_on_Fire!%22",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45]
@@ -25412,7 +25391,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Aggressive_Refrain.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/27/Aggressive_Refrain.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Aggressive_Refrain",
     "Ranks": {
       "0": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32]
@@ -25435,7 +25414,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Angelic_Bond.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6e/Angelic_Bond.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Angelic_Bond",
     "Ranks": {
       "0": [20, 32, 44, 56, 68, 80, 92, 104, 116, 128, 140, 152, 164, 176, 188, 200, 212, 224, 236, 248, 260]
@@ -25458,7 +25437,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Angelic_Protection.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/ba/Angelic_Protection.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Angelic_Protection",
     "Ranks": {
       "0": [250, 240, 230, 220, 210, 200, 190, 180, 170, 160, 150, 140, 130, 120, 110, 100, 90, 80, 70, 60, 50]
@@ -25481,7 +25460,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Anthem_of_Flame.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c8/Anthem_of_Flame.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Anthem_of_Flame",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4]
@@ -25504,7 +25483,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Anthem_of_Fury.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/49/Anthem_of_Fury.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Anthem_of_Fury",
     "Ranks": {
       "0": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5]
@@ -25527,7 +25506,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Awe.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fd/Awe.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Awe",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18]
@@ -25550,7 +25529,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Blazing_Finale.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c5/Blazing_Finale.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Blazing_Finale",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43], "1": [1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9]
@@ -25573,7 +25552,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Burning_Refrain.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/79/Burning_Refrain.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Burning_Refrain",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4]
@@ -25596,7 +25575,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Burning_Shield.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8d/Burning_Shield.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Burning_Shield",
     "Ranks": {
       "0": [3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11], "1": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8]
@@ -25619,7 +25598,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Defensive_Anthem.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/58/Defensive_Anthem.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Defensive_Anthem",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12]
@@ -25642,7 +25621,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Enduring_Harmony.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ae/Enduring_Harmony.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Enduring_Harmony",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43]
@@ -25665,7 +25644,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Focused_Anger.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c0/Focused_Anger.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Focused_Anger",
     "Ranks": {
       "0": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200]
@@ -25688,7 +25667,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Glowing_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fa/Glowing_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Glowing_Signet",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18]
@@ -25711,7 +25690,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Hasty_Refrain.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a5/Hasty_Refrain.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Hasty_Refrain",
     "Ranks": {
       "0": [3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 12, 12, 13, 13, 14]
@@ -25734,7 +25713,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Leader%27s_Comfort.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/af/Leader%27s_Comfort.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Leader%27s_Comfort",
     "Ranks": {
       "0": [30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78, 81, 84, 87, 90], "1": [10, 11, 11, 12, 13, 13, 14, 15, 15, 16, 17, 17, 18, 19, 19, 20, 21, 21, 22, 23, 23]
@@ -25757,7 +25736,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Natural_Temper.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ea/Natural_Temper.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Natural_Temper",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12]
@@ -25780,7 +25759,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Return.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/63/Signet_of_Return.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Return",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18], "1": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5]
@@ -25803,7 +25782,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Soldier%27s_Fury.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/ca/Soldier%27s_Fury.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Soldier%27s_Fury",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43]
@@ -25826,7 +25805,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spear_Swipe.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/98/Spear_Swipe.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spear_Swipe",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], "1": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12]
@@ -25849,7 +25828,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22It%27s_Just_a_Flesh_Wound.%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/69/%22It%27s_Just_a_Flesh_Wound.%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22It%27s_Just_a_Flesh_Wound.%22",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -25872,7 +25851,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22The_Power_Is_Yours!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/05/%22The_Power_Is_Yours%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22The_Power_Is_Yours!%22",
     "Ranks": {
       "0": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
@@ -25895,7 +25874,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Aria_of_Restoration.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/71/Aria_of_Restoration.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Aria_of_Restoration",
     "Ranks": {
       "0": [30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110, 114]
@@ -25918,7 +25897,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Aria_of_Zeal.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/32/Aria_of_Zeal.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Aria_of_Zeal",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8]
@@ -25941,7 +25920,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ballad_of_Restoration.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fb/Ballad_of_Restoration.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ballad_of_Restoration",
     "Ranks": {
       "0": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -25964,7 +25943,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Chorus_of_Restoration.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b2/Chorus_of_Restoration.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Chorus_of_Restoration",
     "Ranks": {
       "0": [30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110, 114]
@@ -25987,7 +25966,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Energizing_Chorus.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/28/Energizing_Chorus.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Energizing_Chorus",
     "Ranks": {
       "0": [3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 8, 8, 8, 8, 9]
@@ -26010,7 +25989,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Energizing_Finale.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/89/Energizing_Finale.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Energizing_Finale",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45]
@@ -26033,7 +26012,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Finale_of_Restoration.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/56/Finale_of_Restoration.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Finale_of_Restoration",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45], "1": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -26056,7 +26035,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Inspirational_Speech.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ee/Inspirational_Speech.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Inspirational_Speech",
     "Ranks": {
       "0": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5]
@@ -26079,7 +26058,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Leader%27s_Zeal.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4b/Leader%27s_Zeal.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Leader%27s_Zeal",
     "Ranks": {
       "0": [8, 8, 9, 9, 9, 9, 10, 10, 10, 10, 11, 11, 11, 11, 12, 12, 12, 13, 13, 13, 13, 14]
@@ -26102,7 +26081,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lyric_of_Purification.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7d/Lyric_of_Purification.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lyric_of_Purification",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -26125,7 +26104,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lyric_of_Zeal.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b0/Lyric_of_Zeal.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lyric_of_Zeal",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11]
@@ -26148,7 +26127,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mending_Refrain.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2e/Mending_Refrain.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mending_Refrain",
     "Ranks": {
       "0": [2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
@@ -26171,7 +26150,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Purifying_Finale.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/ce/Purifying_Finale.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Purifying_Finale",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45]
@@ -26194,7 +26173,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Synergy.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fe/Signet_of_Synergy.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Synergy",
     "Ranks": {
       "0": [40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104, 108, 112, 116, 120, 124], "1": [40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104, 108, 112, 116, 120, 124]
@@ -26217,7 +26196,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Song_of_Power.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/af/Song_of_Power.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Song_of_Power",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -26240,7 +26219,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Song_of_Purification.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/57/Song_of_Purification.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Song_of_Purification",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -26263,7 +26242,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Song_of_Restoration.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9b/Song_of_Restoration.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Song_of_Restoration",
     "Ranks": {
       "0": [45, 49, 54, 58, 62, 67, 71, 75, 80, 84, 88, 93, 97, 101, 106, 110, 114, 119, 123, 127, 132, 136]
@@ -26286,7 +26265,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Zealous_Anthem.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/37/Zealous_Anthem.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Zealous_Anthem",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11]
@@ -26309,7 +26288,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Cruel_Spear.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9b/Cruel_Spear.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Cruel_Spear",
     "Ranks": {
       "0": [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -26332,7 +26311,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Barbed_Spear.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5e/Barbed_Spear.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Barbed_Spear",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -26355,7 +26334,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Blazing_Spear.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c8/Blazing_Spear.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Blazing_Spear",
     "Ranks": {
       "0": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -26378,7 +26357,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Chest_Thumper.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5d/Chest_Thumper.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Chest_Thumper",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -26401,7 +26380,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Disrupting_Throw.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/92/Disrupting_Throw.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Disrupting_Throw",
     "Ranks": {
     }
@@ -26423,7 +26402,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Harrier%27s_Toss.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/11/Harrier%27s_Toss.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Harrier%27s_Toss",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 7, 8, 10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40]
@@ -26446,7 +26425,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Holy_Spear.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b6/Holy_Spear.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Holy_Spear",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 105, 110, 115, 120]
@@ -26469,7 +26448,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Maiming_Spear.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7d/Maiming_Spear.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Maiming_Spear",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -26492,7 +26471,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Merciless_Spear.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/01/Merciless_Spear.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Merciless_Spear",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -26515,7 +26494,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mighty_Throw.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a9/Mighty_Throw.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mighty_Throw",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -26538,7 +26517,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Slayer%27s_Spear.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a2/Slayer%27s_Spear.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Slayer%27s_Spear",
     "Ranks": {
       "0": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -26561,7 +26540,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spear_of_Lightning.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/37/Spear_of_Lightning.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spear_of_Lightning",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25]
@@ -26584,7 +26563,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spear_of_Redemption.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7b/Spear_of_Redemption.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spear_of_Redemption",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -26607,7 +26586,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Stunning_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a6/Stunning_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Stunning_Strike",
     "Ranks": {
       "0": [5, 7, 8, 10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40], "1": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12]
@@ -26630,7 +26609,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Swift_Javelin.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c4/Swift_Javelin.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Swift_Javelin",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -26653,7 +26632,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Unblockable_Throw.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/cd/Unblockable_Throw.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Unblockable_Throw",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -26676,7 +26655,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vicious_Attack.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c4/Vicious_Attack.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vicious_Attack",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19]
@@ -26699,7 +26678,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wearying_Spear.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4e/Wearying_Spear.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wearying_Spear",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -26722,7 +26701,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wild_Throw.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/94/Wild_Throw.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wild_Throw",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -26745,7 +26724,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Cautery_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/17/Cautery_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Cautery_Signet",
     "Ranks": {
     }
@@ -26767,7 +26746,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Hexbreaker_Aria.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e8/Hexbreaker_Aria.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Hexbreaker_Aria",
     "Ranks": {
     }
@@ -26789,7 +26768,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Remedy_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0d/Remedy_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Remedy_Signet",
     "Ranks": {
     }
@@ -26811,7 +26790,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Aggression.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a9/Signet_of_Aggression.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Aggression",
     "Ranks": {
     }
@@ -26833,7 +26812,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Song_of_Concentration.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d0/Song_of_Concentration.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Song_of_Concentration",
     "Ranks": {
     }
@@ -26855,7 +26834,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Armor_of_Sanctity.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1a/Armor_of_Sanctity.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Armor_of_Sanctity",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -26878,7 +26857,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Aura_of_Thorns.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f4/Aura_of_Thorns.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Aura_of_Thorns",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18], "1": [3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10]
@@ -26901,7 +26880,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Conviction.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d3/Conviction.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Conviction",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4], "1": [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
@@ -26924,7 +26903,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dust_Cloak.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2f/Dust_Cloak.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dust_Cloak",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50], "1": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5]
@@ -26947,7 +26926,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ebon_Dust_Aura.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/39/Ebon_Dust_Aura.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ebon_Dust_Aura",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19], "1": [1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9]
@@ -26970,7 +26949,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Fleeting_Stability.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ef/Fleeting_Stability.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Fleeting_Stability",
     "Ranks": {
       "0": [2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7]
@@ -26993,7 +26972,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mirage_Cloak.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0c/Mirage_Cloak.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mirage_Cloak",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9], "1": [40, 43, 45, 48, 51, 53, 56, 59, 61, 64, 67, 69, 72, 75, 77, 80, 83, 85, 88, 91, 93], "2": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50]
@@ -27016,7 +26995,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mystic_Regeneration.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/55/Mystic_Regeneration.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mystic_Regeneration",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], "1": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5]
@@ -27039,7 +27018,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mystic_Sandstorm.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e6/Mystic_Sandstorm.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mystic_Sandstorm",
     "Ranks": {
       "0": [10, 11, 11, 12, 13, 13, 14, 15, 15, 16, 17, 17, 18, 19, 19, 20, 21, 21, 22, 23, 23]
@@ -27062,7 +27041,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Pious_Concentration.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/76/Pious_Concentration.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Pious_Concentration",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -27085,7 +27064,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Sand_Shards.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/53/Sand_Shards.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Sand_Shards",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6], "1": [10, 13, 17, 20, 23, 27, 30, 33, 37, 40, 43, 47, 50, 53, 57, 60, 63, 67, 70, 73, 77]
@@ -27108,7 +27087,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shield_of_Force.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7b/Shield_of_Force.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shield_of_Force",
     "Ranks": {
       "0": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -27131,7 +27110,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Pious_Light.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/84/Signet_of_Pious_Light.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Pious_Light",
     "Ranks": {
       "0": [30, 38, 46, 54, 62, 70, 78, 86, 94, 102, 110, 118, 126, 134, 142, 150, 158, 166, 174, 182, 190]
@@ -27154,7 +27133,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Staggering_Force.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/43/Staggering_Force.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Staggering_Force",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50], "1": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13]
@@ -27177,7 +27156,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Veil_of_Thorns.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2d/Veil_of_Thorns.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Veil_of_Thorns",
     "Ranks": {
       "0": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65], "2": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45]
@@ -27200,7 +27179,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vital_Boon.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/72/Vital_Boon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vital_Boon",
     "Ranks": {
       "0": [40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104, 108, 112, 116, 120], "1": [75, 83, 92, 100, 108, 117, 125, 133, 142, 150, 158, 167, 175, 183, 192, 200, 208, 217, 225, 233, 242]
@@ -27223,7 +27202,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vow_of_Strength.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b9/Vow_of_Strength.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vow_of_Strength",
     "Ranks": {
       "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
@@ -27246,7 +27225,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Arcane_Zeal.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ad/Arcane_Zeal.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Arcane_Zeal",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9]
@@ -27269,7 +27248,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Aura_Slicer.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/24/Aura_Slicer.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Aura_Slicer",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18], "1": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13]
@@ -27292,7 +27271,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Avatar_of_Balthazar.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/93/Avatar_of_Balthazar.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Avatar_of_Balthazar",
     "Ranks": {
       "0": [10, 15, 21, 26, 31, 37, 42, 47, 53, 58, 63, 69, 74, 79, 85, 90, 95, 101, 106, 111, 117], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4]
@@ -27315,7 +27294,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Avatar_of_Dwayna.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e0/Avatar_of_Dwayna.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Avatar_of_Dwayna",
     "Ranks": {
       "0": [10, 15, 21, 26, 31, 37, 42, 47, 53, 58, 63, 69, 74, 79, 85, 90, 95, 101, 106, 111, 117], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65]
@@ -27338,7 +27317,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Avatar_of_Grenth.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/13/Avatar_of_Grenth.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Avatar_of_Grenth",
     "Ranks": {
       "0": [10, 15, 21, 26, 31, 37, 42, 47, 53, 58, 63, 69, 74, 79, 85, 90, 95, 101, 106, 111, 117], "1": [0, 1, 2, 2, 3, 4, 5, 6, 6, 7, 8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16]
@@ -27361,7 +27340,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Avatar_of_Lyssa.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e5/Avatar_of_Lyssa.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Avatar_of_Lyssa",
     "Ranks": {
       "0": [10, 15, 21, 26, 31, 37, 42, 47, 53, 58, 63, 69, 74, 79, 85, 90, 95, 101, 106, 111, 117]
@@ -27384,7 +27363,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Avatar_of_Melandru.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/ff/Avatar_of_Melandru.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Avatar_of_Melandru",
     "Ranks": {
       "0": [10, 15, 21, 26, 31, 37, 42, 47, 53, 58, 63, 69, 74, 79, 85, 90, 95, 101, 106, 111, 117]
@@ -27407,7 +27386,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Balthazar%27s_Rage.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0a/Balthazar%27s_Rage.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Balthazar%27s_Rage",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4], "1": [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
@@ -27430,7 +27409,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Banishing_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a3/Banishing_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Banishing_Strike",
     "Ranks": {
       "0": [10, 13, 17, 20, 23, 27, 30, 33, 37, 40, 43, 47, 50, 53, 57, 60, 63, 67, 70, 73, 77]
@@ -27453,7 +27432,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Eremite%27s_Zeal.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/15/Eremite%27s_Zeal.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Eremite%27s_Zeal",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4]
@@ -27476,7 +27455,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Extend_Enchantments.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/14/Extend_Enchantments.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Extend_Enchantments",
     "Ranks": {
       "0": [10, 19, 29, 38, 47, 57, 66, 75, 85, 94, 103, 113, 122, 131, 141, 150, 159, 169, 178, 187, 197]
@@ -27499,7 +27478,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Faithful_Intervention.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c1/Faithful_Intervention.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Faithful_Intervention",
     "Ranks": {
       "0": [30, 38, 46, 54, 62, 70, 78, 86, 94, 102, 110, 118, 126, 134, 142, 150, 158, 166, 174, 182, 190]
@@ -27522,7 +27501,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Heart_of_Fury.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/03/Heart_of_Fury.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Heart_of_Fury",
     "Ranks": {
       "0": [2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13]
@@ -27545,7 +27524,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Heart_of_Holy_Flame.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1b/Heart_of_Holy_Flame.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Heart_of_Holy_Flame",
     "Ranks": {
       "0": [5, 7, 8, 10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38], "1": [2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6]
@@ -27568,7 +27547,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Imbue_Health.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ad/Imbue_Health.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Imbue_Health",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65]
@@ -27591,7 +27570,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Intimidating_Aura.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/dc/Intimidating_Aura.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Intimidating_Aura",
     "Ranks": {
       "0": [40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104, 108, 112, 116, 120], "1": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13]
@@ -27614,7 +27593,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Meditation.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e0/Meditation.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Meditation",
     "Ranks": {
       "0": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5]
@@ -27637,7 +27616,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mystic_Corruption.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5c/Mystic_Corruption.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mystic_Corruption",
     "Ranks": {
       "0": [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
@@ -27660,7 +27639,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mystic_Sweep.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/90/Mystic_Sweep.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mystic_Sweep",
     "Ranks": {
       "0": [3, 4, 4, 5, 5, 6, 7, 7, 8, 8, 9, 10, 10, 11, 11, 12, 13, 13, 14, 14, 15]
@@ -27683,7 +27662,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mystic_Vigor.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/57/Mystic_Vigor.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mystic_Vigor",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19]
@@ -27706,7 +27685,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Pious_Fury.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fc/Pious_Fury.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Pious_Fury",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9]
@@ -27729,7 +27708,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Pious_Haste.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/56/Pious_Haste.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Pious_Haste",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9]
@@ -27752,7 +27731,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Pious_Renewal.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/36/Pious_Renewal.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Pious_Renewal",
     "Ranks": {
       "0": [0, 0, 1, 1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7], "1": [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40]
@@ -27775,7 +27754,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Rending_Touch.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7c/Rending_Touch.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Rending_Touch",
     "Ranks": {
       "0": [15, 18, 22, 25, 28, 32, 35, 38, 42, 45, 48, 52, 55, 58, 62, 65, 68, 72, 75, 78, 82]
@@ -27798,7 +27777,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vow_of_Silence.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f6/Vow_of_Silence.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vow_of_Silence",
     "Ranks": {
       "0": [5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10, 10, 11, 11, 11, 12]
@@ -27821,7 +27800,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Watchful_Intervention.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5e/Watchful_Intervention.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Watchful_Intervention",
     "Ranks": {
       "0": [50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250]
@@ -27844,7 +27823,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Zealous_Renewal.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0f/Zealous_Renewal.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Zealous_Renewal",
     "Ranks": {
       "0": [5, 7, 8, 10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38], "1": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32], "2": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6]
@@ -27867,7 +27846,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lyssa%27s_Assault.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/70/Lyssa%27s_Assault.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lyssa%27s_Assault",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -27890,7 +27869,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Chilling_Victory.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/32/Chilling_Victory.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Chilling_Victory",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19, 20], "1": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38]
@@ -27913,7 +27892,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Crippling_Sweep.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d0/Crippling_Sweep.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Crippling_Sweep",
     "Ranks": {
       "0": [3, 4, 4, 5, 5, 6, 7, 7, 8, 8, 9, 10, 10, 11, 11, 12, 13, 13, 14, 14, 15, 16], "1": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19, 20]
@@ -27936,7 +27915,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Crippling_Victory.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7f/Crippling_Victory.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Crippling_Victory",
     "Ranks": {
       "0": [3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10], "1": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38]
@@ -27959,7 +27938,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Eremite%27s_Attack.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6d/Eremite%27s_Attack.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Eremite%27s_Attack",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -27982,7 +27961,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Farmer%27s_Scythe.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/37/Farmer%27s_Scythe.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Farmer%27s_Scythe",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -28005,7 +27984,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Irresistible_Sweep.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9e/Irresistible_Sweep.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Irresistible_Sweep",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19, 20]
@@ -28028,7 +28007,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Pious_Assault.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/27/Pious_Assault.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Pious_Assault",
     "Ranks": {
       "0": [10, 11, 11, 12, 13, 13, 14, 15, 15, 16, 17, 17, 18, 19, 19, 20, 21, 21, 22, 23, 23, 24], "1": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38]
@@ -28051,7 +28030,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Radiant_Scythe.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0a/Radiant_Scythe.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Radiant_Scythe",
     "Ranks": {
       "0": [5, 7, 8, 10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40], "1": [1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9]
@@ -28074,7 +28053,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Reap_Impurities.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d4/Reap_Impurities.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Reap_Impurities",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19, 20], "1": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -28097,7 +28076,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Reaper%27s_Sweep.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e6/Reaper%27s_Sweep.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Reaper%27s_Sweep",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19, 20], "1": [2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
@@ -28120,7 +28099,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Rending_Sweep.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/50/Rending_Sweep.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Rending_Sweep",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -28143,7 +28122,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Twin_Moon_Sweep.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d8/Twin_Moon_Sweep.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Twin_Moon_Sweep",
     "Ranks": {
       "0": [10, 13, 15, 18, 21, 23, 26, 29, 31, 34, 37, 39, 42, 45, 47, 50, 53, 55, 58, 61, 63, 66], "1": [10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94]
@@ -28166,7 +28145,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Victorious_Sweep.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/07/Victorious_Sweep.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Victorious_Sweep",
     "Ranks": {
       "0": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33], "1": [30, 33, 37, 40, 43, 47, 50, 53, 57, 60, 63, 67, 70, 73, 77, 80, 83, 87, 90, 93, 97, 100]
@@ -28189,7 +28168,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wearying_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/11/Wearying_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wearying_Strike",
     "Ranks": {
       "0": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 13]
@@ -28212,7 +28191,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wounding_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/35/Wounding_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wounding_Strike",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -28235,7 +28214,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Zealous_Sweep.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5d/Zealous_Sweep.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Zealous_Sweep",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -28258,7 +28237,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Attacker%27s_Insight.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/48/Attacker%27s_Insight.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Attacker%27s_Insight",
     "Ranks": {
       "0": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12], "1": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19]
@@ -28281,7 +28260,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dwayna%27s_Touch.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0c/Dwayna%27s_Touch.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dwayna%27s_Touch",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75]
@@ -28304,7 +28283,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Featherfoot_Grace.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b0/Featherfoot_Grace.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Featherfoot_Grace",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -28327,7 +28306,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Grenth%27s_Aura.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/87/Grenth%27s_Aura.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Grenth%27s_Aura",
     "Ranks": {
       "0": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32]
@@ -28350,7 +28329,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Grenth%27s_Fingers.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7e/Grenth%27s_Fingers.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Grenth%27s_Fingers",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50], "1": [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
@@ -28373,7 +28352,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Grenth%27s_Grasp.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4a/Grenth%27s_Grasp.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Grenth%27s_Grasp",
     "Ranks": {
       "0": [1, 2, 2, 3, 4, 4, 5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14]
@@ -28396,7 +28375,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Guiding_Hands.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/38/Guiding_Hands.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Guiding_Hands",
     "Ranks": {
       "0": [0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -28419,7 +28398,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Harrier%27s_Grasp.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/84/Harrier%27s_Grasp.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Harrier%27s_Grasp",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], "1": [2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11], "2": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4]
@@ -28442,7 +28421,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Harrier%27s_Haste.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/84/Harrier%27s_Haste.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Harrier%27s_Haste",
     "Ranks": {
       "0": [2, 2, 3, 3, 4, 4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10], "1": [3, 4, 4, 5, 5, 6, 7, 7, 8, 8, 9, 10, 10, 11, 11, 12, 13, 13, 14, 14, 15]
@@ -28465,7 +28444,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lyssa%27s_Haste.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0e/Lyssa%27s_Haste.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lyssa%27s_Haste",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19]
@@ -28488,7 +28467,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mystic_Healing.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e0/Mystic_Healing.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mystic_Healing",
     "Ranks": {
       "0": [5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49, 53, 57, 61, 65, 69, 73, 77, 81, 85]
@@ -28511,7 +28490,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mystic_Twister.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2e/Mystic_Twister.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mystic_Twister",
     "Ranks": {
       "0": [10, 13, 17, 20, 23, 27, 30, 33, 37, 40, 43, 47, 50, 53, 57, 60, 63, 67, 70, 73, 77], "1": [10, 13, 17, 20, 23, 27, 30, 33, 37, 40, 43, 47, 50, 53, 57, 60, 63, 67, 70, 73, 77]
@@ -28534,7 +28513,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Natural_Healing.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0a/Natural_Healing.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Natural_Healing",
     "Ranks": {
       "0": [50, 58, 66, 74, 82, 90, 98, 106, 114, 122, 130, 138, 146, 154, 162, 170, 178, 186, 194, 202, 210]
@@ -28557,7 +28536,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Onslaught.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d8/Onslaught.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Onslaught",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19]
@@ -28580,7 +28559,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Pious_Restoration.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/03/Pious_Restoration.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Pious_Restoration",
     "Ranks": {
       "0": [80, 85, 89, 94, 99, 103, 108, 113, 117, 122, 127, 131, 136, 141, 145, 150, 155, 159, 164, 169, 173], "1": [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
@@ -28603,7 +28582,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Rending_Aura.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/85/Rending_Aura.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Rending_Aura",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50], "1": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13]
@@ -28626,7 +28605,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Mystic_Speed.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/59/Signet_of_Mystic_Speed.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Mystic_Speed",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4]
@@ -28649,7 +28628,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Pious_Restraint.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9c/Signet_of_Pious_Restraint.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Pious_Restraint",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18]
@@ -28672,7 +28651,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Test_of_Faith.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fd/Test_of_Faith.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Test_of_Faith",
     "Ranks": {
       "0": [15, 18, 22, 25, 28, 32, 35, 38, 42, 45, 48, 52, 55, 58, 62, 65, 68, 72, 75, 78, 82], "1": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5]
@@ -28695,7 +28674,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vow_of_Piety.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e0/Vow_of_Piety.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vow_of_Piety",
     "Ranks": {
       "0": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5]
@@ -28718,7 +28697,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Whirling_Charge.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/63/Whirling_Charge.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Whirling_Charge",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8], "1": [10, 13, 17, 20, 23, 27, 30, 33, 37, 40, 43, 47, 50, 53, 57, 60, 63, 67, 70, 73, 77]
@@ -28741,7 +28720,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Winds_of_Disenchantment.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4b/Winds_of_Disenchantment.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Winds_of_Disenchantment",
     "Ranks": {
       "0": [20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100]
@@ -28764,7 +28743,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Zealous_Vow.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/03/Zealous_Vow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Zealous_Vow",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8]
@@ -28787,7 +28766,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Enchanted_Haste.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1f/Enchanted_Haste.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Enchanted_Haste",
     "Ranks": {
     }
@@ -28809,7 +28788,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Whirlwind_Attack.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2c/Whirlwind_Attack.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Whirlwind_Attack",
     "Ranks": {
       "0": [13, 14, 16, 17, 19, 20, 20, 20, 20, 20, 20]
@@ -28832,7 +28811,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Never_Rampage_Alone.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d1/Never_Rampage_Alone.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Never_Rampage_Alone",
     "Ranks": {
       "0": [18, 19, 21, 22, 24, 25, 25, 25, 25, 25, 25], "1": [1, 1, 2, 2, 3, 3, 3, 3, 3, 3, 3]
@@ -28855,7 +28834,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Seed_of_Life.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/74/Seed_of_Life.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Seed_of_Life",
     "Ranks": {
       "0": [2, 3, 3, 4, 4, 5, 5, 5, 5, 5, 5]
@@ -28878,7 +28857,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Necrosis.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/99/Necrosis.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Necrosis",
     "Ranks": {
       "0": [60, 66, 72, 78, 84, 90, 90, 90, 90, 90, 90]
@@ -28901,7 +28880,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Cry_of_Pain.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/93/Cry_of_Pain.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Cry_of_Pain",
     "Ranks": {
       "0": [25, 30, 35, 40, 45, 50, 50, 50, 50, 50, 50], "1": [3, 3, 4, 4, 5, 5, 5, 5, 5, 5, 5]
@@ -28924,7 +28903,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Intensity.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/dc/Intensity.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Intensity",
     "Ranks": {
       "0": [60, 62, 64, 66, 68, 70, 70, 70, 70, 70, 70]
@@ -28947,7 +28926,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Critical_Agility.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e8/Critical_Agility.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Critical_Agility",
     "Ranks": {
       "0": [15, 17, 19, 21, 23, 25, 25, 25, 25, 25, 25]
@@ -28970,7 +28949,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vampirism.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/59/Vampirism.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vampirism",
     "Ranks": {
       "0": [4, 6, 8, 10, 12, 14, 14, 14, 14, 14, 14], "1": [75, 90, 105, 120, 135, 150, 150, 150, 150, 150, 150], "2": [10, 12, 14, 16, 18, 20, 20, 20, 20, 20, 20]
@@ -28993,7 +28972,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22There%27s_Nothing_to_Fear!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e6/%22There%27s_Nothing_to_Fear%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22There%27s_Nothing_to_Fear!%22",
     "Ranks": {
       "0": [20, 23, 26, 29, 32, 35, 35, 35, 35, 35, 35], "1": [35, 40, 45, 50, 55, 60, 60, 60, 60, 60, 60]
@@ -29016,7 +28995,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Eternal_Aura.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ab/Eternal_Aura.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Eternal_Aura",
     "Ranks": {
       "0": [40, 42, 44, 46, 48, 50, 50, 50, 50, 50, 50], "1": [20, 22, 24, 26, 28, 30, 30, 30, 30, 30, 30]
@@ -29039,7 +29018,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Sunspear_Rebirth_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e0/Sunspear_Rebirth_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Sunspear_Rebirth_Signet",
     "Ranks": {
     }
@@ -29061,7 +29040,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lightbringer_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/43/Lightbringer_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lightbringer_Signet",
     "Ranks": {
     }
@@ -29083,7 +29062,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lightbringer%27s_Gaze.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c6/Lightbringer%27s_Gaze.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lightbringer%27s_Gaze",
     "Ranks": {
     }
@@ -29105,7 +29084,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Radiation_Field.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/31/Radiation_Field.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Radiation_Field",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 6, 6, 6, 6], "1": [12, 14, 15, 17, 18, 20, 20, 20, 20, 20, 20]
@@ -29128,7 +29107,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Air_of_Superiority.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9f/Air_of_Superiority.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Air_of_Superiority",
     "Ranks": {
       "0": [20, 22, 24, 26, 28, 30, 30, 30, 30, 30, 30]
@@ -29151,7 +29130,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Asuran_Scan.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a0/Asuran_Scan.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Asuran_Scan",
     "Ranks": {
       "0": [9, 10, 10, 11, 11, 12, 12, 12, 12, 12, 12]
@@ -29174,7 +29153,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mental_Block.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ed/Mental_Block.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mental_Block",
     "Ranks": {
       "0": [5, 6, 7, 9, 10, 11, 11, 11, 11, 11, 11]
@@ -29197,7 +29176,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mindbender.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c0/Mindbender.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mindbender",
     "Ranks": {
       "0": [10, 11, 12, 14, 15, 16, 16, 16, 16, 16, 16], "1": [20, 23, 25, 28, 30, 33, 33, 33, 33, 33, 33]
@@ -29220,7 +29199,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Pain_Inverter.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/91/Pain_Inverter.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Pain_Inverter",
     "Ranks": {
       "0": [6, 7, 8, 8, 9, 10, 10, 10, 10, 10, 10], "1": [100, 108, 116, 124, 132, 140, 140, 140, 140, 140, 140], "2": [80, 75, 71, 66, 62, 57, 57, 57, 57, 57, 57]
@@ -29243,7 +29222,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Smooth_Criminal.jpg",
+    "Image":"https://wiki.guildwars.com//images/3/33/Smooth_Criminal.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Smooth_Criminal",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 20, 20, 20, 20, 20], "1": [5, 6, 7, 8, 9, 10, 10, 10, 10, 10, 10]
@@ -29266,7 +29245,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Summon_Ice_Imp.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2a/Summon_Ice_Imp.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Summon_Ice_Imp",
     "Ranks": {
       "0": [14, 15, 16, 18, 19, 20, 20, 20, 20, 20, 20], "1": [40, 44, 48, 52, 56, 60, 60, 60, 60, 60, 60]
@@ -29289,7 +29268,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Summon_Mursaat.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/61/Summon_Mursaat.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Summon_Mursaat",
     "Ranks": {
       "0": [14, 15, 16, 18, 19, 20, 20, 20, 20, 20, 20], "1": [40, 44, 48, 52, 56, 60, 60, 60, 60, 60, 60]
@@ -29312,7 +29291,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Summon_Naga_Shaman.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f0/Summon_Naga_Shaman.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Summon_Naga_Shaman",
     "Ranks": {
       "0": [14, 15, 16, 18, 19, 20, 20, 20, 20, 20, 20], "1": [40, 44, 48, 52, 56, 60, 60, 60, 60, 60, 60]
@@ -29335,7 +29314,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Summon_Ruby_Djinn.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a0/Summon_Ruby_Djinn.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Summon_Ruby_Djinn",
     "Ranks": {
       "0": [14, 15, 16, 18, 19, 20, 20, 20, 20, 20, 20], "1": [40, 44, 48, 52, 56, 60, 60, 60, 60, 60, 60]
@@ -29358,7 +29337,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Technobabble.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0a/Technobabble.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Technobabble",
     "Ranks": {
       "0": [30, 32, 34, 36, 38, 40, 40, 40, 40, 40, 40], "1": [3, 3, 4, 4, 5, 5, 5, 5, 5, 5, 5]
@@ -29381,7 +29360,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22By_Ural%27s_Hammer!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/df/%22By_Ural%27s_Hammer%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22By_Ural%27s_Hammer!%22",
     "Ranks": {
       "0": [25, 27, 28, 30, 31, 33, 33, 33, 33, 33, 33]
@@ -29404,7 +29383,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Don%27t_Trip!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c1/%22Don%27t_Trip%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Don%27t_Trip!%22",
     "Ranks": {
       "0": [3, 3, 4, 4, 5, 5, 5, 5, 5, 5, 5]
@@ -29427,7 +29406,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Alkar%27s_Alchemical_Acid.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/43/Alkar%27s_Alchemical_Acid.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Alkar%27s_Alchemical_Acid",
     "Ranks": {
       "0": [40, 42, 44, 46, 48, 50, 50, 50, 50, 50, 50], "1": [45, 50, 55, 60, 65, 70, 70, 70, 70, 70, 70], "2": [14, 15, 16, 18, 19, 20, 20, 20, 20, 20, 20]
@@ -29450,7 +29429,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Black_Powder_Mine.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/50/Black_Powder_Mine.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Black_Powder_Mine",
     "Ranks": {
       "0": [20, 22, 24, 26, 28, 30, 30, 30, 30, 30, 30], "1": [7, 8, 8, 9, 9, 10, 10, 10, 10, 10, 10]
@@ -29473,7 +29452,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Brawling_Headbutt.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/be/Brawling_Headbutt.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Brawling_Headbutt",
     "Ranks": {
       "0": [45, 50, 55, 60, 65, 70, 70, 70, 70, 70, 70]
@@ -29496,7 +29475,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Breath_of_the_Great_Dwarf.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0e/Breath_of_the_Great_Dwarf.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Breath_of_the_Great_Dwarf",
     "Ranks": {
       "0": [50, 52, 54, 56, 58, 60, 60, 60, 60, 60, 60]
@@ -29519,7 +29498,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Drunken_Master.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b3/Drunken_Master.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Drunken_Master",
     "Ranks": {
       "0": [72, 76, 79, 83, 86, 90, 90, 90, 90, 90, 90], "1": [10, 11, 12, 13, 14, 15, 15, 15, 15, 15, 15], "2": [25, 27, 28, 30, 31, 33, 33, 33, 33, 33, 33]
@@ -29542,7 +29521,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dwarven_Stability.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4c/Dwarven_Stability.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dwarven_Stability",
     "Ranks": {
       "0": [24, 25, 26, 28, 29, 30, 30, 30, 30, 30, 30], "1": [55, 64, 73, 82, 91, 100, 100, 100, 100, 100, 100]
@@ -29565,7 +29544,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ear_Bite.jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c6/Ear_Bite.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ear_Bite",
     "Ranks": {
       "0": [50, 54, 58, 62, 66, 70, 70, 70, 70, 70, 70], "1": [15, 17, 19, 21, 23, 25, 25, 25, 25, 25, 25]
@@ -29588,7 +29567,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Great_Dwarf_Armor.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e5/Great_Dwarf_Armor.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Great_Dwarf_Armor",
     "Ranks": {
       "0": [22, 26, 29, 33, 36, 40, 40, 40, 40, 40, 40]
@@ -29611,7 +29590,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Great_Dwarf_Weapon.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ab/Great_Dwarf_Weapon.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Great_Dwarf_Weapon",
     "Ranks": {
       "0": [15, 16, 17, 18, 19, 20, 20, 20, 20, 20, 20], "1": [28, 30, 33, 35, 38, 40, 40, 40, 40, 40, 40]
@@ -29634,7 +29613,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Light_of_Deldrimor.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/11/Light_of_Deldrimor.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Light_of_Deldrimor",
     "Ranks": {
       "0": [55, 60, 65, 70, 75, 80, 80, 80, 80, 80, 80]
@@ -29657,7 +29636,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Low_Blow.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/86/Low_Blow.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Low_Blow",
     "Ranks": {
       "0": [45, 50, 55, 60, 65, 70, 70, 70, 70, 70, 70], "1": [30, 34, 38, 42, 46, 50, 50, 50, 50, 50, 50], "2": [14, 15, 16, 18, 19, 20, 20, 20, 20, 20, 20]
@@ -29680,7 +29659,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Snow_Storm.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a0/Snow_Storm.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Snow_Storm",
     "Ranks": {
       "0": [30, 32, 34, 36, 38, 40, 40, 40, 40, 40, 40]
@@ -29703,7 +29682,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Deft_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/62/Deft_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Deft_Strike",
     "Ranks": {
       "0": [18, 20, 23, 25, 28, 30, 30, 30, 30, 30, 30], "1": [18, 20, 23, 25, 28, 30, 30, 30, 30, 30, 30]
@@ -29726,7 +29705,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ebon_Battle_Standard_of_Courage.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/53/Ebon_Battle_Standard_of_Courage.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ebon_Battle_Standard_of_Courage",
     "Ranks": {
       "0": [14, 15, 16, 18, 19, 20, 20, 20, 20, 20, 20]
@@ -29749,7 +29728,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ebon_Battle_Standard_of_Honor.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/51/Ebon_Battle_Standard_of_Honor.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ebon_Battle_Standard_of_Honor",
     "Ranks": {
       "0": [14, 15, 16, 18, 19, 20, 20, 20, 20, 20, 20], "1": [8, 9, 11, 12, 14, 15, 15, 15, 15, 15, 15], "2": [7, 8, 8, 9, 9, 10, 10, 10, 10, 10, 10]
@@ -29772,7 +29751,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ebon_Battle_Standard_of_Wisdom.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/eb/Ebon_Battle_Standard_of_Wisdom.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ebon_Battle_Standard_of_Wisdom",
     "Ranks": {
       "0": [14, 15, 16, 18, 19, 20, 20, 20, 20, 20, 20], "1": [44, 47, 50, 54, 57, 60, 60, 60, 60, 60, 60]
@@ -29795,7 +29774,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ebon_Escape.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bb/Ebon_Escape.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ebon_Escape",
     "Ranks": {
       "0": [70, 78, 86, 94, 102, 110, 110, 110, 110, 110, 110]
@@ -29818,7 +29797,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ebon_Vanguard_Assassin_Support.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/03/Ebon_Vanguard_Assassin_Support.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ebon_Vanguard_Assassin_Support",
     "Ranks": {
       "0": [14, 15, 16, 18, 19, 20, 20, 20, 20, 20, 20], "1": [24, 25, 26, 28, 29, 30, 30, 30, 30, 30, 30], "2": [12, 13, 13, 14, 14, 15, 15, 15, 15, 15, 15]
@@ -29841,7 +29820,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ebon_Vanguard_Sniper_Support.jpg",
+    "Image":"https://wiki.guildwars.com//images/1/16/Ebon_Vanguard_Sniper_Support.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ebon_Vanguard_Sniper_Support",
     "Ranks": {
       "0": [54, 61, 68, 76, 83, 90, 90, 90, 90, 90, 90], "1": [540, 612, 684, 756, 828, 900, 900, 900, 900, 900, 900], "2": [5, 9, 13, 17, 21, 25, 25, 25, 25, 25, 25]
@@ -29864,7 +29843,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Infection.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/66/Signet_of_Infection.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Infection",
     "Ranks": {
       "0": [13, 14, 16, 17, 19, 20, 20, 20, 20, 20, 20]
@@ -29887,7 +29866,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Sneak_Attack.jpg",
+    "Image":"https://wiki.guildwars.com//images/8/87/Sneak_Attack.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Sneak_Attack",
     "Ranks": {
       "0": [5, 6, 6, 7, 7, 8, 8, 8, 8, 8, 8]
@@ -29910,7 +29889,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Tryptophan_Signet.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/70/Tryptophan_Signet.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Tryptophan_Signet",
     "Ranks": {
       "0": [14, 15, 16, 18, 19, 20, 20, 20, 20, 20, 20], "1": [23, 26, 30, 33, 37, 40, 40, 40, 40, 40, 40]
@@ -29933,7 +29912,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Weakness_Trap.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0d/Weakness_Trap.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Weakness_Trap",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 20, 20, 20, 20, 20], "1": [24, 29, 34, 40, 45, 50, 50, 50, 50, 50, 50]
@@ -29956,7 +29935,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Winds.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0e/Winds.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Winds",
     "Ranks": {
       "0": [4, 5, 6, 8, 9, 10, 10, 10, 10, 10, 10], "1": [54, 61, 68, 76, 83, 90, 90, 90, 90, 90, 90]
@@ -29979,7 +29958,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Dodge_This!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4b/%22Dodge_This%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Dodge_This!%22",
     "Ranks": {
       "0": [16, 17, 18, 18, 19, 20, 20, 20, 20, 20, 20], "1": [14, 15, 16, 18, 19, 20, 20, 20, 20, 20, 20]
@@ -30002,7 +29981,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Finish_Him!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/61/%22Finish_Him%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Finish_Him!%22",
     "Ranks": {
       "0": [44, 51, 58, 66, 73, 80, 80, 80, 80, 80, 80], "1": [12, 14, 15, 17, 18, 20, 20, 20, 20, 20, 20]
@@ -30025,7 +30004,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22I_Am_the_Strongest!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ec/%22I_Am_the_Strongest%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22I_Am_the_Strongest!%22",
     "Ranks": {
       "0": [5, 6, 6, 7, 7, 8, 8, 8, 8, 8, 8], "1": [14, 15, 16, 18, 19, 20, 20, 20, 20, 20, 20]
@@ -30048,7 +30027,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22I_Am_Unstoppable!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ed/%22I_Am_Unstoppable%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22I_Am_Unstoppable!%22",
     "Ranks": {
       "0": [16, 17, 18, 18, 19, 20, 20, 20, 20, 20, 20]
@@ -30071,7 +30050,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22You_Are_All_Weaklings!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a4/%22You_Are_All_Weaklings%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22You_Are_All_Weaklings!%22",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 12, 12, 12, 12, 12]
@@ -30094,7 +30073,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22You_Move_Like_a_Dwarf!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6a/%22You_Move_Like_a_Dwarf%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22You_Move_Like_a_Dwarf!%22",
     "Ranks": {
       "0": [44, 51, 58, 66, 73, 80, 80, 80, 80, 80, 80], "1": [8, 9, 11, 12, 14, 15, 15, 15, 15, 15, 15]
@@ -30117,7 +30096,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:A_Touch_of_Guile.jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2d/A_Touch_of_Guile.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/A_Touch_of_Guile",
     "Ranks": {
       "0": [44, 51, 58, 66, 73, 80, 80, 80, 80, 80, 80], "1": [5, 6, 6, 7, 7, 8, 8, 8, 8, 8, 8]
@@ -30140,7 +30119,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Club_of_a_Thousand_Bears.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/dc/Club_of_a_Thousand_Bears.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Club_of_a_Thousand_Bears",
     "Ranks": {
       "0": [6, 7, 7, 8, 8, 9, 9, 9, 9, 9, 9]
@@ -30163,7 +30142,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Feel_No_Pain.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fe/Feel_No_Pain.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Feel_No_Pain",
     "Ranks": {
       "0": [2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3], "1": [200, 220, 240, 260, 280, 300, 300, 300, 300, 300, 300]
@@ -30186,7 +30165,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Raven_Blessing.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0a/Raven_Blessing.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Raven_Blessing",
     "Ranks": {
       "0": [660, 668, 676, 684, 692, 700, 700, 700, 700, 700, 700], "1": [20, 22, 24, 26, 28, 30, 30, 30, 30, 30, 30]
@@ -30209,7 +30188,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ursan_Blessing.jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7b/Ursan_Blessing.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ursan_Blessing",
     "Ranks": {
       "0": [750, 760, 770, 780, 790, 800, 800, 800, 800, 800, 800]
@@ -30232,7 +30211,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Volfen_Blessing.jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b2/Volfen_Blessing.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Volfen_Blessing",
     "Ranks": {
       "0": [660, 668, 676, 684, 692, 700, 700, 700, 700, 700, 700], "1": [2, 2, 3, 3, 4, 4, 4, 4, 4, 4, 4]
@@ -30255,7 +30234,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Enraged_Smash_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1e/Enraged_Smash_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Enraged_Smash_(PvP)",
     "Ranks": {
       "0": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5], "1": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -30278,7 +30257,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Warrior",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Renewing_Smash_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1a/Renewing_Smash_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Renewing_Smash_(PvP)",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -30301,7 +30280,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Defy_Pain_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/7/72/Defy_Pain_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Defy_Pain_(PvP)",
     "Ranks": {
       "0": [90, 104, 118, 132, 146, 160, 174, 188, 202, 216, 230, 244, 258, 272, 286, 300, 314, 328, 342, 356, 370, 384]
@@ -30324,7 +30303,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Warrior",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Warrior%27s_Endurance_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/1/15/Warrior%27s_Endurance_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Warrior%27s_Endurance_(PvP)",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47], "1": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
@@ -30347,7 +30326,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Watch_Yourself!%22_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/1/16/%22Watch_Yourself%21%22_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Watch_Yourself!%22_(PvP)",
     "Ranks": {
       "0": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -30370,7 +30349,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Warrior",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Soldier%27s_Stance_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/d/dd/Soldier%27s_Stance_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Soldier%27s_Stance_(PvP)",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12]
@@ -30393,7 +30372,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22For_Great_Justice!%22_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/0/00/%22For_Great_Justice%21%22_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22For_Great_Justice!%22_(PvP)",
     "Ranks": {
     }
@@ -30415,7 +30394,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Call_of_Haste_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/2/22/Call_of_Haste_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Call_of_Haste_(PvP)",
     "Ranks": {
     }
@@ -30437,7 +30416,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Charm_Animal_(Codex).jpg",
+    "Image":"https://wiki.guildwars.com//images/0/03/Charm_Animal_%28Codex%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Charm_Animal_(Codex)",
     "Ranks": {
     }
@@ -30459,7 +30438,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Comfort_Animal_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f1/Comfort_Animal_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Comfort_Animal_(PvP)",
     "Ranks": {
       "0": [20, 26, 31, 37, 42, 48, 54, 59, 65, 70, 76, 82, 87, 93, 98, 104, 110, 115, 121, 126, 132], "1": [10, 13, 16, 20, 23, 26, 29, 32, 36, 39, 42, 45, 48, 52, 55, 58, 61, 64, 68, 71, 74]
@@ -30482,7 +30461,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Enraged_Lunge_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/1/17/Enraged_Lunge_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Enraged_Lunge_(PvP)",
     "Ranks": {
       "0": [3, 4, 6, 7, 8, 10, 11, 12, 14, 15, 16, 18, 19, 20, 22, 23, 24, 26, 27, 28, 30]
@@ -30505,7 +30484,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Heal_as_One_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a9/Heal_as_One_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Heal_as_One_(PvP)",
     "Ranks": {
       "0": [25, 33, 41, 49, 57, 65, 73, 81, 89, 97, 105, 113, 121, 129, 137, 145, 153, 161, 169, 177, 185]
@@ -30528,7 +30507,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Melandru%27s_Assault_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5d/Melandru%27s_Assault_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Melandru%27s_Assault_(PvP)",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], "1": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45]
@@ -30551,7 +30530,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Predatory_Bond_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bc/Predatory_Bond_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Predatory_Bond_(PvP)",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], "1": [1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41]
@@ -30574,7 +30553,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Expert%27s_Dexterity_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/5/51/Expert%27s_Dexterity_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Expert%27s_Dexterity_(PvP)",
     "Ranks": {
       "0": [1, 2, 4, 5, 6, 7, 9, 10, 11, 12, 14, 15, 16, 17, 19, 20, 21, 23, 24, 25, 26]
@@ -30597,7 +30576,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Escape_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/5/52/Escape_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Escape_(PvP)",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10]
@@ -30620,7 +30599,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Glass_Arrows_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f5/Glass_Arrows_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Glass_Arrows_(PvP)",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43], "1": [5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 12, 13, 13, 14, 14], "2": [10, 11, 11, 12, 13, 13, 14, 15, 15, 16, 17, 17, 18, 19, 19, 20, 21, 21, 22, 23, 23]
@@ -30643,7 +30622,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lightning_Reflexes_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/a/aa/Lightning_Reflexes_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lightning_Reflexes_(PvP)",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13]
@@ -30666,7 +30645,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ranger",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Penetrating_Attack_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/3/39/Penetrating_Attack_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Penetrating_Attack_(PvP)",
     "Ranks": {
       "0": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 13]
@@ -30689,7 +30668,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Read_the_Wind_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9f/Read_the_Wind_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Read_the_Wind_(PvP)",
     "Ranks": {
     }
@@ -30711,7 +30690,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ranger",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Sloth_Hunter%27s_Shot_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/6/66/Sloth_Hunter%27s_Shot_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Sloth_Hunter%27s_Shot_(PvP)",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19]
@@ -30734,7 +30713,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ranger",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Sundering_Attack_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f3/Sundering_Attack_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Sundering_Attack_(PvP)",
     "Ranks": {
       "0": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 13]
@@ -30757,7 +30736,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ranger",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Keen_Arrow_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7c/Keen_Arrow_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Keen_Arrow_(PvP)",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7], "1": [5, 7, 8, 10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40]
@@ -30780,7 +30759,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Monk",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Smiter%27s_Boon_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/d/da/Smiter%27s_Boon_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Smiter%27s_Boon_(PvP)",
     "Ranks": {
       "0": [0, 3, 6, 10, 13, 16, 19, 22, 26, 29, 32, 35, 38, 42, 45, 48, 51, 54, 58, 61, 64, 67]
@@ -30803,7 +30782,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Monk",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Unyielding_Aura_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4b/Unyielding_Aura_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Unyielding_Aura_(PvP)",
     "Ranks": {
     }
@@ -30825,7 +30804,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Monk",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Light_of_Deliverance_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/5/51/Light_of_Deliverance_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Light_of_Deliverance_(PvP)",
     "Ranks": {
       "0": [5, 9, 14, 18, 22, 27, 31, 35, 40, 44, 48, 53, 57, 61, 66, 70, 74, 79, 83, 87, 92, 96]
@@ -30848,7 +30827,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Heal_Party_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/4/43/Heal_Party_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Heal_Party_(PvP)",
     "Ranks": {
       "0": [30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78, 81, 84, 87, 90, 93]
@@ -30871,7 +30850,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Aegis_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c8/Aegis_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Aegis_(PvP)",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -30894,7 +30873,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Monk",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spirit_Bond_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/7/72/Spirit_Bond_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spirit_Bond_(PvP)",
     "Ranks": {
       "0": [30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110, 114]
@@ -30917,7 +30896,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Judgment_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/7/78/Signet_of_Judgment_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Judgment_(PvP)",
     "Ranks": {
       "0": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -30940,7 +30919,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Strength_of_Honor_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/c/ce/Strength_of_Honor_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Strength_of_Honor_(PvP)",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -30963,7 +30942,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Agony_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/1/14/Signet_of_Agony_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Agony_(PvP)",
     "Ranks": {
       "0": [10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94]
@@ -30986,7 +30965,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spoil_Victor_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a9/Spoil_Victor_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spoil_Victor_(PvP)",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19, 20], "1": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -31009,7 +30988,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Unholy_Feast_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0b/Unholy_Feast_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Unholy_Feast_(PvP)",
     "Ranks": {
       "0": [10, 14, 17, 21, 25, 28, 32, 36, 39, 43, 47, 50, 54, 58, 61, 65, 69, 72, 76, 80, 83, 87], "1": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5]
@@ -31032,7 +31011,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Necromancer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Enfeeble_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a2/Enfeeble_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Enfeeble_(PvP)",
     "Ranks": {
       "0": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38]
@@ -31055,7 +31034,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Enfeebling_Blood_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b7/Enfeebling_Blood_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Enfeebling_Blood_(PvP)",
     "Ranks": {
       "0": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
@@ -31078,7 +31057,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Necromancer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Discord_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1f/Discord_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Discord_(PvP)",
     "Ranks": {
       "0": [30, 35, 41, 46, 51, 57, 62, 67, 73, 78, 83, 89, 94, 99, 105, 110, 115, 121, 126, 131, 137, 142]
@@ -31101,7 +31080,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Necromancer",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Masochism_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/6/64/Masochism_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Masochism_(PvP)",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -31124,7 +31103,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Empathy_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/7/74/Empathy_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Empathy_(PvP)",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19], "1": [15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57]
@@ -31147,7 +31126,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Enchanter%27s_Conundrum_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c0/Enchanter%27s_Conundrum_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Enchanter%27s_Conundrum_(PvP)",
     "Ranks": {
       "0": [100, 107, 113, 120, 127, 133, 140, 147, 153, 160, 167, 173, 180, 187, 193, 200, 207, 213, 220, 227, 233, 240], "1": [10, 16, 22, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82, 88, 94, 100, 106, 112, 118, 124, 130, 136]
@@ -31170,7 +31149,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mind_Wrack_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/3/31/Mind_Wrack_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mind_Wrack_(PvP)",
     "Ranks": {
       "0": [5, 7, 10, 12, 14, 17, 19, 21, 24, 26, 28, 31, 33, 35, 38, 40, 42, 45, 47, 49, 52, 54], "1": [15, 21, 26, 32, 38, 43, 49, 55, 60, 66, 72, 77, 83, 89, 94, 100, 106, 111, 117, 123, 128, 134]
@@ -31193,7 +31172,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mistrust_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f9/Mistrust_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mistrust_(PvP)",
     "Ranks": {
       "0": [10, 14, 19, 23, 27, 32, 36, 40, 45, 49, 53, 58, 62, 66, 71, 75, 79, 84, 88, 92, 97, 101]
@@ -31216,7 +31195,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shatter_Delusions_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7c/Shatter_Delusions_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shatter_Delusions_(PvP)",
     "Ranks": {
       "0": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -31239,7 +31218,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Spiritual_Pain_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/9/98/Spiritual_Pain_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Spiritual_Pain_(PvP)",
     "Ranks": {
       "0": [5, 7, 10, 12, 14, 17, 19, 21, 24, 26, 28, 31, 33, 35, 38, 40, 42, 45, 47, 49, 52, 54], "1": [25, 32, 38, 45, 52, 58, 65, 72, 78, 85, 92, 98, 105, 112, 118, 125, 132, 138, 145, 152, 158, 165]
@@ -31262,7 +31241,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Unnatural_Signet_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4f/Unnatural_Signet_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Unnatural_Signet_(PvP)",
     "Ranks": {
       "0": [10, 13, 17, 20, 23, 27, 30, 33, 37, 40, 43, 47, 50, 53, 57, 60, 63, 67, 70, 73, 77, 80], "1": [10, 13, 17, 20, 23, 27, 30, 33, 37, 40, 43, 47, 50, 53, 57, 60, 63, 67, 70, 73, 77, 80]
@@ -31285,7 +31264,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Visions_of_Regret_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b1/Visions_of_Regret_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Visions_of_Regret_(PvP)",
     "Ranks": {
       "0": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38], "1": [5, 7, 10, 12, 14, 17, 19, 21, 24, 26, 28, 31, 33, 35, 38, 40, 42, 45, 47, 49, 52, 54]
@@ -31308,7 +31287,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Psychic_Instability_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/3/35/Psychic_Instability_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Psychic_Instability_(PvP)",
     "Ranks": {
       "0": [2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
@@ -31331,7 +31310,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Stolen_Speed_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/3/33/Stolen_Speed_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Stolen_Speed_(PvP)",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -31354,7 +31333,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Accumulated_Pain_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7c/Accumulated_Pain_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Accumulated_Pain_(PvP)",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -31377,7 +31356,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Calculated_Risk_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/1/1f/Calculated_Risk_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Calculated_Risk_(PvP)",
     "Ranks": {
       "0": [3, 4, 4, 5, 5, 6, 7, 7, 8, 8, 9, 10, 10, 11, 11, 12, 13, 13, 14, 14, 15, 16], "1": [10, 13, 17, 20, 23, 27, 30, 33, 37, 40, 43, 47, 50, 53, 57, 60, 63, 67, 70, 73, 77, 80]
@@ -31400,7 +31379,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Crippling_Anguish_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c7/Crippling_Anguish_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Crippling_Anguish_(PvP)",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -31423,7 +31402,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Fevered_Dreams_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8c/Fevered_Dreams_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Fevered_Dreams_(PvP)",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19]
@@ -31446,7 +31425,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Fragility_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a9/Fragility_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Fragility_(PvP)",
     "Ranks": {
       "0": [8, 9, 10, 10, 11, 12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -31469,7 +31448,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Frustration_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6f/Frustration_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Frustration_(PvP)",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -31492,7 +31471,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Illusion_of_Haste_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/3/36/Illusion_of_Haste_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Illusion_of_Haste_(PvP)",
     "Ranks": {
       "0": [5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9, 10, 10, 11, 11, 11, 12, 12, 13, 13, 13]
@@ -31515,7 +31494,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Illusion_of_Pain_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f3/Illusion_of_Pain_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Illusion_of_Pain_(PvP)",
     "Ranks": {
       "0": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 13], "1": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 13], "2": [36, 42, 47, 53, 58, 64, 70, 75, 81, 86, 92, 98, 103, 109, 114, 120, 126, 131, 137, 142, 148, 154]
@@ -31538,7 +31517,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Illusionary_Weaponry_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a9/Illusionary_Weaponry_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Illusionary_Weaponry_(PvP)",
     "Ranks": {
       "0": [8, 10, 12, 14, 17, 19, 21, 23, 25, 27, 29, 31, 34, 36, 38, 40, 42, 44, 46, 49, 51, 53]
@@ -31561,7 +31540,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Migraine_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/4/49/Migraine_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Migraine_(PvP)",
     "Ranks": {
       "0": [3, 4, 4, 5, 5, 6, 7, 7, 8, 8, 9, 10, 10, 11, 11, 12, 13, 13, 14, 14, 15, 16], "1": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11]
@@ -31584,7 +31563,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shared_Burden_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/1/17/Shared_Burden_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shared_Burden_(PvP)",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -31607,7 +31586,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Clumsiness_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fb/Signet_of_Clumsiness_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Clumsiness_(PvP)",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78]
@@ -31630,7 +31609,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wandering_Eye_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/d/dc/Wandering_Eye_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wandering_Eye_(PvP)",
     "Ranks": {
       "0": [10, 15, 21, 26, 32, 37, 43, 48, 54, 59, 65, 70, 76, 81, 87, 92, 97, 103, 108, 114, 119, 125]
@@ -31653,7 +31632,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mantra_of_Resolve_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6f/Mantra_of_Resolve_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Resolve_(PvP)",
     "Ranks": {
       "0": [10, 10, 9, 9, 8, 8, 8, 7, 7, 6, 6, 6, 5, 5, 4, 4, 4, 3, 3, 2, 2, 2]
@@ -31676,7 +31655,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mantra_of_Signets_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8f/Mantra_of_Signets_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mantra_of_Signets_(PvP)",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52], "1": [5, 9, 12, 16, 20, 23, 27, 31, 34, 38, 42, 45, 49, 53, 56, 60, 64, 67, 71, 75, 78, 82]
@@ -31699,7 +31678,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mirror_of_Disenchantment_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9f/Mirror_of_Disenchantment_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mirror_of_Disenchantment_(PvP)",
     "Ranks": {
     }
@@ -31721,7 +31700,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Mesmer",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Web_of_Disruption_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/7/75/Web_of_Disruption_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Web_of_Disruption_(PvP)",
     "Ranks": {
     }
@@ -31743,7 +31722,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lightning_Hammer_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e2/Lightning_Hammer_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lightning_Hammer_(PvP)",
     "Ranks": {
       "0": [10, 16, 22, 28, 34, 40, 46, 52, 58, 64, 70, 76, 82, 88, 94, 100, 106, 112, 118, 124, 130, 136]
@@ -31766,7 +31745,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mind_Shock_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a0/Mind_Shock_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mind_Shock_(PvP)",
     "Ranks": {
       "0": [10, 13, 15, 18, 21, 23, 26, 29, 31, 34, 37, 39, 42, 45, 47, 50, 53, 55, 58, 61, 63, 66], "1": [10, 13, 15, 18, 21, 23, 26, 29, 31, 34, 37, 39, 42, 45, 47, 50, 53, 55, 58, 61, 63, 66]
@@ -31789,7 +31768,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Elementalist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ride_the_Lightning_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/7/74/Ride_the_Lightning_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ride_the_Lightning_(PvP)",
     "Ranks": {
       "0": [10, 14, 18, 22, 26, 30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94], "1": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -31812,7 +31791,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Obsidian_Flame_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/d/dd/Obsidian_Flame_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Obsidian_Flame_(PvP)",
     "Ranks": {
       "0": [22, 27, 31, 36, 41, 45, 50, 55, 59, 64, 69, 73, 78, 83, 87, 92, 97, 101, 106, 111, 115, 120]
@@ -31835,7 +31814,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ether_Renewal_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8e/Ether_Renewal_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ether_Renewal_(PvP)",
     "Ranks": {
       "0": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -31858,7 +31837,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Aura_of_Restoration_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/8/81/Aura_of_Restoration_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Aura_of_Restoration_(PvP)",
     "Ranks": {
       "0": [200, 213, 227, 240, 253, 267, 280, 293, 307, 320, 333, 347, 360, 373, 387, 400, 413, 427, 440, 453, 467, 480], "1": [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
@@ -31881,7 +31860,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Elemental_Flame_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/4/45/Elemental_Flame_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Elemental_Flame_(PvP)",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
@@ -31904,7 +31883,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Elementalist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Savannah_Heat_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/7/79/Savannah_Heat_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Savannah_Heat_(PvP)",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "2": [75, 90, 105, 120, 135, 150, 165, 180, 195, 210, 225, 240, 255, 270, 285, 300, 315, 330, 345, 360, 375, 390]
@@ -31927,7 +31906,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mind_Freeze_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8a/Mind_Freeze_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mind_Freeze_(PvP)",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52], "1": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52], "2": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -31950,7 +31929,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mist_Form_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/e/ed/Mist_Form_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mist_Form_(PvP)",
     "Ranks": {
       "0": [10, 12, 15, 17, 19, 22, 24, 26, 29, 31, 33, 36, 38, 40, 43, 45, 47, 50, 52, 54, 57, 59], "1": [50, 63, 77, 90, 103, 117, 130, 143, 157, 170, 183, 197, 210, 223, 237, 250, 263, 277, 290, 303, 317, 330]
@@ -31973,7 +31952,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Elementalist",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Slippery_Ground_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/2/29/Slippery_Ground_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Slippery_Ground_(PvP)",
     "Ranks": {
     }
@@ -31995,7 +31974,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Elementalist",
     "Campaign": "Prophecies",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ward_Against_Harm_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/9/92/Ward_Against_Harm_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ward_Against_Harm_(PvP)",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4], "2": [12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25, 26, 26, 27, 28, 29], "3": [12, 13, 14, 14, 15, 16, 17, 18, 18, 19, 20, 21, 22, 22, 23, 24, 25, 26, 26, 27, 28, 29]
@@ -32018,7 +31997,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Assassin",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Assassin%27s_Remedy_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/b/bf/Assassin%27s_Remedy_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Assassin%27s_Remedy_(PvP)",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13]
@@ -32041,7 +32020,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Death_Blossom_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/2/29/Death_Blossom_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Death_Blossom_(PvP)",
     "Ranks": {
       "0": [20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45, 47, 48, 50, 52, 53, 55], "1": [20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45, 47, 48, 50, 52, 53, 55]
@@ -32064,7 +32043,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Fox_Fangs_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/3/39/Fox_Fangs_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Fox_Fangs_(PvP)",
     "Ranks": {
       "0": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
@@ -32087,7 +32066,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wild_Strike_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/2/26/Wild_Strike_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wild_Strike_(PvP)",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45]
@@ -32110,7 +32089,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Assassin",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Deadly_Corruption_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6e/Signet_of_Deadly_Corruption_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Deadly_Corruption_(PvP)",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45]
@@ -32133,7 +32112,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shadow_Form_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/9/94/Shadow_Form_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shadow_Form_(PvP)",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65]
@@ -32156,7 +32135,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shroud_of_Distress_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6d/Shroud_of_Distress_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shroud_of_Distress_(PvP)",
     "Ranks": {
       "0": [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70]
@@ -32179,7 +32158,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Assassin",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Unseen_Fury_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/6/69/Unseen_Fury_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Unseen_Fury_(PvP)",
     "Ranks": {
       "0": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75]
@@ -32202,7 +32181,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ancestors%27_Rage_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5c/Ancestors%27_Rage_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ancestors%27_Rage_(PvP)",
     "Ranks": {
       "0": [1, 4, 6, 9, 12, 14, 17, 20, 22, 25, 28, 30, 33, 36, 38, 41, 44, 46, 49, 52, 54, 57]
@@ -32225,7 +32204,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Spirits_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/1/16/Signet_of_Spirits_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Spirits_(PvP)",
     "Ranks": {
       "0": [3, 4, 4, 5, 5, 6, 7, 7, 8, 8, 9, 10, 10, 11, 11, 12, 13, 13, 14, 14, 15, 16]
@@ -32248,7 +32227,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Splinter_Weapon_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f4/Splinter_Weapon_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Splinter_Weapon_(PvP)",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7], "1": [5, 7, 8, 10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40]
@@ -32271,7 +32250,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Agony_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/0/04/Agony_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Agony_(PvP)",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11], "1": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 13], "2": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 13], "3": [30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110, 114]
@@ -32294,7 +32273,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Bloodsong_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/8/84/Bloodsong_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Bloodsong_(PvP)",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11], "1": [30, 38, 46, 54, 62, 70, 78, 86, 94, 102, 110, 118, 126, 134, 142, 150, 158, 166, 174, 182, 190, 198], "2": [5, 6, 8, 9, 10, 12, 13, 14, 16, 17, 18, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32, 33]
@@ -32317,7 +32296,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Destruction_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/a/aa/Destruction_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Destruction_(PvP)",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14], "1": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -32340,7 +32319,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Gaze_of_Fury_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/c/cb/Gaze_of_Fury_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Gaze_of_Fury_(PvP)",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "2": [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72]
@@ -32363,7 +32342,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Ghostly_Might_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fc/Signet_of_Ghostly_Might_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Ghostly_Might_(PvP)",
     "Ranks": {
       "0": [5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47]
@@ -32386,7 +32365,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Anguish_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fa/Anguish_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Anguish_(PvP)",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "2": [15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57]
@@ -32409,7 +32388,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Armor_of_Unfeeling_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f8/Armor_of_Unfeeling_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Armor_of_Unfeeling_(PvP)",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45]
@@ -32432,7 +32411,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Disenchantment_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2b/Disenchantment_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Disenchantment_(PvP)",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "2": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45]
@@ -32455,7 +32434,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Displacement_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b4/Displacement_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Displacement_(PvP)",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14], "1": [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72], "2": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5, 5]
@@ -32478,7 +32457,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dissonance_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2d/Dissonance_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dissonance_(PvP)",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "2": [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]
@@ -32501,7 +32480,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Earthbind_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/6/66/Earthbind_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Earthbind_(PvP)",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14], "1": [50, 48, 47, 45, 43, 42, 40, 38, 37, 35, 33, 32, 30, 28, 27, 25, 23, 22, 20, 18, 17, 15], "2": [15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57]
@@ -32524,7 +32503,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Pain_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5b/Pain_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Pain_(PvP)",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11], "1": [5, 7, 8, 10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40], "2": [30, 38, 46, 54, 62, 70, 78, 86, 94, 102, 110, 118, 126, 134, 142, 150, 158, 166, 174, 182, 190, 198]
@@ -32547,7 +32526,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Restoration_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0f/Restoration_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Restoration_(PvP)",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -32570,7 +32549,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shadowsong_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3a/Shadowsong_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shadowsong_(PvP)",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8], "1": [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8], "2": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -32593,7 +32572,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shelter_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9c/Shelter_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shelter_(PvP)",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11], "1": [75, 73, 71, 69, 67, 65, 63, 61, 59, 57, 55, 53, 51, 49, 47, 45, 43, 41, 39, 37, 35, 33], "2": [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72]
@@ -32616,7 +32595,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Soothing_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/4/42/Soothing_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Soothing_(PvP)",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11], "1": [15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57]
@@ -32639,7 +32618,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Union_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7b/Union_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Union_(PvP)",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11], "1": [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72]
@@ -32662,7 +32641,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wanderlust_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b3/Wanderlust_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wanderlust_(PvP)",
     "Ranks": {
       "0": [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11], "1": [70, 69, 67, 66, 65, 63, 62, 61, 59, 58, 57, 55, 54, 53, 51, 50, 49, 47, 46, 45, 43, 42], "2": [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72]
@@ -32685,7 +32664,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Death_Pact_Signet_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/0/06/Death_Pact_Signet_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Death_Pact_Signet_(PvP)",
     "Ranks": {
       "0": [15, 21, 26, 32, 38, 43, 49, 55, 60, 66, 72, 77, 83, 89, 94, 100, 106, 111, 117, 123, 128, 134]
@@ -32708,7 +32687,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Flesh_of_My_Flesh_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/0/01/Flesh_of_My_Flesh_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Flesh_of_My_Flesh_(PvP)",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -32731,7 +32710,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Weapon_of_Warding_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/b/ba/Weapon_of_Warding_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Weapon_of_Warding_(PvP)",
     "Ranks": {
       "0": [3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10, 10], "1": [2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5]
@@ -32754,7 +32733,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Life_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2a/Life_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Life_(PvP)",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14], "1": [1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9, 9]
@@ -32777,7 +32756,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Preservation_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/4/40/Preservation_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Preservation_(PvP)",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14], "1": [10, 17, 24, 31, 38, 45, 52, 59, 66, 73, 80, 87, 94, 101, 108, 115, 122, 129, 136, 143, 150, 157]
@@ -32800,7 +32779,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Recovery_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/4/44/Recovery_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Recovery_(PvP)",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14], "1": [20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62], "2": [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72]
@@ -32823,7 +32802,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Factions",
-    "Image": "https://wiki.guildwars.com/wiki/File:Recuperation_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/4/46/Recuperation_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Recuperation_(PvP)",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4], "2": [15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57]
@@ -32846,7 +32825,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Rejuvenation_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a4/Rejuvenation_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Rejuvenation_(PvP)",
     "Ranks": {
       "0": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22], "1": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 13], "2": [30, 34, 38, 42, 46, 50, 54, 58, 62, 66, 70, 74, 78, 82, 86, 90, 94, 98, 102, 106, 110, 114]
@@ -32869,7 +32848,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Ritualist",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Empowerment_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f8/Empowerment_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Empowerment_(PvP)",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14], "1": [15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57], "2": [15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78]
@@ -32892,7 +32871,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Incoming!%22_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/9/91/%22Incoming%21%22_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Incoming!%22_(PvP)",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12], "1": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19]
@@ -32915,7 +32894,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Never_Surrender!%22_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/1/16/%22Never_Surrender%21%22_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Never_Surrender!%22_(PvP)",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -32938,7 +32917,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Brace_Yourself!%22_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/2/2c/%22Brace_Yourself%21%22_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Brace_Yourself!%22_(PvP)",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19], "1": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -32961,7 +32940,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Can%27t_Touch_This!%22_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c8/%22Can%27t_Touch_This%21%22_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Can%27t_Touch_This!%22_(PvP)",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6, 7]
@@ -32984,7 +32963,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Fall_Back!%22_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5a/%22Fall_Back%21%22_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Fall_Back!%22_(PvP)",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 12], "1": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18, 19]
@@ -33007,7 +32986,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Find_Their_Weakness!%22_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b6/%22Find_Their_Weakness%21%22_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Find_Their_Weakness!%22_(PvP)",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -33030,7 +33009,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Go_for_the_Eyes!%22_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/e/eb/%22Go_for_the_Eyes%21%22_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Go_for_the_Eyes!%22_(PvP)",
     "Ranks": {
       "0": [30, 33, 36, 39, 42, 45, 48, 51, 54, 57, 60, 63, 66, 69, 72, 75, 78, 81, 84, 87, 90, 93]
@@ -33053,7 +33032,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Help_Me!%22_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/5/53/%22Help_Me%21%22_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Help_Me!%22_(PvP)",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -33076,7 +33055,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Never_Give_Up!%22_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/3/3d/%22Never_Give_Up%21%22_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Never_Give_Up!%22_(PvP)",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -33099,7 +33078,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Stand_Your_Ground!%22_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c6/%22Stand_Your_Ground%21%22_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Stand_Your_Ground!%22_(PvP)",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -33122,7 +33101,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22We_Shall_Return!%22_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/7/7c/%22We_Shall_Return%21%22_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22We_Shall_Return!%22_(PvP)",
     "Ranks": {
       "0": [10, 14, 19, 23, 27, 32, 36, 40, 45, 49, 53, 58, 62, 66, 71, 75, 79, 84, 88, 92, 97, 101], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68]
@@ -33145,7 +33124,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Paragon",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Anthem_of_Disruption_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9f/Anthem_of_Disruption_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Anthem_of_Disruption_(PvP)",
     "Ranks": {
       "0": [1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13, 14]
@@ -33168,7 +33147,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Anthem_of_Envy_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/e/e6/Anthem_of_Envy_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Anthem_of_Envy_(PvP)",
     "Ranks": {
       "0": [10, 11, 11, 12, 13, 13, 14, 15, 15, 16, 17, 17, 18, 19, 19, 20, 21, 21, 22, 23, 23, 24]
@@ -33191,7 +33170,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Bladeturn_Refrain_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/8/8e/Bladeturn_Refrain_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Bladeturn_Refrain_(PvP)",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52]
@@ -33214,7 +33193,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Defensive_Anthem_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c0/Defensive_Anthem_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Defensive_Anthem_(PvP)",
     "Ranks": {
       "0": [4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12]
@@ -33237,7 +33216,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Blazing_Finale_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ab/Blazing_Finale_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Blazing_Finale_(PvP)",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4]
@@ -33260,7 +33239,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Return_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6f/Signet_of_Return_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Return_(PvP)",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18], "1": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5]
@@ -33283,7 +33262,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Ballad_of_Restoration_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/3/31/Ballad_of_Restoration_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Ballad_of_Restoration_(PvP)",
     "Ranks": {
       "0": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -33306,7 +33285,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Song_of_Restoration_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/2/28/Song_of_Restoration_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Song_of_Restoration_(PvP)",
     "Ranks": {
       "0": [45, 49, 54, 58, 62, 67, 71, 75, 80, 84, 88, 93, 97, 101, 106, 110, 114, 119, 123, 127, 132, 136]
@@ -33329,7 +33308,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Finale_of_Restoration_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/9/9a/Finale_of_Restoration_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Finale_of_Restoration_(PvP)",
     "Ranks": {
       "0": [10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45], "1": [15, 19, 23, 27, 31, 35, 39, 43, 47, 51, 55, 59, 63, 67, 71, 75, 79, 83, 87, 91, 95, 99]
@@ -33352,7 +33331,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mending_Refrain_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/b/b5/Mending_Refrain_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mending_Refrain_(PvP)",
     "Ranks": {
       "0": [2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
@@ -33375,7 +33354,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Paragon",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Harrier%27s_Toss_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/6/66/Harrier%27s_Toss_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Harrier%27s_Toss_(PvP)",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26], "1": [5, 7, 8, 10, 12, 13, 15, 17, 18, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40]
@@ -33398,7 +33377,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mystic_Regeneration_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/a/ac/Mystic_Regeneration_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mystic_Regeneration_(PvP)",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], "1": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5]
@@ -33421,7 +33400,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Aura_of_Thorns_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/5/54/Aura_of_Thorns_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Aura_of_Thorns_(PvP)",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18], "1": [3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 8, 8, 8, 9, 9, 9, 10]
@@ -33444,7 +33423,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Dust_Cloak_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/b/ba/Dust_Cloak_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Dust_Cloak_(PvP)",
     "Ranks": {
       "0": [10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50], "1": [1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 5, 5, 5]
@@ -33467,7 +33446,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Avatar_of_Dwayna_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/f/f1/Avatar_of_Dwayna_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Avatar_of_Dwayna_(PvP)",
     "Ranks": {
       "0": [10, 15, 21, 26, 31, 37, 42, 47, 53, 58, 63, 69, 74, 79, 85, 90, 95, 101, 106, 111, 117], "1": [5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65]
@@ -33490,7 +33469,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Avatar_of_Melandru_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/c/c1/Avatar_of_Melandru_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Avatar_of_Melandru_(PvP)",
     "Ranks": {
       "0": [10, 15, 21, 26, 31, 37, 42, 47, 53, 58, 63, 69, 74, 79, 85, 90, 95, 101, 106, 111, 117]
@@ -33513,7 +33492,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Banishing_Strike_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/c/ca/Banishing_Strike_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Banishing_Strike_(PvP)",
     "Ranks": {
       "0": [10, 13, 17, 20, 23, 27, 30, 33, 37, 40, 43, 47, 50, 53, 57, 60, 63, 67, 70, 73, 77]
@@ -33536,7 +33515,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Heart_of_Fury_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/1/17/Heart_of_Fury_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Heart_of_Fury_(PvP)",
     "Ranks": {
       "0": [2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 11, 11, 12, 12, 13]
@@ -33559,7 +33538,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Dervish",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Pious_Fury_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/9/96/Pious_Fury_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Pious_Fury_(PvP)",
     "Ranks": {
       "0": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6]
@@ -33582,7 +33561,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Irresistible_Sweep_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/4/49/Irresistible_Sweep_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Irresistible_Sweep_(PvP)",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19, 20]
@@ -33605,7 +33584,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Pious_Assault_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/0/02/Pious_Assault_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Pious_Assault_(PvP)",
     "Ranks": {
       "0": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38]
@@ -33628,7 +33607,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Twin_Moon_Sweep_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/a/a0/Twin_Moon_Sweep_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Twin_Moon_Sweep_(PvP)",
     "Ranks": {
       "0": [10, 11, 11, 12, 13, 13, 14, 15, 15, 16, 17, 17, 18, 19, 19, 20, 21, 21, 22, 23, 23, 24], "1": [10, 11, 13, 14, 15, 17, 18, 19, 21, 22, 23, 25, 26, 27, 29, 30, 31, 33, 34, 35, 37, 38]
@@ -33651,7 +33630,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Wounding_Strike_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/7/78/Wounding_Strike_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Wounding_Strike_(PvP)",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
@@ -33674,7 +33653,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Guiding_Hands_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/0/0c/Guiding_Hands_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Guiding_Hands_(PvP)",
     "Ranks": {
       "0": [0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 4, 4, 4]
@@ -33697,7 +33676,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Lyssa%27s_Haste_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/6/61/Lyssa%27s_Haste_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Lyssa%27s_Haste_(PvP)",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19]
@@ -33720,7 +33699,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Mystic_Healing_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fb/Mystic_Healing_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Mystic_Healing_(PvP)",
     "Ranks": {
       "0": [5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49, 53, 57, 61, 65, 69, 73, 77, 81, 85]
@@ -33743,7 +33722,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Dervish",
     "Campaign": "Nightfall",
-    "Image": "https://wiki.guildwars.com/wiki/File:Onslaught_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/2/20/Onslaught_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Onslaught_(PvP)",
     "Ranks": {
       "0": [2, 2, 3, 3, 4, 4, 4, 5, 5, 6, 6, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10]
@@ -33766,7 +33745,7 @@ var skillTable = [
     "PvP": true,
     "Profession": "Dervish",
     "Campaign": "Eye of the North",
-    "Image": "https://wiki.guildwars.com/wiki/File:Signet_of_Pious_Restraint_(PvP).jpg",
+    "Image":"https://wiki.guildwars.com//images/f/fa/Signet_of_Pious_Restraint_%28PvP%29.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Signet_of_Pious_Restraint_(PvP)",
     "Ranks": {
       "0": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18]
@@ -33789,7 +33768,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Mesmer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Time_Ward.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/90/Time_Ward.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Time_Ward",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19, 20], "1": [15, 15, 16, 16, 16, 17, 17, 17, 18, 18, 18, 19, 19, 19, 20, 20, 20, 21, 21, 21, 22, 22], "2": [15, 15, 16, 16, 16, 17, 17, 17, 18, 18, 18, 19, 19, 19, 20, 20, 20, 21, 21, 21, 22, 22]
@@ -33812,7 +33791,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Necromancer",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Soul_Taker.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/4e/Soul_Taker.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Soul_Taker",
     "Ranks": {
       "0": [3, 5, 7, 8, 10, 12, 14, 16, 17, 19, 21, 23, 25, 26, 28, 30, 32, 34, 35, 37, 39, 41], "1": [15, 15, 16, 16, 16, 17, 17, 17, 18, 18, 18, 19, 19, 19, 20, 20, 20, 21, 21, 21, 22, 22], "2": [15, 15, 16, 16, 16, 17, 17, 17, 18, 18, 18, 19, 19, 19, 20, 20, 20, 21, 21, 21, 22, 22]
@@ -33835,7 +33814,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Elementalist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Over_the_Limit.jpg",
+    "Image":"https://wiki.guildwars.com//images/5/5a/Over_the_Limit.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Over_the_Limit",
     "Ranks": {
       "0": [15, 15, 16, 16, 16, 17, 17, 17, 18, 18, 18, 19, 19, 19, 20, 20, 20, 21, 21, 21, 22, 22], "1": [15, 17, 20, 22, 24, 27, 29, 31, 34, 36, 38, 41, 43, 45, 48, 50, 52, 55, 57, 59, 62, 64]
@@ -33858,7 +33837,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Monk",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Judgment_Strike.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/63/Judgment_Strike.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Judgment_Strike",
     "Ranks": {
       "0": [13, 14, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 35, 36, 37]
@@ -33881,7 +33860,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Warrior",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Seven_Weapons_Stance.jpg",
+    "Image":"https://wiki.guildwars.com//images/d/d7/Seven_Weapons_Stance.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Seven_Weapons_Stance",
     "Ranks": {
       "0": [3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27], "1": [1, 2, 3, 4, 5, 6, 7, 8, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]
@@ -33904,7 +33883,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ranger",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:%22Together_as_One!%22.jpg",
+    "Image":"https://wiki.guildwars.com//images/f/ff/%22Together_as_One%21%22.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/%22Together_as_One!%22",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19], "1": [5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 12, 12, 13, 14, 14, 15, 16, 16, 17, 18, 18], "2": [1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 5, 6, 6, 7, 7, 7, 8, 8, 9, 9]
@@ -33927,7 +33906,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Assassin",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Shadow_Theft.jpg",
+    "Image":"https://wiki.guildwars.com//images/9/91/Shadow_Theft.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Shadow_Theft",
     "Ranks": {
       "0": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25], "1": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6]
@@ -33950,7 +33929,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Ritualist",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Weapons_of_Three_Forges.jpg",
+    "Image":"https://wiki.guildwars.com//images/0/08/Weapons_of_Three_Forges.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Weapons_of_Three_Forges",
     "Ranks": {
       "0": [3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27]
@@ -33973,7 +33952,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Dervish",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Vow_of_Revolution.jpg",
+    "Image":"https://wiki.guildwars.com//images/4/48/Vow_of_Revolution.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Vow_of_Revolution",
     "Ranks": {
       "0": [3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12], "1": [1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 6, 6, 6]
@@ -33996,7 +33975,7 @@ var skillTable = [
     "PvP": false,
     "Profession": "Paragon",
     "Campaign": "Core",
-    "Image": "https://wiki.guildwars.com/wiki/File:Heroic_Refrain.jpg",
+    "Image":"https://wiki.guildwars.com//images/6/6e/Heroic_Refrain.jpg",
     "Wiki": "https://wiki.guildwars.com/wiki/Heroic_Refrain",
     "Ranks": {
       "0": [3, 4, 5, 5, 6, 7, 8, 9, 9, 10, 11, 12, 13, 13, 14, 15, 16, 17, 17, 18, 19], "1": [1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4]

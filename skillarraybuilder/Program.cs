@@ -254,7 +254,7 @@ namespace skillarraybuilder
                 skill.description = description;
 
                 htmlDoc.LoadHtml(GetHTMLFromUrl(wikiBase + skilldetailswrapper.SelectSingleNode("div[@class='skill-image']").SelectSingleNode("a").GetAttributeValue("href", String.Empty)));
-                skill.image = htmlDoc.DocumentNode.SelectSingleNode("//div[@class='fullImageLink']").SelectSingleNode("a").GetAttributeValue("href",String.Empty);
+                skill.image = wikiBase + htmlDoc.DocumentNode.SelectSingleNode("//div[@class='fullImageLink']").SelectSingleNode("a").GetAttributeValue("href",String.Empty);
                 //Console.WriteLine(description);
             }
 
