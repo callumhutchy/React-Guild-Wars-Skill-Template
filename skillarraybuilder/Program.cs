@@ -98,7 +98,7 @@ namespace skillarraybuilder
 
 
 
-            for (int s = 0; s <skills.Count(); s++)
+            for (int s = 0; s < skills.Count(); s++)
             {
                 Skill skill = skills[s];
                 Console.WriteLine(skill.name);
@@ -108,7 +108,8 @@ namespace skillarraybuilder
                 //Process attributes of skill
                 HtmlNode skillbox = htmlDoc.DocumentNode.SelectSingleNode("//div[contains(@class,'skill-box')]");
                 HtmlNode skilldetailswrapper = skillbox.SelectSingleNode("div[@class='skill-details-wrapper']");
-                skill.image = wikiBase + skilldetailswrapper.SelectSingleNode("div[@class='skill-image']").SelectSingleNode("a").GetAttributeValue("href", String.Empty);
+
+                
                 node = skilldetailswrapper.SelectSingleNode("div[@class='skill-stats']");
                 HtmlNode ul = node.SelectSingleNode("ul");
                 foreach (HtmlNode li in ul.Descendants("li"))
@@ -247,14 +248,17 @@ namespace skillarraybuilder
                 {
                     description = description.Substring(typeStr.Length);
                     description = description.Replace("\n", "");
-                    description = description.Replace("\"","\\\"");
+                    description = description.Replace("\"", "\\\"");
                     description = description.TrimStart().TrimEnd();
                 }
                 skill.description = description;
+
+                htmlDoc.LoadHtml(GetHTMLFromUrl(wikiBase + skilldetailswrapper.SelectSingleNode("div[@class='skill-image']").SelectSingleNode("a").GetAttributeValue("href", String.Empty)));
+                skill.image = htmlDoc.DocumentNode.SelectSingleNode("//div[@class='fullImageLink']").SelectSingleNode("a").GetAttributeValue("href",String.Empty);
                 //Console.WriteLine(description);
             }
 
-            string outputString = "var skillTable = [\n";
+            string outputString = "var skillTable = [\n{    \"Id\": 0,    \"Name\": \"Optional\",    \"Type\": \"Optional\",    \"Attribute\": \"\",    \"Description\": \"Optional\",    \"Energy\": null,    \"Recharge\": null,    \"Activation\": null,    \"Upkeep\": null,    \"Sacrifice\": null,    \"Overcase\": null,    \"Elite\": null,    \"PvE\": null,    \"PvP\": null,    \"Profession\": \"No Profession\",    \"Campaign\": null,    \"Image\": \"https://wiki.guildwars.com/images/archive/3/38/20170709232124%21Optional.jpg\",    \"Wiki\": \"https://wiki.guildwars.com/wiki/Optional\",    \"Ranks\": { }},";
 
             foreach (Skill skill in skills)
             {
@@ -330,18 +334,18 @@ namespace skillarraybuilder
                 outputString += "\"Ranks\":{\n";
                 if (skill.ranks != null)
                 {
-                    for (int index = 0; index < skill.ranks.Length; index++)
+                    for (int index = 0; index<skill.ranks.Length; index++)
                     {
                         outputString += "\"" + index + "\":[";
-                        for (int rankIndex = 0; rankIndex < skill.ranks[index].Count(); rankIndex++)
+                        for (int rankIndex = 0; rankIndex<skill.ranks[index].Count(); rankIndex++)
                         {
                             outputString += skill.ranks[index][rankIndex];
-                            if (rankIndex < skill.ranks[index].Count() - 1)
+                            if (rankIndex<skill.ranks[index].Count() - 1)
                             {
                                 outputString += ",";
                             }
                         }
-                        if (index < skill.ranks.Length - 1)
+                        if (index<skill.ranks.Length - 1)
                         {
                             outputString += "],";
                         }
@@ -360,32 +364,32 @@ namespace skillarraybuilder
         }
 
         public static string GetHTMLFromUrl(string url)
-        {
+{
 
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
-            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+    HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+    HttpWebResponse response = (HttpWebResponse)request.GetResponse();
 
-            if (response.StatusCode == HttpStatusCode.OK)
-            {
-                //Console.WriteLine("Got HTML successfully");
-                Stream receiveStream = response.GetResponseStream();
-                StreamReader readStream = null;
+    if (response.StatusCode == HttpStatusCode.OK)
+    {
+        //Console.WriteLine("Got HTML successfully");
+        Stream receiveStream = response.GetResponseStream();
+        StreamReader readStream = null;
 
-                if (String.IsNullOrWhiteSpace(response.CharacterSet))
-                    readStream = new StreamReader(receiveStream);
-                else
-                    readStream = new StreamReader(receiveStream, Encoding.GetEncoding(response.CharacterSet));
+        if (String.IsNullOrWhiteSpace(response.CharacterSet))
+            readStream = new StreamReader(receiveStream);
+        else
+            readStream = new StreamReader(receiveStream, Encoding.GetEncoding(response.CharacterSet));
 
-                string data = readStream.ReadToEnd();
+        string data = readStream.ReadToEnd();
 
-                response.Close();
-                readStream.Close();
-                return data;
-            }
-            else
-            {
-                return "";
-            }
-        }
+        response.Close();
+        readStream.Close();
+        return data;
+    }
+    else
+    {
+        return "";
+    }
+}
     }
 }

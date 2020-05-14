@@ -1,4 +1,5 @@
 import React from 'react';
+import Mustache from 'mustache';
 import logo from './logo.svg';
 import './App.css';
 
@@ -103,24 +104,76 @@ function SkillData(code) {
   var skillController = parseInt(completeBinary.substr(binaryIndex, 4).split("").reverse().join(""), 2) + 8;
   binaryIndex += 4;
 
-  var skills = {};
+  var skills = [];
 
   for (var a = 0; a < 8; a++) {
     var skill = parseInt(completeBinary.substr(binaryIndex, skillController).split("").reverse().join(""), 2);
     console.log(skill);
-    skills += skill;
+
     var result = skillTable.find(obj => {
       return obj.Id == skill;
     });
-    console.log(result);
+    skills.push(result);
     if (result != undefined) {
       console.log(result["Name"]);
     }
     binaryIndex += skillController;
   }
 
-  //Generate HTML
+  console.log(skills);
 
+  var data = {
+    skill1_description: skills[0]["Description"],
+    skill2_description: skills[1]["Description"],
+    skill3_description: skills[2]["Description"],
+    skill4_description: skills[3]["Description"],
+    skill5_description: skills[4]["Description"],
+    skill6_description: skills[5]["Description"],
+    skill7_description: skills[6]["Description"],
+    skill8_description: skills[7]["Description"],
+    skill1_image: skills[0]["Image"],
+    skill2_image: skills[1]["Image"],
+    skill3_image: skills[2]["Image"],
+    skill4_image: skills[3]["Image"],
+    skill5_image: skills[4]["Image"],
+    skill6_image: skills[5]["Image"],
+    skill7_image: skills[6]["Image"],
+    skill8_image: skills[7]["Image"]
+  };
+
+  var template = [
+    '<div id="skill-1" class="skill tooltip">',
+    '<img class="skill-img" src="{{{skill1_image}}}" alt=""></img>',
+    '</div>',
+    '<div id="skill-2" class="skill tooltip">',
+    '<img class="skill-img" src="{{{skill2_image}}}" alt=""></img>',
+    '</div>',
+    '<div id="skill-3" class="skill tooltip">',
+    '<img class="skill-img" src="{{{skill3_image}}}" alt=""></img>',
+    '</div>',
+    '<div id="skill-4" class="skill tooltip">',
+    '<img class="skill-img" src="{{{skill4_image}}}" alt=""></img>',
+    '</div>',
+    '<div id="skill-5" class="skill tooltip">',
+    '<img class="skill-img" src="{{{skill5_image}}}" alt=""></img>',
+    '</div>',
+    '<div id="skill-6" class="skill tooltip">',
+    '<img class="skill-img" src="{{{skill6_image}}}" alt=""></img>',
+    '</div>',
+    '<div id="skill-7" class="skill tooltip">',
+    '<img class="skill-img" src="{{{skill7_image}}}" alt=""></img>',
+    '</div>',
+    '<div id="skill-8" class="skill tooltip">',
+    '<img class="skill-img" src="{{{skill8_image}}}" alt=""></img>',
+    '</div>'
+  ].join("\n");
+  console.log(data);
+  var html = Mustache.render(template, data);
+  console.log(html);
+  document.getElementById('skillbar').innerHTML = html;
+
+  //Generate HTML
+  /*
   ReactDOM.render(<div id="skills">
     <div id="skill-1" class="skill tooltip">
       <span class="tooltiptext">
@@ -136,7 +189,7 @@ function SkillData(code) {
       </div>
         <div id="tooltiptext-text">
           <h1><div id="tooltip-skill-name">
-            Vow of Strength
+            
       </div></h1>
           <h2>
             <div id="tooltip-skill-type">
@@ -182,7 +235,7 @@ function SkillData(code) {
     </div>
   </div>, document.getElementById('skillbar'))
 
-
+*/
 }
 
 function WriteBits(val) {
@@ -271,6 +324,27 @@ var attributeTable = [
   "Mysticism"
 ]
 var skillTable = [
+  {
+    "Id": 0,
+    "Name": "Optional",
+    "Type": "Optional",
+    "Attribute": "",
+    "Description": "Optional",
+    "Energy": null,
+    "Recharge": null,
+    "Activation": null,
+    "Upkeep": null,
+    "Sacrifice": null,
+    "Overcase": null,
+    "Elite": null,
+    "PvE": null,
+    "PvP": null,
+    "Profession": "No Profession",
+    "Campaign": null,
+    "Image": "https://wiki.guildwars.com/images/archive/3/38/20170709232124%21Optional.jpg",
+    "Wiki": "https://wiki.guildwars.com/wiki/Optional",
+    "Ranks": {}
+  },
   {
     "Id": 2,
     "Name": "Resurrection Signet",
