@@ -42,6 +42,8 @@ namespace skillarraybuilder
         public string image;
         public string wikiLink;
 
+        public string html;
+
     }
     class Program
     {
